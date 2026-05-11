@@ -2,26 +2,9 @@ import './style.css'
 import { translations } from './translations'
 import { supabase } from './lib/supabase'
 
-// State
+// Data State
 let currentLang = 'en';
-
-// Mock Data for Coverage
-const COVERAGE_DATA = {
-  nfi: [
-    { year: 2020, months: { 3: 100, 4: 100, 5: 100 } },
-    { year: 2021, months: { 1: 100, 2: 100, 3: 100, 8: 100, 9: 100, 10: 100 } },
-    { year: 2022, months: { 1: 100, 2: 100, 3: 100, 4: 100, 5: 100, 6: 100, 7: 100, 8: 100, 9: 100 } },
-    { year: 2023, months: { 10: 100, 11: 100, 12: 100 } },
-    { year: 2024, months: { 1: 100, 2: 95, 3: 30, 4: 100, 5: 10, 6: 100, 7: 85, 8: 100, 9: 100, 10: 80 } },
-  ],
-  sfi: [
-    { year: 2020, months: { 12: 100 } },
-    { year: 2021, months: { 6: 100, 7: 100 } },
-    { year: 2022, months: { 1: 100, 2: 100, 3: 100, 4: 100 } },
-    { year: 2023, months: { 1: 100, 2: 100, 3: 100, 4: 100, 5: 100, 6: 100 } },
-    { year: 2024, months: { 1: 100, 2: 100, 3: 100, 8: 100, 9: 100 } },
-  ]
-};
+let ARCHIVE_DATA = { NFI: [], SFI: [] };
 
 // Mock Archive Data
 const ARCHIVE_BUNDLES = [
@@ -31,8 +14,9 @@ const ARCHIVE_BUNDLES = [
 ];
 
 // Initialize UI
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   setLanguage(currentLang);
+  await fetchCoverage(); // Fetch real data first
   renderCoverage('nfi');
   renderArchive();
   setupUpload();
@@ -113,26 +97,38 @@ function renderCoverage(corpus) {
   data.forEach((yearData, yearIndex) => {
     const row = document.createElement('div');
     row.className = 'timeline-row';
-    
-    // Anno Label
-    const label = document.createElement('div');
-    label.className = 'year-label serif italic';
-    label.style.fontSize = '1.2rem';
-    label.style.opacity = '0.8';
-    label.innerHTML = `Anno ${yearData.year}`;
-    row.appendChild(label);
+  const container = document.getElementById('coverage-list');
+  container.innerHTML = '';
 
-    // Month Grid (The 12-slot container)
-    const bar = document.createElement('div');
-    bar.className = 'coverage-bar month-grid';
+  const corpusKey = corpus.toUpperCase();
+  const data = ARCHIVE_DATA[corpusKey] || [];
+
+  if (data.length === 0) {
+    container.innerHTML = `<div class="empty-archival-state">
+      <p class="archival-text">${translations[currentLang].no_data || 'No fragments recovered for this corpus yet.'}</p>
+    </div>`;
+    return;
+  }
+
+  // Sort years descending
+  const sortedData = [...data].sort((a, b) => b.year - a.year);
+
+  sortedData.forEach(yearData => {
+    const yearRow = document.createElement('div');
+    yearRow.className = 'year-row';
     
-    // Create 12 slots
-    for (let m = 1; m <= 12; m++) {
-      const slot = document.createElement('div');
-      slot.className = 'month-slot';
-      
-      const coverage = yearData.months[m] || 0;
-      if (coverage > 0) {
+    yearRow.innerHTML = `
+      <div class="year-label">Anno ${yearData.year}</div>
+      <div class="coverage-bar">
+        ${Array.from({ length: 12 }, (_, i) => `<div class="month-slot" data-month-index="${i + 1}"></div>`).join('')}
+      </div>
+    `;
+
+    const bar = yearRow.querySelector('.coverage-bar');
+    
+    Object.entries(yearData.months).forEach(([m, coverage]) => {
+      const slot = bar.querySelector(`[data-month-index="${m}"]`);
+      if (slot) {
         const fragment = document.createElement('div');
         fragment.className = 'coverage-fragment';
         fragment.style.width = '0%';
@@ -151,18 +147,50 @@ function renderCoverage(corpus) {
         
         slot.appendChild(fragment);
         
-        // Animate fragment appearance
+        // Animate restoration
         setTimeout(() => {
-          fragment.style.width = `${coverage}%`;
-        }, 500 + (yearIndex * 150) + (m * 50));
+          fragment.style.width = '100%';
+        }, 100 + (m * 50));
       }
-      
-      bar.appendChild(slot);
-    }
-    
-    row.appendChild(bar);
-    container.appendChild(row);
+    });
+
+    container.appendChild(yearRow);
   });
+}
+
+async function fetchCoverage() {
+  try {
+    const { data, error } = await supabase
+      .from('raw_logs')
+      .select('period_year, period_month, corpus, sha256');
+
+    if (error) throw error;
+
+    // Reset data
+    ARCHIVE_DATA = { NFI: [], SFI: [] };
+
+    // Aggregate by Year and Month
+    data.forEach(log => {
+      if (!log.period_year || !log.period_month || !log.corpus) return;
+      if (log.corpus === 'unknown') return;
+
+      let corpusArr = ARCHIVE_DATA[log.corpus];
+      let yearEntry = corpusArr.find(y => y.year === log.period_year);
+      
+      if (!yearEntry) {
+        yearEntry = { year: log.period_year, months: {} };
+        corpusArr.push(yearEntry);
+      }
+
+      // In Phase 0, we treat the existence of any file as coverage.
+      // For now, we set it to 100% if present, or we could count lines.
+      // Let's assume 100% per month if we have any file for simplicity in Phase 0.
+      yearEntry.months[log.period_month] = 100; 
+    });
+
+  } catch (err) {
+    console.error('Archival fetch error:', err);
+  }
 }
 
 function renderArchive() {

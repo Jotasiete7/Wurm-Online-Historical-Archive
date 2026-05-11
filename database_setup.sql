@@ -6,6 +6,9 @@
 -- 2. Raw uploaded material is append-only and immutable.
 -- 3. Interpretation systems must derive from preserved sources, never modify them.
 
+-- Cleanup for re-execution during Phase 0 development
+DROP TABLE IF EXISTS raw_logs CASCADE;
+
 -- Minimal table for raw log metadata and file pointers
 CREATE TABLE raw_logs (
   id                UUID PRIMARY KEY DEFAULT gen_random_uuid(),
@@ -27,15 +30,28 @@ CREATE TABLE raw_logs (
   storage_provider  TEXT DEFAULT 'supabase', -- Creates future mirror/migration portability
   storage_key       TEXT NOT NULL, -- Path in object storage
   
-  byte_size         BIGINT, -- Future-proofed for large corpus ingestion
+  byte_size         BIGINT CHECK (byte_size > 0 AND byte_size < 524288000), -- Max 500MB per fragment
   compressed_size   BIGINT, 
   line_count        INTEGER,
   
   period_year       SMALLINT,
-  period_month      SMALLINT,
+  period_month      SMALLINT CHECK (period_month BETWEEN 1 AND 12),
   
   first_line_raw    TEXT, -- For visual verification/preview
-  last_line_raw     TEXT  -- For visual verification/preview
+  last_line_raw     TEXT, -- For visual verification/preview
+
+  -- QUALITY CONTROL
+  verification_status TEXT DEFAULT 'pending' 
+                      CHECK (verification_status IN ('pending', 'verified', 'rejected')),
+
+  -- HISTORICAL SANITY CHECKS (Plausibility Filters)
+  CONSTRAINT historical_plausibility CHECK (
+    (corpus = 'SFI' AND (period_year BETWEEN 2009 AND EXTRACT(YEAR FROM now()) + 1 OR period_year IS NULL))
+    OR
+    (corpus = 'NFI' AND (period_year BETWEEN 2020 AND EXTRACT(YEAR FROM now()) + 1 OR period_year IS NULL))
+    OR
+    (corpus = 'unknown' OR period_year IS NULL)
+  )
 );
 
 -- Indexes for performance
