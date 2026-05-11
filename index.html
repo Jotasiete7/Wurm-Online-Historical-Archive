@@ -52,27 +52,33 @@
         </section>
 
         <section class="coverage-section">
-          <div class="section-header">
-            <h2 data-i18n="coverage_title">Archive Coverage</h2>
-            <div class="coverage-controls">
-              <button class="control-btn active" data-corpus="nfi">Northern Freedom Isles (NFI)</button>
-              <button class="control-btn" data-corpus="sfi">Southern Freedom Isles (SFI)</button>
-            </div>
+        <div class="section-header">
+          <div class="header-main">
+            <h2 class="serif" data-i18n="historical_coverage">Historical Coverage</h2>
+            <div id="preservation-metric" class="preservation-metric">-- <span class="archival-meta">days recovered</span></div>
           </div>
-          
-          <div id="coverage-timeline" class="timeline-grid">
-            <!-- Populated by JS -->
+          <div class="mission-statement">
+            Every fragment helps reconstruct a world that is slowly disappearing. 
+            <span class="archival-meta">Gaps represent silence in the historical record.</span>
           </div>
-        </section>
+          <div class="corpus-controls">
+            <button class="control-btn active" data-corpus="nfi">Northern Freedom Isles (NFI)</button>
+            <button class="control-btn" data-corpus="sfi">Southern Freedom Isles (SFI)</button>
+          </div>
+        </div>
+        
+        <div id="coverage-timeline" class="coverage-timeline">
+          <!-- Fragmented timeline will be injected here -->
+        </div>
+      </section>
 
-        <section class="browse-section">
-          <div class="section-header">
-            <h2 data-i18n="browse_title">Browse Archive</h2>
-          </div>
-          <div id="archive-browser" class="archive-list">
-            <p class="serif italic" data-i18n="browse_sub">Historical bundles available for download by year and month.</p>
-          </div>
-        </section>
+      <section class="archive-section">
+        <h2 class="serif" data-i18n="browse_archive">Browse Archive</h2>
+        <div id="archive-browser" class="archive-browser">
+          <p class="archival-text" data-i18n="archive_desc">Access the derived institutional reconstructions generated from recovered fragments.</p>
+          <!-- Monthly bundles will be injected here -->
+        </div>
+      </section>
       </main>
 
       <footer>

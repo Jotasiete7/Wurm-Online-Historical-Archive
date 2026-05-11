@@ -145,6 +145,30 @@ header {
   z-index: 10;
 }
 
+.download-btn {
+  background: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  padding: 0.6rem 1.2rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.download-btn:hover {
+  background: var(--accent-color);
+  color: var(--surface-color);
+  box-shadow: 0 0 20px rgba(197, 160, 89, 0.3);
+}
+
+.download-btn:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
 select#server-select option {
   background: var(--surface-color);
   color: var(--text-primary);
@@ -190,12 +214,34 @@ select#server-select option {
 }
 
 .section-header {
+  margin-bottom: 2rem;
+}
+
+.header-main {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 1rem;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.preservation-metric {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--accent-color);
+}
+
+.mission-statement {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+  line-height: 1.4;
+}
+
+.corpus-controls {
+  display: flex;
+  gap: 1rem;
 }
 
 .section-header h2 {

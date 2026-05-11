@@ -94,14 +94,11 @@ function scanTemporalCoverage(text) {
   let currentDay = null;
 
   lines.forEach(line => {
-    // Detect Temporal Anchor: Logging started YYYY-MM-DD
     const startMatch = line.match(/Logging started (\d{4}-\d{2}-\d{2})/);
     if (startMatch) {
       currentDay = startMatch[1];
       if (!map[currentDay]) map[currentDay] = new Set();
     }
-
-    // Detect Timestamp: [HH:mm:ss]
     if (currentDay) {
       const timeMatch = line.match(/^\[(\d{2}):/);
       if (timeMatch) {
@@ -110,12 +107,10 @@ function scanTemporalCoverage(text) {
     }
   });
 
-  // Convert Sets to Arrays for JSON storage
   const finalMap = {};
   Object.keys(map).forEach(day => {
     finalMap[day] = Array.from(map[day]).sort((a, b) => a - b);
   });
-
   return finalMap;
 }
 
@@ -133,6 +128,16 @@ function renderCoverage(corpus) {
 
   const corpusKey = corpus.toUpperCase();
   const data = ARCHIVE_DATA[corpusKey] || [];
+  
+  // Calculate Global Preservation Metric
+  const totalDaysObserved = data.reduce((acc, year) => {
+    return acc + Object.values(year.months).reduce((mAcc, month) => mAcc + Object.keys(month).length, 0);
+  }, 0);
+  
+  const preservationMetric = document.getElementById('preservation-metric');
+  if (preservationMetric) {
+    preservationMetric.innerHTML = `${totalDaysObserved} <span class="archival-meta">days recovered</span>`;
+  }
 
   if (data.length === 0) {
     container.innerHTML = `<div class="empty-archival-state">
@@ -153,6 +158,7 @@ function renderCoverage(corpus) {
         ${Array.from({ length: 12 }, (_, i) => {
           const monthIndex = i + 1;
           const monthData = yearData.months[monthIndex] || {};
+          const daysInMonth = new Date(yearData.year, monthIndex, 0).getDate();
           return `
             <div class="month-block">
               <div class="month-label-small">${new Date(2000, i).toLocaleString(currentLang, { month: 'narrow' })}</div>
@@ -161,11 +167,14 @@ function renderCoverage(corpus) {
                   const dayNum = d + 1;
                   const dayKey = `${yearData.year}-${String(monthIndex).padStart(2, '0')}-${String(dayNum).padStart(2, '0')}`;
                   const hours = monthData[dayKey] || [];
-                  const density = hours.length > 0 ? Math.min(100, hours.length * 20) : 0;
+                  const density = hours.length > 0 ? Math.min(100, 20 + (hours.length * 15)) : 0;
+                  
+                  if (dayNum > daysInMonth) return '<div class="day-slot disabled"></div>';
+                  
                   return `
                     <div class="day-slot ${density > 0 ? 'active' : ''}" 
                          style="opacity: ${density / 100}"
-                         data-info="${dayKey}: ${hours.length} hours preserved">
+                         data-info="${dayKey}: ${hours.length} hours recovered">
                     </div>
                   `;
                 }).join('')}
@@ -192,8 +201,6 @@ async function fetchCoverage() {
 
     data.forEach(log => {
       if (!log.period_year || !log.period_month || !log.corpus) return;
-      if (log.corpus === 'unknown') return;
-
       let corpusArr = ARCHIVE_DATA[log.corpus];
       if (!corpusArr) return;
 
@@ -207,13 +214,11 @@ async function fetchCoverage() {
         yearEntry.months[log.period_month] = {};
       }
 
-      // Merge temporal maps
       const map = log.temporal_map || {};
       Object.entries(map).forEach(([day, hours]) => {
         if (!yearEntry.months[log.period_month][day]) {
           yearEntry.months[log.period_month][day] = [];
         }
-        // Union of hours
         yearEntry.months[log.period_month][day] = Array.from(new Set([...yearEntry.months[log.period_month][day], ...hours])).sort((a,b) => a-b);
       });
     });
@@ -229,16 +234,16 @@ function renderArchive() {
 
   const corpus = document.querySelector('.control-btn.active').dataset.corpus;
   const corpusKey = corpus.toUpperCase();
-  
   const filtered = ARCHIVE_BUNDLES.filter(b => b.corpus === corpusKey);
 
   container.innerHTML = `
-    <p class="archival-text" data-i18n="archive_desc">Access the recovered monthly corpora from the institutional vault.</p>
+    <div class="archive-header">
+      <p class="archival-text" data-i18n="archive_desc">Access the derived institutional reconstructions generated from recovered fragments.</p>
+    </div>
     <div class="archive-grid" id="archive-grid"></div>
   `;
 
   const grid = container.querySelector('#archive-grid');
-  
   if (filtered.length === 0) {
     grid.innerHTML = `<div class="empty-archival-state">
       <p class="archival-text">The vault is currently empty for this corpus. Every contribution helps restore a piece of history.</p>
@@ -249,82 +254,62 @@ function renderArchive() {
   filtered.forEach(bundle => {
     const card = document.createElement('div');
     card.className = 'archive-card';
-    
     const monthName = new Date(2000, bundle.month - 1).toLocaleString(currentLang, { month: 'long' });
     
     card.innerHTML = `
       <div class="archive-info">
         <h3 class="serif">${monthName} ${bundle.year}</h3>
-        <p class="archival-meta">${bundle.files} files · ${bundle.lines} lines · ${bundle.size}</p>
+        <p class="archival-meta">Coverage: ${bundle.coverage}% · ${bundle.files} fragments recovered</p>
+        <p class="archival-meta small">${bundle.lines} lines · ${bundle.size}</p>
       </div>
       <button class="download-btn">
-        <span data-i18n="download">Download</span>
+        <span data-i18n="restore_corpus">Restore Corpus</span>
       </button>
     `;
     
-    card.querySelector('.download-btn').addEventListener('click', () => {
-      handleDownload(bundle);
+    card.querySelector('.download-btn').addEventListener('click', (e) => {
+      handleDownload(bundle, e);
     });
-    
     grid.appendChild(card);
   });
 }
 
-async function handleDownload(bundle) {
+async function handleDownload(bundle, event) {
   const btn = event.currentTarget;
   const originalContent = btn.innerHTML;
+  const t = translations[currentLang];
   
   try {
     btn.disabled = true;
-    btn.innerHTML = `<span class="loading-archival">Restoring...</span>`;
+    btn.innerHTML = `<span>${t.downloading}</span>`;
     
-    // 1. Fetch all fragments for this bundle
     const { data: fragments, error } = await supabase
       .from('raw_logs')
-      .select('storage_key, filename, contributor_alias')
+      .select('storage_key, filename')
       .eq('corpus', bundle.corpus)
       .eq('period_year', bundle.year)
       .eq('period_month', bundle.month);
 
     if (error) throw error;
-    if (fragments.length === 0) throw new Error('No fragments found for restoration.');
-
     const allLines = [];
     
-    // 2. Fragment Collection (Sequential to protect memory)
     for (const frag of fragments) {
-      btn.innerHTML = `<span>Fetching ${fragments.indexOf(frag) + 1}/${fragments.length}</span>`;
+      btn.innerHTML = `<span>${t.downloading} ${fragments.indexOf(frag) + 1}/${fragments.length}</span>`;
       const { data, error: downloadError } = await supabase.storage
         .from('logs-archive')
         .download(frag.storage_key);
-      
-      if (downloadError) {
-        console.warn(`Fragment ${frag.filename} missing from vault. Skipping.`);
-        continue;
-      }
-
+      if (downloadError) continue;
       const text = await data.text();
       allLines.push(...text.split('\n'));
     }
 
-    btn.innerHTML = `<span>Merging...</span>`;
+    btn.innerHTML = `<span>${t.merging}</span>`;
+    const uniqueLines = Array.from(new Set(allLines)).sort();
 
-    // 3. Lightweight Deduplication (Exact Text Match Only)
-    const uniqueLines = Array.from(new Set(allLines));
-
-    // 4. Temporal Ordering (Approximate structural ordering)
-    // We sort alphabetically which puts timestamps [HH:mm:ss] in order
-    // and keeps 'Logging started' anchors together.
-    uniqueLines.sort();
-
-    // 5. Export Generation
     const restoredCorpus = uniqueLines.join('\n');
     const blob = new Blob([restoredCorpus], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
-    
-    // Calculate approximate coverage percentage
-    const coverage = bundle.coverage || 0;
-    const filename = `WurmArchive_${bundle.corpus}_${bundle.year}-${String(bundle.month).padStart(2, '0')}_Restored_Cov${coverage}.txt`;
+    const filename = `WurmArchive_${bundle.corpus}_${bundle.year}-${String(bundle.month).padStart(2, '0')}_Restored_Cov${bundle.coverage}.txt`;
     
     const a = document.createElement('a');
     a.href = url;
@@ -334,12 +319,11 @@ async function handleDownload(bundle) {
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
 
-    btn.innerHTML = `<span>Restored!</span>`;
+    btn.innerHTML = `<span>${t.restored}</span>`;
     setTimeout(() => { btn.innerHTML = originalContent; btn.disabled = false; }, 3000);
 
   } catch (err) {
     console.error('Restoration failed:', err);
-    alert('Restoration pipeline encountered a structural failure. The vault remains secure.');
     btn.innerHTML = originalContent;
     btn.disabled = false;
   }
@@ -349,33 +333,23 @@ async function fetchArchiveBundles() {
   try {
     const { data, error } = await supabase
       .from('raw_logs')
-      .select('period_year, period_month, corpus, byte_size, line_count');
+      .select('period_year, period_month, corpus, byte_size, line_count, temporal_map');
 
     if (error) throw error;
-
     const bundlesMap = {};
 
     data.forEach(log => {
       if (!log.period_year || !log.period_month || !log.corpus) return;
-      
       const key = `${log.corpus}-${log.period_year}-${log.period_month}`;
       if (!bundlesMap[key]) {
         bundlesMap[key] = {
-          corpus: log.corpus,
-          year: log.period_year,
-          month: log.period_month,
-          files: 0,
-          lines: 0,
-          bytes: 0,
-          daysActive: new Set()
+          corpus: log.corpus, year: log.period_year, month: log.period_month,
+          files: 0, lines: 0, bytes: 0, daysActive: new Set()
         };
       }
-      
       bundlesMap[key].files++;
       bundlesMap[key].lines += (log.line_count || 0);
       bundlesMap[key].bytes += (log.byte_size || 0);
-      
-      // Track unique days for coverage estimation
       if (log.temporal_map) {
         Object.keys(log.temporal_map).forEach(day => bundlesMap[key].daysActive.add(day));
       }
@@ -384,13 +358,7 @@ async function fetchArchiveBundles() {
     ARCHIVE_BUNDLES = Object.values(bundlesMap).map(b => {
       const daysInMonth = new Date(b.year, b.month, 0).getDate();
       const coverage = Math.min(100, Math.round((b.daysActive.size / daysInMonth) * 100));
-      
-      return {
-        ...b,
-        coverage: coverage,
-        lines: formatNumber(b.lines),
-        size: formatSize(b.bytes)
-      };
+      return { ...b, coverage, lines: formatNumber(b.lines), size: formatSize(b.bytes) };
     }).sort((a, b) => b.year - a.year || b.month - a.month);
 
   } catch (err) {
@@ -460,98 +428,55 @@ function setupUpload() {
 
   async function handleFiles(files) {
     if (files.length === 0) return;
-    
     const contributor = creditInput.value || 'Anonymous';
     const server = serverSelect.value;
-    const corpusMap = {
-      'nfi': 'NFI',
-      'sfi': 'SFI',
-      'unknown': 'unknown'
-    };
+    const corpusMap = { 'nfi': 'NFI', 'sfi': 'SFI', 'unknown': 'unknown' };
 
-    const processingMsg = translations[currentLang].upload_processing.replace('{count}', files.length);
-    status.innerHTML = `<p class="accent">${processingMsg}</p>`;
+    status.innerHTML = `<p class="accent">Processing ${files.length} fragment(s)...</p>`;
     
     let successCount = 0;
-    let duplicateCount = 0;
-    let errorCount = 0;
+    let daysRestored = new Set();
 
     for (const file of files) {
       try {
         const sha256 = await getSHA256(file);
-        
-        const { data: existing } = await supabase
-          .from('raw_logs')
-          .select('id')
-          .eq('sha256', sha256)
-          .single();
-
-        if (existing) {
-          duplicateCount++;
-          continue;
-        }
+        const { data: existing } = await supabase.from('raw_logs').select('id').eq('sha256', sha256).single();
+        if (existing) continue;
 
         const { year, month } = parseLogMetadata(file.name);
-        const { timezone } = getBrowserMetadata();
         const text = await file.text();
-        
-        // Phase 1: Structural Scan
         const temporalMap = scanTemporalCoverage(text);
         const lines = text.split('\n');
         
         const storageKey = `raw/${sha256}.txt`;
-        const { error: storageError } = await supabase.storage
-          .from('logs-archive')
-          .upload(storageKey, file);
+        await supabase.storage.from('logs-archive').upload(storageKey, file);
 
-        if (storageError && storageError.message !== 'The resource already exists') throw storageError;
-
-        const { error: dbError } = await supabase.from('raw_logs').insert({
-          sha256: sha256,
-          filename: file.name,
-          log_type: 'trade',
-          corpus: corpusMap[server],
-          contributor_alias: contributor,
-          browser_timezone: timezone,
-          storage_key: storageKey,
-          byte_size: file.size,
-          line_count: lines.length,
-          period_year: year,
-          period_month: month,
-          temporal_map: temporalMap,
-          first_line_raw: lines[0]?.substring(0, 500),
-          last_line_raw: lines[lines.length - 1]?.substring(0, 500)
+        await supabase.from('raw_logs').insert({
+          sha256, filename: file.name, log_type: 'trade', corpus: corpusMap[server],
+          contributor_alias: contributor, storage_key: storageKey,
+          byte_size: file.size, line_count: lines.length,
+          period_year: year, period_month: month, temporal_map: temporalMap,
+          first_line_raw: lines[0]?.substring(0, 500), last_line_raw: lines[lines.length - 1]?.substring(0, 500)
         });
 
-        if (dbError) throw dbError;
+        Object.keys(temporalMap).forEach(day => daysRestored.add(day));
         successCount++;
-      } catch (err) {
-        console.error('Archival failed:', err);
-        errorCount++;
-      }
+      } catch (err) { console.error(err); }
     }
 
-    let resultMsg = '';
     if (successCount > 0) {
-      resultMsg += `<p style="color: var(--success-color)">${translations[currentLang].upload_success} (${successCount} fragments preserved)</p>`;
-    }
-    if (duplicateCount > 0) {
-      resultMsg += `<p style="color: var(--accent-color); font-size: 0.8rem; opacity: 0.7;">${duplicateCount} fragments were already in the vault.</p>`;
-    }
-    if (errorCount > 0) {
-      resultMsg += `<p style="color: var(--error-color)">${errorCount} fragments encountered an issue during preservation.</p>`;
-    }
-    
-    status.innerHTML = resultMsg;
-    
-    setTimeout(async () => {
-      status.innerHTML = '';
-      if (successCount > 0) {
+      status.innerHTML = `
+        <p class="success">Recovered ${successCount} historical fragment(s).</p>
+        <p class="archival-meta small">${daysRestored.size} days of history restored.</p>
+      `;
+      setTimeout(async () => {
+        status.innerHTML = '';
         await refreshArchivalState();
-        const activeCorpus = document.querySelector('.control-btn.active')?.dataset.corpus || 'nfi';
-        renderCoverage(activeCorpus);
+        renderCoverage(document.querySelector('.control-btn.active').dataset.corpus);
         renderArchive();
-      }
-    }, 4000);
+      }, 5000);
+    } else {
+      status.innerHTML = `<p class="archival-meta">No new fragments identified.</p>`;
+    }
   }
 }
