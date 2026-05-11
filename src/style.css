@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --bg-color: #0d0d0d;
+  --surface-color: #1a1a1a;
+  --border-color: #2a2a2a;
+  --text-primary: #e6e6e6;
+  --text-secondary: #a0a0a0;
+  --accent-color: #c5a059; /* Muted Gold */
+  --accent-hover: #e6bc6d;
+  --error-color: #ff5555;
+  --success-color: #50fa7b;
+  
+  --font-serif: 'EB Garamond', serif;
+  --font-sans: 'Inter', sans-serif;
+  
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Background Texture */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3BaseFilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+h1, h2, h3, .serif {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Layout */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 0;
+}
+
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+}
+
+.lang-btn {
+  color: inherit;
+  opacity: 0.5;
+  transition: var(--transition-smooth);
+}
+
+.lang-btn:hover, .lang-btn.active {
+  opacity: 1;
+  color: var(--accent-color);
+}
+
+.sep {
+  opacity: 0.2;
+}
+
+header {
+  padding: 4rem 0 4rem;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 4rem;
+}
+
+.mission-statement {
+  max-width: 600px;
+}
+
+.mission-statement h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.mission-statement p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+/* Upload Area */
+.upload-section {
+  margin-bottom: 6rem;
+}
+
+.drop-zone {
+  border: 1px dashed var(--border-color);
+  background: var(--surface-color);
+  padding: 4rem;
+  text-align: center;
+  border-radius: 4px;
+  transition: var(--transition-smooth);
+  position: relative;
+  overflow: hidden;
+}
+
+.drop-zone:hover, .drop-zone.drag-over {
+  border-color: var(--accent-color);
+  background: #222;
+}
+
+.drop-zone-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.drop-zone-icon {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+}
+
+.drop-zone h3 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+}
+
+.drop-zone p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* Coverage Section */
+.coverage-section {
+  margin-bottom: 6rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+}
+
+.coverage-controls {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.control-btn {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  padding-bottom: 0.25rem;
+  position: relative;
+}
+
+.control-btn.active {
+  color: var(--accent-color);
+}
+
+.control-btn.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent-color);
+}
+
+.timeline-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.timeline-row {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.year-label {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.coverage-bar {
+  height: 8px;
+  background: var(--surface-color);
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.coverage-fill {
+  height: 100%;
+  background: var(--accent-color);
+  border-radius: 2px;
+  transition: width 1s ease-out;
+}
+
+/* Footer / FAQ */
+footer {
+  padding: 6rem 0;
+  border-top: 1px solid var(--border-color);
+  margin-top: 6rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.faq-item h4 {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+}
+
+.faq-item p {
+  margin-bottom: 1.5rem;
+}
+
+/* Utility */
+.accent {
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .mission-statement h1 {
+    font-size: 2.5rem;
+  }
+  
+  .faq-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wurm Archive — Historical Log Preservation</title>
+    <meta name="description" content="A community-driven initiative to preserve the collective history of Wurm Online logs for future generations." />
+  </head>
+  <body>
+    <div id="app">
+      <nav class="top-nav container">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="sep">/</span>
+          <button class="lang-btn" data-lang="pt">PT</button>
+        </div>
+      </nav>
+
+      <header>
+        <div class="container">
+          <div class="mission-statement">
+            <h1 data-i18n="mission_title">Preserving the <span class="accent">collective history</span> of Wurm Online.</h1>
+            <p data-i18n="mission_sub">A digital archive project dedicated to the archaeology of a virtual world.</p>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <section class="upload-section">
+          <div id="drop-zone" class="drop-zone">
+            <div class="drop-zone-content">
+              <div class="drop-zone-icon">⟎</div>
+              <h3 data-i18n="upload_title">Drag your Trade logs here</h3>
+              <p data-i18n="upload_sub">Historical logs are preserved immutably. No login required.</p>
+              
+              <div class="contributor-input" style="margin-top: 2rem; width: 100%; max-width: 300px; display: flex; flex-direction: column; gap: 1rem;">
+                <select id="server-select" style="width: 100%; background: transparent; border: none; border-bottom: 1px solid var(--border-color); color: var(--text-primary); font-family: var(--font-serif); font-size: 0.9rem; text-align: center; padding: 0.5rem 0; outline: none; cursor: pointer;">
+                  <option value="nfi">Northern Freedom Isles (NFI)</option>
+                  <option value="sfi">Southern Freedom Isles (SFI)</option>
+                  <option value="unknown">Other / Unknown</option>
+                </select>
+
+                <input type="text" id="credit-input" placeholder="How should we credit you? (Optional)" 
+                       style="width: 100%; background: transparent; border: none; border-bottom: 1px solid var(--border-color); color: var(--text-primary); font-family: var(--font-serif); font-size: 0.9rem; text-align: center; padding: 0.5rem 0; outline: none;" />
+              </div>
+
+              <div id="upload-status" class="upload-status" style="margin-top: 1.5rem;"></div>
+            </div>
+            <input type="file" id="file-input" multiple style="display: none" />
+          </div>
+        </section>
+
+        <section class="coverage-section">
+          <div class="section-header">
+            <h2 data-i18n="coverage_title">Archive Coverage</h2>
+            <div class="coverage-controls">
+              <button class="control-btn active" data-corpus="nfi">NFI</button>
+              <button class="control-btn" data-corpus="sfi">SFI</button>
+            </div>
+          </div>
+          
+          <div id="coverage-timeline" class="timeline-grid">
+            <!-- Populated by JS -->
+          </div>
+        </section>
+
+        <section class="browse-section">
+          <div class="section-header">
+            <h2 data-i18n="browse_title">Browse Archive</h2>
+          </div>
+          <div id="archive-browser" class="archive-list">
+            <p class="serif italic" data-i18n="browse_sub">Historical bundles available for download by year and month.</p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="faq-grid">
+            <div class="faq-item">
+              <h4 data-i18n="faq_q1">Why preserve logs?</h4>
+              <p data-i18n="faq_a1">Wurm Online's history is written in its player logs. Trade, events, and community interactions are fragmented across thousands of local files. This project ensures this history isn't lost when players move on or hard drives fail.</p>
+              
+              <h4 data-i18n="faq_q2">Is this safe?</h4>
+              <p data-i18n="faq_a2">We only collect trade and event logs. We do not track players, analyze market intelligence, or build profiles. The archive is a library, not a surveillance tool.</p>
+            </div>
+            <div class="faq-item">
+              <h4 data-i18n="faq_q3">What is NOT collected?</h4>
+              <p data-i18n="faq_a3">Private messages, sensitive coordination, or behavioral telemetry. We focus on the public and semi-public history of the world.</p>
+              
+              <h4 data-i18n="faq_q4">Contribution Credit</h4>
+              <p data-i18n="faq_a4">All contributions are voluntary. You can choose to be credited in the archive or remain anonymous. The logs you upload are already generated locally by your game client.</p>
+            </div>
+          </div>
+          <div style="margin-top: 4rem; opacity: 0.5;">
+            <p data-i18n="footer_copy">&copy; 2024 Wurm Online Historical Archive Project. An independent community initiative.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
