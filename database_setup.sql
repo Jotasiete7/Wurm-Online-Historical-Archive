@@ -59,7 +59,7 @@ CREATE TABLE raw_logs (
 
 -- Indexes for performance
 CREATE INDEX idx_raw_logs_sha256 ON raw_logs(sha256);
-CREATE INDEX idx_raw_logs_period ON raw_logs(period_year, period_month);
+CREATE INDEX idx_raw_logs_cluster_period ON raw_logs(cluster, period_year, period_month);
 CREATE INDEX idx_raw_logs_corpus ON raw_logs(corpus);
 
 -- Row Level Security (RLS)
