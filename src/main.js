@@ -6,9 +6,17 @@ import { supabase } from './lib/supabase'
 let currentLang = 'en';
 let ARCHIVE_DATA = { NFI: [], SFI: [] };
 let ARCHIVE_BUNDLES = [];
+let SELECTED_MONTHS = new Set(); // Key: "YEAR-MONTH"
 
 // Initialize UI
 document.addEventListener('DOMContentLoaded', () => {
+  const browserLang = navigator.language.startsWith('pt') ? 'pt' : 'en';
+  currentLang = browserLang;
+  
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === currentLang);
+  });
+
   setLanguage(currentLang);
   setupUpload();
   setupControls();
@@ -41,12 +49,8 @@ function setLanguage(lang) {
       el.innerHTML = translations[lang][key];
     }
   });
-
   const creditInput = document.getElementById('credit-input');
-  if (creditInput) {
-    creditInput.placeholder = translations[lang].upload_credit_placeholder;
-  }
-
+  if (creditInput) creditInput.placeholder = translations[lang].upload_credit_placeholder;
   document.documentElement.lang = lang;
 }
 
@@ -64,7 +68,6 @@ function setupLanguageSwitcher() {
   });
 }
 
-// Utility: Browser SHA-256
 async function getSHA256(file) {
   const arrayBuffer = await file.arrayBuffer();
   const hashBuffer = await crypto.subtle.digest('SHA-256', arrayBuffer);
@@ -72,27 +75,21 @@ async function getSHA256(file) {
   return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 }
 
-// Utility: Parse Filename (Trade.YYYY-MM.txt)
 function parseLogMetadata(filename) {
   const parts = filename.split('.');
   if (parts.length >= 3) {
     const dateParts = parts[1].split('-');
     if (dateParts.length >= 2) {
-      return {
-        year: parseInt(dateParts[0]),
-        month: parseInt(dateParts[1])
-      };
+      return { year: parseInt(dateParts[0]), month: parseInt(dateParts[1]) };
     }
   }
   return { year: null, month: null };
 }
 
-// Phase 1: Structural Temporal Scanner
 function scanTemporalCoverage(text) {
   const map = {};
   const lines = text.split('\n');
   let currentDay = null;
-
   lines.forEach(line => {
     const startMatch = line.match(/Logging started (\d{4}-\d{2}-\d{2})/);
     if (startMatch) {
@@ -101,131 +98,70 @@ function scanTemporalCoverage(text) {
     }
     if (currentDay) {
       const timeMatch = line.match(/^\[(\d{2}):/);
-      if (timeMatch) {
-        map[currentDay].add(parseInt(timeMatch[1]));
-      }
+      if (timeMatch) map[currentDay].add(parseInt(timeMatch[1]));
     }
   });
-
   const finalMap = {};
-  Object.keys(map).forEach(day => {
-    finalMap[day] = Array.from(map[day]).sort((a, b) => a - b);
-  });
+  Object.keys(map).forEach(day => { finalMap[day] = Array.from(map[day]).sort((a, b) => a - b); });
   return finalMap;
-}
-
-function getBrowserMetadata() {
-  return {
-    timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-    offset: new Date().getTimezoneOffset()
-  };
 }
 
 function renderCoverage(corpus) {
   const container = document.getElementById('coverage-timeline');
   if (!container) return;
   container.innerHTML = '';
-
   const corpusKey = corpus.toUpperCase();
   const data = ARCHIVE_DATA[corpusKey] || [];
-  
-  // Calculate Global Preservation Metric
-  const totalDaysObserved = data.reduce((acc, year) => {
-    return acc + Object.values(year.months).reduce((mAcc, month) => mAcc + Object.keys(month).length, 0);
-  }, 0);
-  
+  const totalDaysObserved = data.reduce((acc, year) => acc + Object.values(year.months).reduce((mAcc, month) => mAcc + Object.keys(month).length, 0), 0);
   const preservationMetric = document.getElementById('preservation-metric');
-  if (preservationMetric) {
-    preservationMetric.innerHTML = `${totalDaysObserved} <span class="archival-meta">days recovered</span>`;
-  }
-
+  if (preservationMetric) preservationMetric.innerHTML = `${totalDaysObserved} <span class="archival-meta">days recovered</span>`;
   if (data.length === 0) {
-    container.innerHTML = `<div class="empty-archival-state">
-      <p class="archival-text">${translations[currentLang].no_data || 'No fragments recovered for this corpus yet.'}</p>
-    </div>`;
+    container.innerHTML = `<div class="empty-archival-state"><p class="archival-text">${translations[currentLang].no_data}</p></div>`;
     return;
   }
-
   const sortedData = [...data].sort((a, b) => b.year - a.year);
-
   sortedData.forEach(yearData => {
     const yearRow = document.createElement('div');
     yearRow.className = 'year-row';
-    
-    yearRow.innerHTML = `
-      <div class="year-label">Anno ${yearData.year}</div>
-      <div class="months-container">
+    yearRow.innerHTML = `<div class="year-label">Anno ${yearData.year}</div><div class="months-container">
         ${Array.from({ length: 12 }, (_, i) => {
-          const monthIndex = i + 1;
-          const monthData = yearData.months[monthIndex] || {};
-          const daysInMonth = new Date(yearData.year, monthIndex, 0).getDate();
-          return `
-            <div class="month-block">
-              <div class="month-label-small">${new Date(2000, i).toLocaleString(currentLang, { month: 'narrow' })}</div>
-              <div class="day-grid">
+          const mIdx = i + 1;
+          const mData = yearData.months[mIdx] || {};
+          const daysInMonth = new Date(yearData.year, mIdx, 0).getDate();
+          return `<div class="month-block"><div class="month-label-small">${new Date(2000, i).toLocaleString(currentLang, { month: 'narrow' })}</div><div class="day-grid">
                 ${Array.from({ length: 31 }, (_, d) => {
-                  const dayNum = d + 1;
-                  const dayKey = `${yearData.year}-${String(monthIndex).padStart(2, '0')}-${String(dayNum).padStart(2, '0')}`;
-                  const hours = monthData[dayKey] || [];
-                  const density = hours.length > 0 ? Math.min(100, 20 + (hours.length * 15)) : 0;
-                  
-                  if (dayNum > daysInMonth) return '<div class="day-slot disabled"></div>';
-                  
-                  return `
-                    <div class="day-slot ${density > 0 ? 'active' : ''}" 
-                         style="opacity: ${density / 100}"
-                         data-info="${dayKey}: ${hours.length} hours recovered">
-                    </div>
-                  `;
+                  const dNum = d + 1;
+                  const dKey = `${yearData.year}-${String(mIdx).padStart(2, '0')}-${String(dNum).padStart(2, '0')}`;
+                  const hrs = mData[dKey] || [];
+                  const dens = hrs.length > 0 ? Math.min(100, 20 + (hrs.length * 15)) : 0;
+                  if (dNum > daysInMonth) return '<div class="day-slot disabled"></div>';
+                  return `<div class="day-slot ${dens > 0 ? 'active' : 'empty'}" style="opacity: ${dens > 0 ? dens / 100 : 1}" data-info="${dens > 0 ? `${dKey}: ${hrs.length} hours recovered` : `${dKey}: ${translations[currentLang].missing_call}`}"></div>`;
                 }).join('')}
-              </div>
-            </div>
-          `;
-        }).join('')}
-      </div>
-    `;
-
+              </div></div>`;
+        }).join('')}</div>`;
     container.appendChild(yearRow);
   });
 }
 
 async function fetchCoverage() {
   try {
-    const { data, error } = await supabase
-      .from('raw_logs')
-      .select('period_year, period_month, corpus, temporal_map');
-
+    const { data, error } = await supabase.from('raw_logs').select('period_year, period_month, corpus, temporal_map');
     if (error) throw error;
-
     ARCHIVE_DATA = { NFI: [], SFI: [] };
-
     data.forEach(log => {
       if (!log.period_year || !log.period_month || !log.corpus) return;
       let corpusArr = ARCHIVE_DATA[log.corpus];
       if (!corpusArr) return;
-
       let yearEntry = corpusArr.find(y => y.year === log.period_year);
-      if (!yearEntry) {
-        yearEntry = { year: log.period_year, months: {} };
-        corpusArr.push(yearEntry);
-      }
-
-      if (!yearEntry.months[log.period_month]) {
-        yearEntry.months[log.period_month] = {};
-      }
-
+      if (!yearEntry) { yearEntry = { year: log.period_year, months: {} }; corpusArr.push(yearEntry); }
+      if (!yearEntry.months[log.period_month]) yearEntry.months[log.period_month] = {};
       const map = log.temporal_map || {};
       Object.entries(map).forEach(([day, hours]) => {
-        if (!yearEntry.months[log.period_month][day]) {
-          yearEntry.months[log.period_month][day] = [];
-        }
+        if (!yearEntry.months[log.period_month][day]) yearEntry.months[log.period_month][day] = [];
         yearEntry.months[log.period_month][day] = Array.from(new Set([...yearEntry.months[log.period_month][day], ...hours])).sort((a,b) => a-b);
       });
     });
-
-  } catch (err) {
-    console.error('Archival fetch error:', err);
-  }
+  } catch (err) { console.error(err); }
 }
 
 function renderArchive() {
@@ -234,96 +170,141 @@ function renderArchive() {
 
   const corpus = document.querySelector('.control-btn.active').dataset.corpus;
   const corpusKey = corpus.toUpperCase();
-  const filtered = ARCHIVE_BUNDLES.filter(b => b.corpus === corpusKey);
+  
+  // Get unique years in bundles
+  const years = Array.from(new Set(ARCHIVE_BUNDLES.filter(b => b.corpus === corpusKey).map(b => b.year))).sort((a, b) => b - a);
 
   container.innerHTML = `
     <div class="archive-header">
-      <p class="archival-text" data-i18n="archive_desc">Access the derived institutional reconstructions generated from recovered fragments.</p>
+      <div class="header-main">
+        <h3 class="serif">Temporal Selection</h3>
+        <button id="bulk-restore-btn" class="download-btn" ${SELECTED_MONTHS.size === 0 ? 'disabled' : ''}>
+          <span>${SELECTED_MONTHS.size === 0 ? translations[currentLang].restore_corpus : `Restore Selected (${SELECTED_MONTHS.size})`}</span>
+        </button>
+      </div>
+      <p class="archival-text">Click on recovered months to build your restoration set, or use the year shortcuts.</p>
     </div>
-    <div class="archive-grid" id="archive-grid"></div>
+    <div class="selection-grid">
+      ${years.map(year => `
+        <div class="selection-year-row">
+          <div class="year-select-group">
+            <div class="selection-year-label">${year}</div>
+            <button class="year-select-btn" data-year="${year}">Select Year</button>
+          </div>
+          <div class="selection-months">
+            ${Array.from({ length: 12 }, (_, i) => {
+              const mIdx = i + 1;
+              const bundle = ARCHIVE_BUNDLES.find(b => b.corpus === corpusKey && b.year === year && b.month === mIdx);
+              const isSelected = SELECTED_MONTHS.has(`${year}-${mIdx}`);
+              const hasData = !!bundle;
+              
+              return `
+                <div class="month-pill ${hasData ? 'available' : 'unavailable'} ${isSelected ? 'selected' : ''}" 
+                     data-year="${year}" data-month="${mIdx}"
+                     ${!hasData ? 'title="No fragments recovered"' : `title="${bundle.coverage}% coverage"`}>
+                  ${new Date(2000, i).toLocaleString(currentLang, { month: 'short' })}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `).join('')}
+    </div>
   `;
 
-  const grid = container.querySelector('#archive-grid');
-  if (filtered.length === 0) {
-    grid.innerHTML = `<div class="empty-archival-state">
-      <p class="archival-text">The vault is currently empty for this corpus. Every contribution helps restore a piece of history.</p>
-    </div>`;
-    return;
-  }
-
-  filtered.forEach(bundle => {
-    const card = document.createElement('div');
-    card.className = 'archive-card';
-    const monthName = new Date(2000, bundle.month - 1).toLocaleString(currentLang, { month: 'long' });
-    
-    card.innerHTML = `
-      <div class="archive-info">
-        <h3 class="serif">${monthName} ${bundle.year}</h3>
-        <p class="archival-meta">Coverage: ${bundle.coverage}% · ${bundle.files} fragments recovered</p>
-        <p class="archival-meta small">${bundle.lines} lines · ${bundle.size}</p>
-      </div>
-      <button class="download-btn">
-        <span data-i18n="restore_corpus">Restore Corpus</span>
-      </button>
-    `;
-    
-    card.querySelector('.download-btn').addEventListener('click', (e) => {
-      handleDownload(bundle, e);
+  // Setup Year Selection
+  container.querySelectorAll('.year-select-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const year = parseInt(btn.dataset.year);
+      const availableMonths = ARCHIVE_BUNDLES
+        .filter(b => b.corpus === corpusKey && b.year === year)
+        .map(b => `${year}-${b.month}`);
+      
+      const allSelected = availableMonths.every(k => SELECTED_MONTHS.has(k));
+      
+      if (allSelected) {
+        availableMonths.forEach(k => SELECTED_MONTHS.delete(k));
+      } else {
+        availableMonths.forEach(k => SELECTED_MONTHS.add(k));
+      }
+      renderArchive();
     });
-    grid.appendChild(card);
   });
+
+  // Setup Month Selection
+  container.querySelectorAll('.month-pill.available').forEach(pill => {
+    pill.addEventListener('click', () => {
+      const key = `${pill.dataset.year}-${pill.dataset.month}`;
+      if (SELECTED_MONTHS.has(key)) SELECTED_MONTHS.delete(key);
+      else SELECTED_MONTHS.add(key);
+      renderArchive();
+    });
+  });
+
+  // Setup Bulk Restore
+  const bulkBtn = document.getElementById('bulk-restore-btn');
+  if (bulkBtn) {
+    bulkBtn.addEventListener('click', (e) => {
+      handleBulkRestore(corpusKey, e);
+    });
+  }
 }
 
-async function handleDownload(bundle, event) {
+async function handleBulkRestore(corpusKey, event) {
   const btn = event.currentTarget;
   const originalContent = btn.innerHTML;
   const t = translations[currentLang];
   
   try {
     btn.disabled = true;
-    btn.innerHTML = `<span>${t.downloading}</span>`;
-    
-    const { data: fragments, error } = await supabase
-      .from('raw_logs')
-      .select('storage_key, filename')
-      .eq('corpus', bundle.corpus)
-      .eq('period_year', bundle.year)
-      .eq('period_month', bundle.month);
+    const selectedList = Array.from(SELECTED_MONTHS).map(k => {
+      const [y, m] = k.split('-');
+      return { year: parseInt(y), month: parseInt(m) };
+    });
 
-    if (error) throw error;
     const allLines = [];
-    
-    for (const frag of fragments) {
-      btn.innerHTML = `<span>${t.downloading} ${fragments.indexOf(frag) + 1}/${fragments.length}</span>`;
-      const { data, error: downloadError } = await supabase.storage
-        .from('logs-archive')
-        .download(frag.storage_key);
-      if (downloadError) continue;
-      const text = await data.text();
-      allLines.push(...text.split('\n'));
+    let processedMonths = 0;
+
+    for (const item of selectedList) {
+      btn.innerHTML = `<span>${t.downloading} ${++processedMonths}/${selectedList.length}</span>`;
+      
+      const { data: fragments, error } = await supabase
+        .from('raw_logs')
+        .select('storage_key')
+        .eq('corpus', corpusKey)
+        .eq('period_year', item.year)
+        .eq('period_month', item.month);
+
+      if (error) continue;
+
+      for (const frag of fragments) {
+        const { data, error: downloadError } = await supabase.storage.from('logs-archive').download(frag.storage_key);
+        if (downloadError) continue;
+        const text = await data.text();
+        allLines.push(...text.split('\n'));
+      }
     }
 
     btn.innerHTML = `<span>${t.merging}</span>`;
     const uniqueLines = Array.from(new Set(allLines)).sort();
-
     const restoredCorpus = uniqueLines.join('\n');
     const blob = new Blob([restoredCorpus], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
-    const filename = `WurmArchive_${bundle.corpus}_${bundle.year}-${String(bundle.month).padStart(2, '0')}_Restored_Cov${bundle.coverage}.txt`;
     
+    const filename = `WurmArchive_${corpusKey}_Restoration_${selectedList.length}m.txt`;
     const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+    a.href = url; a.download = filename;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
     URL.revokeObjectURL(url);
 
     btn.innerHTML = `<span>${t.restored}</span>`;
-    setTimeout(() => { btn.innerHTML = originalContent; btn.disabled = false; }, 3000);
+    setTimeout(() => { 
+      SELECTED_MONTHS.clear();
+      renderArchive();
+    }, 2000);
 
   } catch (err) {
-    console.error('Restoration failed:', err);
+    console.error(err);
     btn.innerHTML = originalContent;
     btn.disabled = false;
   }
@@ -331,39 +312,26 @@ async function handleDownload(bundle, event) {
 
 async function fetchArchiveBundles() {
   try {
-    const { data, error } = await supabase
-      .from('raw_logs')
-      .select('period_year, period_month, corpus, byte_size, line_count, temporal_map');
-
+    const { data, error } = await supabase.from('raw_logs').select('period_year, period_month, corpus, byte_size, line_count, temporal_map');
     if (error) throw error;
     const bundlesMap = {};
-
     data.forEach(log => {
       if (!log.period_year || !log.period_month || !log.corpus) return;
       const key = `${log.corpus}-${log.period_year}-${log.period_month}`;
       if (!bundlesMap[key]) {
-        bundlesMap[key] = {
-          corpus: log.corpus, year: log.period_year, month: log.period_month,
-          files: 0, lines: 0, bytes: 0, daysActive: new Set()
-        };
+        bundlesMap[key] = { corpus: log.corpus, year: log.period_year, month: log.period_month, files: 0, lines: 0, bytes: 0, daysActive: new Set() };
       }
       bundlesMap[key].files++;
       bundlesMap[key].lines += (log.line_count || 0);
       bundlesMap[key].bytes += (log.byte_size || 0);
-      if (log.temporal_map) {
-        Object.keys(log.temporal_map).forEach(day => bundlesMap[key].daysActive.add(day));
-      }
+      if (log.temporal_map) Object.keys(log.temporal_map).forEach(day => bundlesMap[key].daysActive.add(day));
     });
-
     ARCHIVE_BUNDLES = Object.values(bundlesMap).map(b => {
       const daysInMonth = new Date(b.year, b.month, 0).getDate();
       const coverage = Math.min(100, Math.round((b.daysActive.size / daysInMonth) * 100));
       return { ...b, coverage, lines: formatNumber(b.lines), size: formatSize(b.bytes) };
     }).sort((a, b) => b.year - a.year || b.month - a.month);
-
-  } catch (err) {
-    console.error('Failed to fetch archive bundles:', err);
-  }
+  } catch (err) { console.error(err); }
 }
 
 function formatNumber(num) {
@@ -386,6 +354,7 @@ function setupControls() {
     btn.addEventListener('click', () => {
       btns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      SELECTED_MONTHS.clear(); // Clear selection on corpus change
       renderCoverage(btn.dataset.corpus);
       renderArchive();
     });
@@ -398,59 +367,31 @@ function setupUpload() {
   const status = document.getElementById('upload-status');
   const creditInput = document.getElementById('credit-input');
   const serverSelect = document.getElementById('server-select');
-
   if (!dropZone) return;
-
-  dropZone.addEventListener('click', (e) => {
-    if (!creditInput.contains(e.target) && !serverSelect.contains(e.target)) {
-      fileInput.click();
-    }
-  });
-
-  dropZone.addEventListener('dragover', (e) => {
-    e.preventDefault();
-    dropZone.classList.add('drag-over');
-  });
-
-  dropZone.addEventListener('dragleave', () => {
-    dropZone.classList.remove('drag-over');
-  });
-
-  dropZone.addEventListener('drop', (e) => {
-    e.preventDefault();
-    dropZone.classList.remove('drag-over');
-    handleFiles(e.dataTransfer.files);
-  });
-
-  fileInput.addEventListener('change', (e) => {
-    handleFiles(e.target.files);
-  });
-
+  dropZone.addEventListener('click', (e) => { if (!creditInput.contains(e.target) && !serverSelect.contains(e.target)) fileInput.click(); });
+  dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('drag-over'); });
+  dropZone.addEventListener('dragleave', () => { dropZone.classList.remove('drag-over'); });
+  dropZone.addEventListener('drop', (e) => { e.preventDefault(); dropZone.classList.remove('drag-over'); handleFiles(e.dataTransfer.files); });
+  fileInput.addEventListener('change', (e) => { handleFiles(e.target.files); });
   async function handleFiles(files) {
     if (files.length === 0) return;
     const contributor = creditInput.value || 'Anonymous';
     const server = serverSelect.value;
     const corpusMap = { 'nfi': 'NFI', 'sfi': 'SFI', 'unknown': 'unknown' };
-
     status.innerHTML = `<p class="accent">Processing ${files.length} fragment(s)...</p>`;
-    
     let successCount = 0;
     let daysRestored = new Set();
-
     for (const file of files) {
       try {
         const sha256 = await getSHA256(file);
         const { data: existing } = await supabase.from('raw_logs').select('id').eq('sha256', sha256).single();
         if (existing) continue;
-
         const { year, month } = parseLogMetadata(file.name);
         const text = await file.text();
         const temporalMap = scanTemporalCoverage(text);
         const lines = text.split('\n');
-        
         const storageKey = `raw/${sha256}.txt`;
         await supabase.storage.from('logs-archive').upload(storageKey, file);
-
         await supabase.from('raw_logs').insert({
           sha256, filename: file.name, log_type: 'trade', corpus: corpusMap[server],
           contributor_alias: contributor, storage_key: storageKey,
@@ -458,25 +399,13 @@ function setupUpload() {
           period_year: year, period_month: month, temporal_map: temporalMap,
           first_line_raw: lines[0]?.substring(0, 500), last_line_raw: lines[lines.length - 1]?.substring(0, 500)
         });
-
         Object.keys(temporalMap).forEach(day => daysRestored.add(day));
         successCount++;
       } catch (err) { console.error(err); }
     }
-
     if (successCount > 0) {
-      status.innerHTML = `
-        <p class="success">Recovered ${successCount} historical fragment(s).</p>
-        <p class="archival-meta small">${daysRestored.size} days of history restored.</p>
-      `;
-      setTimeout(async () => {
-        status.innerHTML = '';
-        await refreshArchivalState();
-        renderCoverage(document.querySelector('.control-btn.active').dataset.corpus);
-        renderArchive();
-      }, 5000);
-    } else {
-      status.innerHTML = `<p class="archival-meta">No new fragments identified.</p>`;
-    }
+      status.innerHTML = `<p class="success">Recovered ${successCount} fragment(s).</p><p class="archival-meta small">${daysRestored.size} days restored.</p>`;
+      setTimeout(async () => { status.innerHTML = ''; await refreshArchivalState(); renderCoverage(document.querySelector('.control-btn.active').dataset.corpus); renderArchive(); }, 5000);
+    } else { status.innerHTML = `<p class="archival-meta">No new fragments identified.</p>`; }
   }
 }
