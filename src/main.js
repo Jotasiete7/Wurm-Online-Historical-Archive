@@ -271,8 +271,78 @@ function renderArchive() {
 }
 
 async function handleDownload(bundle) {
-  console.log(`Accessing vault for: ${bundle.month}/${bundle.year} (${bundle.corpus})`);
-  alert('In Phase 0, downloads are processed through the archival mirror. Direct download logic is being initialized.');
+  const btn = event.currentTarget;
+  const originalContent = btn.innerHTML;
+  
+  try {
+    btn.disabled = true;
+    btn.innerHTML = `<span class="loading-archival">Restoring...</span>`;
+    
+    // 1. Fetch all fragments for this bundle
+    const { data: fragments, error } = await supabase
+      .from('raw_logs')
+      .select('storage_key, filename, contributor_alias')
+      .eq('corpus', bundle.corpus)
+      .eq('period_year', bundle.year)
+      .eq('period_month', bundle.month);
+
+    if (error) throw error;
+    if (fragments.length === 0) throw new Error('No fragments found for restoration.');
+
+    const allLines = [];
+    
+    // 2. Fragment Collection (Sequential to protect memory)
+    for (const frag of fragments) {
+      btn.innerHTML = `<span>Fetching ${fragments.indexOf(frag) + 1}/${fragments.length}</span>`;
+      const { data, error: downloadError } = await supabase.storage
+        .from('logs-archive')
+        .download(frag.storage_key);
+      
+      if (downloadError) {
+        console.warn(`Fragment ${frag.filename} missing from vault. Skipping.`);
+        continue;
+      }
+
+      const text = await data.text();
+      allLines.push(...text.split('\n'));
+    }
+
+    btn.innerHTML = `<span>Merging...</span>`;
+
+    // 3. Lightweight Deduplication (Exact Text Match Only)
+    const uniqueLines = Array.from(new Set(allLines));
+
+    // 4. Temporal Ordering (Approximate structural ordering)
+    // We sort alphabetically which puts timestamps [HH:mm:ss] in order
+    // and keeps 'Logging started' anchors together.
+    uniqueLines.sort();
+
+    // 5. Export Generation
+    const restoredCorpus = uniqueLines.join('\n');
+    const blob = new Blob([restoredCorpus], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    
+    // Calculate approximate coverage percentage
+    const coverage = bundle.coverage || 0;
+    const filename = `WurmArchive_${bundle.corpus}_${bundle.year}-${String(bundle.month).padStart(2, '0')}_Restored_Cov${coverage}.txt`;
+    
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+
+    btn.innerHTML = `<span>Restored!</span>`;
+    setTimeout(() => { btn.innerHTML = originalContent; btn.disabled = false; }, 3000);
+
+  } catch (err) {
+    console.error('Restoration failed:', err);
+    alert('Restoration pipeline encountered a structural failure. The vault remains secure.');
+    btn.innerHTML = originalContent;
+    btn.disabled = false;
+  }
 }
 
 async function fetchArchiveBundles() {
@@ -296,20 +366,32 @@ async function fetchArchiveBundles() {
           month: log.period_month,
           files: 0,
           lines: 0,
-          bytes: 0
+          bytes: 0,
+          daysActive: new Set()
         };
       }
       
       bundlesMap[key].files++;
       bundlesMap[key].lines += (log.line_count || 0);
       bundlesMap[key].bytes += (log.byte_size || 0);
+      
+      // Track unique days for coverage estimation
+      if (log.temporal_map) {
+        Object.keys(log.temporal_map).forEach(day => bundlesMap[key].daysActive.add(day));
+      }
     });
 
-    ARCHIVE_BUNDLES = Object.values(bundlesMap).map(b => ({
-      ...b,
-      lines: formatNumber(b.lines),
-      size: formatSize(b.bytes)
-    })).sort((a, b) => b.year - a.year || b.month - a.month);
+    ARCHIVE_BUNDLES = Object.values(bundlesMap).map(b => {
+      const daysInMonth = new Date(b.year, b.month, 0).getDate();
+      const coverage = Math.min(100, Math.round((b.daysActive.size / daysInMonth) * 100));
+      
+      return {
+        ...b,
+        coverage: coverage,
+        lines: formatNumber(b.lines),
+        size: formatSize(b.bytes)
+      };
+    }).sort((a, b) => b.year - a.year || b.month - a.month);
 
   } catch (err) {
     console.error('Failed to fetch archive bundles:', err);
