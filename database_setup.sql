@@ -35,11 +35,13 @@ CREATE TABLE raw_logs (
   line_count        INTEGER,
   
   period_year       SMALLINT,
-  period_month      SMALLINT CHECK (period_month BETWEEN 1 AND 12),
-  
-  temporal_map      JSONB DEFAULT '{}', -- Structural coverage map (Day -> Hours)
-  first_line_raw    TEXT, -- For visual verification/preview
-  last_line_raw     TEXT, -- For visual verification/preview
+  period_month      SMALLINT,
+  first_line_raw    TEXT,
+  last_line_raw     TEXT,
+  temporal_map      JSONB,        -- Granular daily/hourly activity density
+  cluster           TEXT,         -- 'NFI' or 'SFI'
+  detected_servers  JSONB,        -- {"Har": 120, "Xan": 40}
+  source_sha256     TEXT,         -- Original file hash if split
 
   -- QUALITY CONTROL
   verification_status TEXT DEFAULT 'pending' 
