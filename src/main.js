@@ -5,23 +5,25 @@ import { supabase } from './lib/supabase'
 // Data State
 let currentLang = 'en';
 let ARCHIVE_DATA = { NFI: [], SFI: [] };
-
-// Mock Archive Data (Used only if DB is empty or for layout testing)
 let ARCHIVE_BUNDLES = [];
 
 // Initialize UI
 document.addEventListener('DOMContentLoaded', async () => {
   setLanguage(currentLang);
-  await Promise.all([
-    fetchCoverage(),
-    fetchArchiveBundles()
-  ]);
+  await refreshArchivalState();
   renderCoverage('nfi');
   renderArchive();
   setupUpload();
   setupControls();
   setupLanguageSwitcher();
 });
+
+async function refreshArchivalState() {
+  await Promise.all([
+    fetchCoverage(),
+    fetchArchiveBundles()
+  ]);
+}
 
 function setLanguage(lang) {
   currentLang = lang;
@@ -33,17 +35,14 @@ function setLanguage(lang) {
     }
   });
 
-  // Handle placeholders
   const creditInput = document.getElementById('credit-input');
   if (creditInput) {
     creditInput.placeholder = translations[lang].upload_credit_placeholder;
   }
 
-  // Update document title and lang
   document.documentElement.lang = lang;
 }
 
-// Language Switcher
 function setupLanguageSwitcher() {
   const btns = document.querySelectorAll('.lang-btn');
   btns.forEach(btn => {
@@ -51,7 +50,9 @@ function setupLanguageSwitcher() {
       btns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       setLanguage(btn.dataset.lang);
-      renderCoverage(document.querySelector('.control-btn.active').dataset.corpus);
+      const activeCorpus = document.querySelector('.control-btn.active')?.dataset.corpus || 'nfi';
+      renderCoverage(activeCorpus);
+      renderArchive();
     });
   });
 }
@@ -69,10 +70,12 @@ function parseLogMetadata(filename) {
   const parts = filename.split('.');
   if (parts.length >= 3) {
     const dateParts = parts[1].split('-');
-    return {
-      year: parseInt(dateParts[0]),
-      month: parseInt(dateParts[1])
-    };
+    if (dateParts.length >= 2) {
+      return {
+        year: parseInt(dateParts[0]),
+        month: parseInt(dateParts[1])
+      };
+    }
   }
   return { year: null, month: null };
 }
@@ -86,17 +89,8 @@ function getBrowserMetadata() {
 }
 
 function renderCoverage(corpus) {
-  const container = document.getElementById('coverage-timeline');
-  if (!container) return;
-
-  container.innerHTML = '';
-  
-  const data = COVERAGE_DATA[corpus];
-  
-  data.forEach((yearData, yearIndex) => {
-    const row = document.createElement('div');
-    row.className = 'timeline-row';
   const container = document.getElementById('coverage-list');
+  if (!container) return;
   container.innerHTML = '';
 
   const corpusKey = corpus.toUpperCase();
@@ -132,21 +126,17 @@ function renderCoverage(corpus) {
         fragment.className = 'coverage-fragment';
         fragment.style.width = '0%';
         
-        // Show month name and density on hover
         const monthName = new Date(2000, m - 1).toLocaleString(currentLang, { month: 'short' });
         let densityLabel = 'Faint Trace';
         if (coverage > 40) densityLabel = 'Fragmented Record';
         if (coverage > 80) densityLabel = 'Dense Ledger';
         
         fragment.setAttribute('data-info', `${monthName} — ${densityLabel}`);
-        
-        // Adjust intensity based on coverage
         fragment.style.opacity = Math.max(0.2, coverage / 100);
         if (coverage < 40) fragment.style.filter = 'grayscale(0.5) contrast(0.8)';
         
         slot.appendChild(fragment);
         
-        // Animate restoration
         setTimeout(() => {
           fragment.style.width = '100%';
         }, 100 + (m * 50));
@@ -165,15 +155,15 @@ async function fetchCoverage() {
 
     if (error) throw error;
 
-    // Reset data
     ARCHIVE_DATA = { NFI: [], SFI: [] };
 
-    // Aggregate by Year and Month
     data.forEach(log => {
       if (!log.period_year || !log.period_month || !log.corpus) return;
       if (log.corpus === 'unknown') return;
 
       let corpusArr = ARCHIVE_DATA[log.corpus];
+      if (!corpusArr) return;
+
       let yearEntry = corpusArr.find(y => y.year === log.period_year);
       
       if (!yearEntry) {
@@ -181,9 +171,6 @@ async function fetchCoverage() {
         corpusArr.push(yearEntry);
       }
 
-      // In Phase 0, we treat the existence of any file as coverage.
-      // For now, we set it to 100% if present, or we could count lines.
-      // Let's assume 100% per month if we have any file for simplicity in Phase 0.
       yearEntry.months[log.period_month] = 100; 
     });
 
@@ -306,6 +293,7 @@ function setupControls() {
       btns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       renderCoverage(btn.dataset.corpus);
+      renderArchive();
     });
   });
 }
@@ -320,7 +308,6 @@ function setupUpload() {
   if (!dropZone) return;
 
   dropZone.addEventListener('click', (e) => {
-    // Avoid triggering if clicking inputs
     if (e.target !== creditInput && e.target !== serverSelect) {
       fileInput.click();
     }
@@ -365,10 +352,8 @@ function setupUpload() {
 
     for (const file of files) {
       try {
-        // 1. Browser-side SHA-256 Hashing (Deduplication Layer)
         const sha256 = await getSHA256(file);
         
-        // 2. Check for duplicate records in Supabase
         const { data: existing } = await supabase
           .from('raw_logs')
           .select('id')
@@ -380,22 +365,18 @@ function setupUpload() {
           continue;
         }
 
-        // 3. Metadata Extraction
         const { year, month } = parseLogMetadata(file.name);
         const { timezone } = getBrowserMetadata();
         const text = await file.text();
         const lines = text.split('\n');
         
-        // 4. Immutable Storage (Indexed by Hash)
         const storageKey = `raw/${sha256}.txt`;
         const { error: storageError } = await supabase.storage
           .from('logs-archive')
           .upload(storageKey, file);
 
-        // Ignore 'Duplicate' error from storage if the file already exists physically
         if (storageError && storageError.message !== 'The resource already exists') throw storageError;
 
-        // 5. Minimal Metadata Registration (Preservation Layer)
         const { error: dbError } = await supabase.from('raw_logs').insert({
           sha256: sha256,
           filename: file.name,
@@ -413,7 +394,6 @@ function setupUpload() {
         });
 
         if (dbError) throw dbError;
-
         successCount++;
       } catch (err) {
         console.error('Archival failed:', err);
@@ -421,7 +401,6 @@ function setupUpload() {
       }
     }
 
-    // Feedback Loop
     let resultMsg = '';
     if (successCount > 0) {
       resultMsg += `<p style="color: var(--success-color)">${translations[currentLang].upload_success} (${successCount} fragments preserved)</p>`;
@@ -435,28 +414,13 @@ function setupUpload() {
     
     status.innerHTML = resultMsg;
     
-    setTimeout(() => {
+    setTimeout(async () => {
       status.innerHTML = '';
-      if (successCount > 0) fetchArchiveData();
+      if (successCount > 0) {
+        await refreshArchivalState();
+        renderCoverage(server);
+        renderArchive();
+      }
     }, 6000);
-  }
-}
-
-// Data Fetching (Phase 0)
-async function fetchArchiveData() {
-  const corpus = document.querySelector('.control-btn.active').dataset.corpus;
-  const corpusValue = corpus.toUpperCase(); // 'NFI' or 'SFI'
-  
-  try {
-    const { data, error } = await supabase
-      .from('raw_logs')
-      .select('period_year, period_month, sha256')
-      .eq('corpus', corpusValue);
-
-    if (error) throw error;
-    
-    console.log(`Fetched ${data.length} records for ${corpusValue}`);
-  } catch (err) {
-    console.error('Failed to fetch archival data:', err);
   }
 }
