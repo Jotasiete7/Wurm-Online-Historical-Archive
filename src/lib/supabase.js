@@ -9,4 +9,14 @@ if (!supabaseUrl || !supabaseAnonKey) {
 
 export const supabase = (supabaseUrl && supabaseAnonKey) 
   ? createClient(supabaseUrl, supabaseAnonKey)
-  : { from: () => ({ select: () => ({ eq: () => ({ single: () => ({ data: null }) }), single: () => ({ data: null }) }), insert: () => ({}) }), storage: { from: () => ({ upload: () => ({}) }) } }; // Mock to prevent crash
+  : { 
+      from: () => ({ 
+        select: () => Promise.resolve({ data: [], error: null }),
+        insert: () => Promise.resolve({ error: null })
+      }), 
+      storage: { 
+        from: () => ({ 
+          upload: () => Promise.resolve({ error: null }) 
+        }) 
+      } 
+    };
