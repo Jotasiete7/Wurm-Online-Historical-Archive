@@ -84,11 +84,12 @@ function renderCoverage(corpus) {
     row.className = 'timeline-row';
     
     row.innerHTML = `
-      <div class="year-label serif italic" style="font-size: 1.1rem; opacity: 0.6;">Anno ${item.year}</div>
+      <div class="year-label serif italic" style="font-size: 1.2rem; opacity: 0.8; letter-spacing: 0.05em;">Anno ${item.year}</div>
       <div class="coverage-bar">
-        <div class="coverage-fill" style="width: 0%"></div>
-        <div class="fragment-status serif italic" style="position: absolute; right: 0; top: -1.5rem; font-size: 0.7rem; color: var(--text-secondary); opacity: 0;">
-          ${item.coverage === 100 ? 'Fully Restored' : 'Recovering Fragments...'}
+        <div class="coverage-fill" style="width: 0%">
+          <div class="fragment-status serif italic" style="opacity: 0; transition: opacity 1s;">
+            ${item.coverage === 100 ? 'restored' : 'recovering...'}
+          </div>
         </div>
       </div>
     `;
@@ -100,8 +101,8 @@ function renderCoverage(corpus) {
       const fill = row.querySelector('.coverage-fill');
       const status = row.querySelector('.fragment-status');
       if (fill) fill.style.width = `${item.coverage}%`;
-      if (status) status.style.opacity = '0.4';
-    }, 200 + (index * 150));
+      if (status) status.style.opacity = '0.6';
+    }, 400 + (index * 250));
   });
 }
 
