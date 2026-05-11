@@ -154,6 +154,12 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  pointer-events: none; /* Ensure drag events hit the parent .drop-zone */
+}
+
+.drop-zone-content input, 
+.drop-zone-content select {
+  pointer-events: auto; /* Re-enable for interactive elements */
 }
 
 .drop-zone-icon {
