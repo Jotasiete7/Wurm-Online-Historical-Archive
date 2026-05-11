@@ -291,17 +291,71 @@ select#server-select option {
   pointer-events: none;
 }
 
-.coverage-fragment {
-  height: 14px;
-  background: var(--accent-color);
-  box-shadow: 0 0 20px rgba(197, 160, 89, 0.15);
+.months-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+}
+
+.month-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.month-label-small {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  opacity: 0.5;
+  text-align: center;
+}
+
+.day-grid {
+  height: 24px;
+  background: rgba(255, 255, 255, 0.02);
+  display: grid;
+  grid-template-columns: repeat(31, 1fr);
+  gap: 1px;
+  border-left: 1px solid rgba(197, 160, 89, 0.1);
+  border-right: 1px solid rgba(197, 160, 89, 0.1);
+}
+
+.day-slot {
+  height: 100%;
+  background: transparent;
+  transition: background 0.3s ease;
   position: relative;
-  transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1);
-  
-  /* Fragmented Edge for each month segment */
-  clip-path: polygon(
-    0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%
-  );
+}
+
+.day-slot.active {
+  background: var(--accent-color);
+  cursor: help;
+}
+
+.day-slot.active:hover::after {
+  content: attr(data-info);
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--surface-color);
+  color: var(--accent-color);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.6rem;
+  white-space: nowrap;
+  border: 1px solid var(--accent-color);
+  z-index: 100;
+  pointer-events: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.coverage-fragment {
+  height: 100%;
+  background: var(--accent-color);
+  transition: width 1s ease-out, opacity 0.3s ease;
+  position: relative;
+  cursor: help;
 }
 
 .coverage-fragment:hover::after {

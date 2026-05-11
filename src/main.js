@@ -14,14 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
   setupControls();
   setupLanguageSwitcher();
 
-  // Load data in the background to prevent UI freeze
   refreshArchivalState().then(() => {
     const activeCorpus = document.querySelector('.control-btn.active')?.dataset.corpus || 'nfi';
     renderCoverage(activeCorpus);
     renderArchive();
   }).catch(err => {
     console.error('Initial data fetch failed:', err);
-    renderCoverage('nfi'); // Render empty state at least
+    renderCoverage('nfi');
     renderArchive();
   });
 });
@@ -88,7 +87,38 @@ function parseLogMetadata(filename) {
   return { year: null, month: null };
 }
 
-// Utility: Capture Timezone
+// Phase 1: Structural Temporal Scanner
+function scanTemporalCoverage(text) {
+  const map = {};
+  const lines = text.split('\n');
+  let currentDay = null;
+
+  lines.forEach(line => {
+    // Detect Temporal Anchor: Logging started YYYY-MM-DD
+    const startMatch = line.match(/Logging started (\d{4}-\d{2}-\d{2})/);
+    if (startMatch) {
+      currentDay = startMatch[1];
+      if (!map[currentDay]) map[currentDay] = new Set();
+    }
+
+    // Detect Timestamp: [HH:mm:ss]
+    if (currentDay) {
+      const timeMatch = line.match(/^\[(\d{2}):/);
+      if (timeMatch) {
+        map[currentDay].add(parseInt(timeMatch[1]));
+      }
+    }
+  });
+
+  // Convert Sets to Arrays for JSON storage
+  const finalMap = {};
+  Object.keys(map).forEach(day => {
+    finalMap[day] = Array.from(map[day]).sort((a, b) => a - b);
+  });
+
+  return finalMap;
+}
+
 function getBrowserMetadata() {
   return {
     timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
@@ -111,7 +141,6 @@ function renderCoverage(corpus) {
     return;
   }
 
-  // Sort years descending
   const sortedData = [...data].sort((a, b) => b.year - a.year);
 
   sortedData.forEach(yearData => {
@@ -120,36 +149,32 @@ function renderCoverage(corpus) {
     
     yearRow.innerHTML = `
       <div class="year-label">Anno ${yearData.year}</div>
-      <div class="coverage-bar">
-        ${Array.from({ length: 12 }, (_, i) => `<div class="month-slot" data-month-index="${i + 1}"></div>`).join('')}
+      <div class="months-container">
+        ${Array.from({ length: 12 }, (_, i) => {
+          const monthIndex = i + 1;
+          const monthData = yearData.months[monthIndex] || {};
+          return `
+            <div class="month-block">
+              <div class="month-label-small">${new Date(2000, i).toLocaleString(currentLang, { month: 'narrow' })}</div>
+              <div class="day-grid">
+                ${Array.from({ length: 31 }, (_, d) => {
+                  const dayNum = d + 1;
+                  const dayKey = `${yearData.year}-${String(monthIndex).padStart(2, '0')}-${String(dayNum).padStart(2, '0')}`;
+                  const hours = monthData[dayKey] || [];
+                  const density = hours.length > 0 ? Math.min(100, hours.length * 20) : 0;
+                  return `
+                    <div class="day-slot ${density > 0 ? 'active' : ''}" 
+                         style="opacity: ${density / 100}"
+                         data-info="${dayKey}: ${hours.length} hours preserved">
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          `;
+        }).join('')}
       </div>
     `;
-
-    const bar = yearRow.querySelector('.coverage-bar');
-    
-    Object.entries(yearData.months).forEach(([m, coverage]) => {
-      const slot = bar.querySelector(`[data-month-index="${m}"]`);
-      if (slot) {
-        const fragment = document.createElement('div');
-        fragment.className = 'coverage-fragment';
-        fragment.style.width = '0%';
-        
-        const monthName = new Date(2000, m - 1).toLocaleString(currentLang, { month: 'short' });
-        let densityLabel = 'Faint Trace';
-        if (coverage > 40) densityLabel = 'Fragmented Record';
-        if (coverage > 80) densityLabel = 'Dense Ledger';
-        
-        fragment.setAttribute('data-info', `${monthName} — ${densityLabel}`);
-        fragment.style.opacity = Math.max(0.2, coverage / 100);
-        if (coverage < 40) fragment.style.filter = 'grayscale(0.5) contrast(0.8)';
-        
-        slot.appendChild(fragment);
-        
-        setTimeout(() => {
-          fragment.style.width = '100%';
-        }, 100 + (m * 50));
-      }
-    });
 
     container.appendChild(yearRow);
   });
@@ -159,7 +184,7 @@ async function fetchCoverage() {
   try {
     const { data, error } = await supabase
       .from('raw_logs')
-      .select('period_year, period_month, corpus, sha256');
+      .select('period_year, period_month, corpus, temporal_map');
 
     if (error) throw error;
 
@@ -173,13 +198,24 @@ async function fetchCoverage() {
       if (!corpusArr) return;
 
       let yearEntry = corpusArr.find(y => y.year === log.period_year);
-      
       if (!yearEntry) {
         yearEntry = { year: log.period_year, months: {} };
         corpusArr.push(yearEntry);
       }
 
-      yearEntry.months[log.period_month] = 100; 
+      if (!yearEntry.months[log.period_month]) {
+        yearEntry.months[log.period_month] = {};
+      }
+
+      // Merge temporal maps
+      const map = log.temporal_map || {};
+      Object.entries(map).forEach(([day, hours]) => {
+        if (!yearEntry.months[log.period_month][day]) {
+          yearEntry.months[log.period_month][day] = [];
+        }
+        // Union of hours
+        yearEntry.months[log.period_month][day] = Array.from(new Set([...yearEntry.months[log.period_month][day], ...hours])).sort((a,b) => a-b);
+      });
     });
 
   } catch (err) {
@@ -316,7 +352,6 @@ function setupUpload() {
   if (!dropZone) return;
 
   dropZone.addEventListener('click', (e) => {
-    // Only trigger file input if clicking the zone itself or non-input text
     if (!creditInput.contains(e.target) && !serverSelect.contains(e.target)) {
       fileInput.click();
     }
@@ -377,6 +412,9 @@ function setupUpload() {
         const { year, month } = parseLogMetadata(file.name);
         const { timezone } = getBrowserMetadata();
         const text = await file.text();
+        
+        // Phase 1: Structural Scan
+        const temporalMap = scanTemporalCoverage(text);
         const lines = text.split('\n');
         
         const storageKey = `raw/${sha256}.txt`;
@@ -398,6 +436,7 @@ function setupUpload() {
           line_count: lines.length,
           period_year: year,
           period_month: month,
+          temporal_map: temporalMap,
           first_line_raw: lines[0]?.substring(0, 500),
           last_line_raw: lines[lines.length - 1]?.substring(0, 500)
         });

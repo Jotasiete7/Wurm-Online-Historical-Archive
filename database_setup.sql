@@ -37,6 +37,7 @@ CREATE TABLE raw_logs (
   period_year       SMALLINT,
   period_month      SMALLINT CHECK (period_month BETWEEN 1 AND 12),
   
+  temporal_map      JSONB DEFAULT '{}', -- Structural coverage map (Day -> Hours)
   first_line_raw    TEXT, -- For visual verification/preview
   last_line_raw     TEXT, -- For visual verification/preview
 
