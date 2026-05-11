@@ -6,17 +6,16 @@ import { supabase } from './lib/supabase'
 let currentLang = 'en';
 let ARCHIVE_DATA = { NFI: [], SFI: [] };
 
-// Mock Archive Data
-const ARCHIVE_BUNDLES = [
-  { corpus: 'NFI', year: 2024, month: 10, files: 124, lines: '1.2M', size: '45MB' },
-  { corpus: 'NFI', year: 2024, month: 9, files: 98, lines: '850K', size: '32MB' },
-  { corpus: 'SFI', year: 2018, month: 3, files: 45, lines: '320K', size: '12MB' },
-];
+// Mock Archive Data (Used only if DB is empty or for layout testing)
+let ARCHIVE_BUNDLES = [];
 
 // Initialize UI
 document.addEventListener('DOMContentLoaded', async () => {
   setLanguage(currentLang);
-  await fetchCoverage(); // Fetch real data first
+  await Promise.all([
+    fetchCoverage(),
+    fetchArchiveBundles()
+  ]);
   renderCoverage('nfi');
   renderArchive();
   setupUpload();
@@ -197,43 +196,107 @@ function renderArchive() {
   const container = document.getElementById('archive-browser');
   if (!container) return;
 
-  const intro = container.querySelector('p');
-  container.innerHTML = '';
-  if (intro) container.appendChild(intro);
+  const corpus = document.querySelector('.control-btn.active').dataset.corpus;
+  const corpusKey = corpus.toUpperCase();
+  
+  const filtered = ARCHIVE_BUNDLES.filter(b => b.corpus === corpusKey);
 
-  const list = document.createElement('div');
-  list.className = 'bundle-list';
-  list.style.marginTop = '2rem';
-  list.style.display = 'grid';
-  list.style.gap = '1rem';
+  container.innerHTML = `
+    <p class="archival-text" data-i18n="archive_desc">Access the recovered monthly corpora from the institutional vault.</p>
+    <div class="archive-grid" id="archive-grid"></div>
+  `;
 
-  ARCHIVE_BUNDLES.forEach(bundle => {
-    const item = document.createElement('div');
-    item.className = 'bundle-item';
-    item.style.padding = '1.5rem';
-    item.style.border = '1px solid var(--border-color)';
-    item.style.background = 'var(--surface-color)';
-    item.style.display = 'flex';
-    item.style.justifyContent = 'space-between';
-    item.style.alignItems = 'center';
-    item.style.borderRadius = '4px';
+  const grid = container.querySelector('#archive-grid');
+  
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="empty-archival-state">
+      <p class="archival-text">The vault is currently empty for this corpus. Every contribution helps restore a piece of history.</p>
+    </div>`;
+    return;
+  }
 
-    const monthName = new Date(bundle.year, bundle.month - 1).toLocaleString(currentLang, { month: 'long' });
-    const capitalizedMonth = monthName.charAt(0).toUpperCase() + monthName.slice(1);
-
-    item.innerHTML = `
-      <div>
-        <span class="accent serif" style="font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;">Historical Corpus: ${bundle.corpus}</span>
-        <h4 style="margin: 0.35rem 0; font-family: var(--font-serif); font-size: 1.4rem;">${capitalizedMonth} ${bundle.year}</h4>
-        <p style="font-size: 0.8rem; color: var(--text-secondary); opacity: 0.8;">${bundle.files} fragments preserved — ${bundle.lines} entries — ${bundle.size}</p>
+  filtered.forEach(bundle => {
+    const card = document.createElement('div');
+    card.className = 'archive-card';
+    
+    const monthName = new Date(2000, bundle.month - 1).toLocaleString(currentLang, { month: 'long' });
+    
+    card.innerHTML = `
+      <div class="archive-info">
+        <h3 class="serif">${monthName} ${bundle.year}</h3>
+        <p class="archival-meta">${bundle.files} files · ${bundle.lines} lines · ${bundle.size}</p>
       </div>
-      <button class="download-btn" style="color: var(--accent-color); font-size: 1.2rem; opacity: 0.6; transition: opacity 0.3s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.6">↓</button>
+      <button class="download-btn">
+        <span data-i18n="download">Download</span>
+      </button>
     `;
-
-    list.appendChild(item);
+    
+    card.querySelector('.download-btn').addEventListener('click', () => {
+      handleDownload(bundle);
+    });
+    
+    grid.appendChild(card);
   });
+}
 
-  container.appendChild(list);
+async function handleDownload(bundle) {
+  console.log(`Accessing vault for: ${bundle.month}/${bundle.year} (${bundle.corpus})`);
+  alert('In Phase 0, downloads are processed through the archival mirror. Direct download logic is being initialized.');
+}
+
+async function fetchArchiveBundles() {
+  try {
+    const { data, error } = await supabase
+      .from('raw_logs')
+      .select('period_year, period_month, corpus, byte_size, line_count');
+
+    if (error) throw error;
+
+    const bundlesMap = {};
+
+    data.forEach(log => {
+      if (!log.period_year || !log.period_month || !log.corpus) return;
+      
+      const key = `${log.corpus}-${log.period_year}-${log.period_month}`;
+      if (!bundlesMap[key]) {
+        bundlesMap[key] = {
+          corpus: log.corpus,
+          year: log.period_year,
+          month: log.period_month,
+          files: 0,
+          lines: 0,
+          bytes: 0
+        };
+      }
+      
+      bundlesMap[key].files++;
+      bundlesMap[key].lines += (log.line_count || 0);
+      bundlesMap[key].bytes += (log.byte_size || 0);
+    });
+
+    ARCHIVE_BUNDLES = Object.values(bundlesMap).map(b => ({
+      ...b,
+      lines: formatNumber(b.lines),
+      size: formatSize(b.bytes)
+    })).sort((a, b) => b.year - a.year || b.month - a.month);
+
+  } catch (err) {
+    console.error('Failed to fetch archive bundles:', err);
+  }
+}
+
+function formatNumber(num) {
+  if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
+  if (num >= 1000) return (num / 1000).toFixed(1) + 'K';
+  return num.toString();
+}
+
+function formatSize(bytes) {
+  if (bytes === 0) return '0 B';
+  const k = 1024;
+  const sizes = ['B', 'KB', 'MB', 'GB'];
+  const i = Math.floor(Math.log(bytes) / Math.log(k));
+  return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + ' ' + sizes[i];
 }
 
 function setupControls() {
