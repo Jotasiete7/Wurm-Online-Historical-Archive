@@ -130,11 +130,11 @@ function renderArchive() {
 
     item.innerHTML = `
       <div>
-        <span class="accent serif" style="font-size: 0.8rem; letter-spacing: 0.1em;">${bundle.corpus} TRADE ARCHIVE</span>
-        <h4 style="margin: 0.25rem 0; font-family: var(--font-serif); font-size: 1.4rem;">${capitalizedMonth} ${bundle.year}</h4>
-        <p style="font-size: 0.8rem; color: var(--text-secondary);">${bundle.files} files — ${bundle.lines} lines — ${bundle.size}</p>
+        <span class="accent serif" style="font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;">Historical Corpus: ${bundle.corpus}</span>
+        <h4 style="margin: 0.35rem 0; font-family: var(--font-serif); font-size: 1.4rem;">${capitalizedMonth} ${bundle.year}</h4>
+        <p style="font-size: 0.8rem; color: var(--text-secondary); opacity: 0.8;">${bundle.files} fragments preserved — ${bundle.lines} entries — ${bundle.size}</p>
       </div>
-      <button class="download-btn" style="color: var(--accent-color); font-size: 1.2rem;">↓</button>
+      <button class="download-btn" style="color: var(--accent-color); font-size: 1.2rem; opacity: 0.6; transition: opacity 0.3s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.6">↓</button>
     `;
 
     list.appendChild(item);

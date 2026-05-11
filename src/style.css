@@ -209,10 +209,10 @@ header {
 .control-btn.active::after {
   content: "";
   position: absolute;
-  bottom: -1rem;
+  bottom: -1.05rem;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 1px;
   background-color: var(--accent-color);
 }
 
@@ -236,9 +236,16 @@ header {
 }
 
 .coverage-bar {
-  height: 8px;
+  height: 6px;
   background: var(--surface-color);
-  border-radius: 2px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 5px,
+    rgba(255, 255, 255, 0.02) 5px,
+    rgba(255, 255, 255, 0.02) 10px
+  );
+  border-radius: 1px;
   position: relative;
   overflow: hidden;
 }
@@ -246,8 +253,9 @@ header {
 .coverage-fill {
   height: 100%;
   background: var(--accent-color);
-  border-radius: 2px;
-  transition: width 1s ease-out;
+  box-shadow: 0 0 10px rgba(197, 160, 89, 0.2);
+  border-radius: 1px;
+  transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Footer / FAQ */
