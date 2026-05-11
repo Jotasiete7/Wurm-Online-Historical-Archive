@@ -242,10 +242,23 @@ header {
   border-radius: 0;
   position: relative;
   overflow: visible;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2px;
   border-left: 1px solid rgba(197, 160, 89, 0.2);
   border-right: 1px solid rgba(197, 160, 89, 0.2);
+}
+
+.month-slot {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.month-slot:last-child {
+  border-right: none;
 }
 
 /* Vertical Stitching lines - made more visible */
@@ -266,21 +279,33 @@ header {
   pointer-events: none;
 }
 
-.coverage-fill {
+.coverage-fragment {
   height: 14px;
   background: var(--accent-color);
   box-shadow: 0 0 20px rgba(197, 160, 89, 0.15);
   position: relative;
-  transition: width 2.5s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1);
   
-  /* More aggressive weathered edge */
+  /* Fragmented Edge for each month segment */
   clip-path: polygon(
-    0% 0%, 97% 2%, 100% 0%, 98% 15%, 100% 30%, 97% 45%, 100% 60%, 98% 75%, 100% 90%, 97% 100%, 0% 98%, 1% 50%
+    0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%
   );
 }
 
-/* Parchment/Film texture overlay */
-.coverage-fill::after {
+.coverage-fragment:hover::after {
+  content: attr(data-month);
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-serif);
+  font-size: 0.7rem;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.coverage-fragment::before {
   content: "";
   position: absolute;
   top: 0;

@@ -8,18 +8,18 @@ let currentLang = 'en';
 // Mock Data for Coverage
 const COVERAGE_DATA = {
   nfi: [
-    { year: 2020, coverage: 18 },
-    { year: 2021, coverage: 44 },
-    { year: 2022, coverage: 71 },
-    { year: 2023, coverage: 55 },
-    { year: 2024, coverage: 89 },
+    { year: 2020, months: { 3: 100, 4: 100, 5: 100 } },
+    { year: 2021, months: { 1: 100, 2: 100, 3: 100, 8: 100, 9: 100, 10: 100 } },
+    { year: 2022, months: { 1: 100, 2: 100, 3: 100, 4: 100, 5: 100, 6: 100, 7: 100, 8: 100, 9: 100 } },
+    { year: 2023, months: { 10: 100, 11: 100, 12: 100 } },
+    { year: 2024, months: { 1: 100, 2: 100, 3: 100, 4: 100, 5: 100, 6: 100, 7: 100, 8: 100, 9: 100, 10: 80 } },
   ],
   sfi: [
-    { year: 2020, coverage: 5 },
-    { year: 2021, coverage: 12 },
-    { year: 2022, coverage: 35 },
-    { year: 2023, coverage: 48 },
-    { year: 2024, coverage: 62 },
+    { year: 2020, months: { 12: 100 } },
+    { year: 2021, months: { 6: 100, 7: 100 } },
+    { year: 2022, months: { 1: 100, 2: 100, 3: 100, 4: 100 } },
+    { year: 2023, months: { 1: 100, 2: 100, 3: 100, 4: 100, 5: 100, 6: 100 } },
+    { year: 2024, months: { 1: 100, 2: 100, 3: 100, 8: 100, 9: 100 } },
   ]
 };
 
@@ -79,30 +79,50 @@ function renderCoverage(corpus) {
   
   const data = COVERAGE_DATA[corpus];
   
-  data.forEach((item, index) => {
+  data.forEach((yearData, yearIndex) => {
     const row = document.createElement('div');
     row.className = 'timeline-row';
     
-    row.innerHTML = `
-      <div class="year-label serif italic" style="font-size: 1.2rem; opacity: 0.8; letter-spacing: 0.05em;">Anno ${item.year}</div>
-      <div class="coverage-bar">
-        <div class="coverage-fill" style="width: 0%">
-          <div class="fragment-status serif italic" style="opacity: 0; transition: opacity 1s;">
-            ${item.coverage === 100 ? 'restored' : 'recovering...'}
-          </div>
-        </div>
-      </div>
-    `;
+    // Anno Label
+    const label = document.createElement('div');
+    label.className = 'year-label serif italic';
+    label.style.fontSize = '1.2rem';
+    label.style.opacity = '0.8';
+    label.innerHTML = `Anno ${yearData.year}`;
+    row.appendChild(label);
+
+    // Month Grid (The 12-slot container)
+    const bar = document.createElement('div');
+    bar.className = 'coverage-bar month-grid';
     
+    // Create 12 slots
+    for (let m = 1; m <= 12; m++) {
+      const slot = document.createElement('div');
+      slot.className = 'month-slot';
+      
+      const coverage = yearData.months[m] || 0;
+      if (coverage > 0) {
+        const fragment = document.createElement('div');
+        fragment.className = 'coverage-fragment';
+        fragment.style.width = '0%';
+        
+        // Show month name on hover
+        const monthName = new Date(2000, m - 1).toLocaleString(currentLang, { month: 'short' });
+        fragment.setAttribute('data-month', monthName);
+        
+        slot.appendChild(fragment);
+        
+        // Animate fragment appearance
+        setTimeout(() => {
+          fragment.style.width = `${coverage}%`;
+        }, 500 + (yearIndex * 150) + (m * 50));
+      }
+      
+      bar.appendChild(slot);
+    }
+    
+    row.appendChild(bar);
     container.appendChild(row);
-    
-    // Animate fill with a delay to simulate careful restoration
-    setTimeout(() => {
-      const fill = row.querySelector('.coverage-fill');
-      const status = row.querySelector('.fragment-status');
-      if (fill) fill.style.width = `${item.coverage}%`;
-      if (status) status.style.opacity = '0.6';
-    }, 400 + (index * 250));
   });
 }
 
