@@ -142,6 +142,12 @@ header {
   transition: var(--transition-smooth);
   position: relative;
   overflow: hidden;
+  z-index: 10;
+}
+
+select#server-select option {
+  background: var(--surface-color);
+  color: var(--text-primary);
 }
 
 .drop-zone:hover, .drop-zone.drag-over {
