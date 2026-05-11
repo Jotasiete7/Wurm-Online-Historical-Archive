@@ -8,14 +8,22 @@ let ARCHIVE_DATA = { NFI: [], SFI: [] };
 let ARCHIVE_BUNDLES = [];
 
 // Initialize UI
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', () => {
   setLanguage(currentLang);
-  await refreshArchivalState();
-  renderCoverage('nfi');
-  renderArchive();
   setupUpload();
   setupControls();
   setupLanguageSwitcher();
+
+  // Load data in the background to prevent UI freeze
+  refreshArchivalState().then(() => {
+    const activeCorpus = document.querySelector('.control-btn.active')?.dataset.corpus || 'nfi';
+    renderCoverage(activeCorpus);
+    renderArchive();
+  }).catch(err => {
+    console.error('Initial data fetch failed:', err);
+    renderCoverage('nfi'); // Render empty state at least
+    renderArchive();
+  });
 });
 
 async function refreshArchivalState() {
