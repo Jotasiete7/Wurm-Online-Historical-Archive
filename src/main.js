@@ -12,7 +12,7 @@ const COVERAGE_DATA = {
     { year: 2021, months: { 1: 100, 2: 100, 3: 100, 8: 100, 9: 100, 10: 100 } },
     { year: 2022, months: { 1: 100, 2: 100, 3: 100, 4: 100, 5: 100, 6: 100, 7: 100, 8: 100, 9: 100 } },
     { year: 2023, months: { 10: 100, 11: 100, 12: 100 } },
-    { year: 2024, months: { 1: 100, 2: 100, 3: 100, 4: 100, 5: 100, 6: 100, 7: 100, 8: 100, 9: 100, 10: 80 } },
+    { year: 2024, months: { 1: 100, 2: 95, 3: 30, 4: 100, 5: 10, 6: 100, 7: 85, 8: 100, 9: 100, 10: 80 } },
   ],
   sfi: [
     { year: 2020, months: { 12: 100 } },
@@ -106,9 +106,17 @@ function renderCoverage(corpus) {
         fragment.className = 'coverage-fragment';
         fragment.style.width = '0%';
         
-        // Show month name on hover
+        // Show month name and density on hover
         const monthName = new Date(2000, m - 1).toLocaleString(currentLang, { month: 'short' });
-        fragment.setAttribute('data-month', monthName);
+        let densityLabel = 'Faint Trace';
+        if (coverage > 40) densityLabel = 'Fragmented Record';
+        if (coverage > 80) densityLabel = 'Dense Ledger';
+        
+        fragment.setAttribute('data-info', `${monthName} — ${densityLabel}`);
+        
+        // Adjust intensity based on coverage
+        fragment.style.opacity = Math.max(0.2, coverage / 100);
+        if (coverage < 40) fragment.style.filter = 'grayscale(0.5) contrast(0.8)';
         
         slot.appendChild(fragment);
         

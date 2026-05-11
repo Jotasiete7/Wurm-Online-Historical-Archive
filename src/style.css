@@ -293,7 +293,7 @@ header {
 }
 
 .coverage-fragment:hover::after {
-  content: attr(data-month);
+  content: attr(data-info);
   position: absolute;
   top: -24px;
   left: 50%;
@@ -303,6 +303,10 @@ header {
   color: var(--accent-color);
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  white-space: nowrap;
+  background: var(--bg-color);
+  padding: 0 0.5rem;
+  z-index: 10;
 }
 
 .coverage-fragment::before {
