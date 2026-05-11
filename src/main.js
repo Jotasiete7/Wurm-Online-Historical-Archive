@@ -60,6 +60,7 @@ function setLanguage(lang) {
   document.documentElement.lang = lang;
 }
 
+// Language Switcher
 function setupLanguageSwitcher() {
   const btns = document.querySelectorAll('.lang-btn');
   btns.forEach(btn => {
@@ -67,8 +68,38 @@ function setupLanguageSwitcher() {
       btns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       setLanguage(btn.dataset.lang);
+      renderCoverage(document.querySelector('.control-btn.active').dataset.corpus);
     });
   });
+}
+
+// Utility: Browser SHA-256
+async function getSHA256(file) {
+  const arrayBuffer = await file.arrayBuffer();
+  const hashBuffer = await crypto.subtle.digest('SHA-256', arrayBuffer);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+// Utility: Parse Filename (Trade.YYYY-MM.txt)
+function parseLogMetadata(filename) {
+  const parts = filename.split('.');
+  if (parts.length >= 3) {
+    const dateParts = parts[1].split('-');
+    return {
+      year: parseInt(dateParts[0]),
+      month: parseInt(dateParts[1])
+    };
+  }
+  return { year: null, month: null };
+}
+
+// Utility: Capture Timezone
+function getBrowserMetadata() {
+  return {
+    timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+    offset: new Date().getTimezoneOffset()
+  };
 }
 
 function renderCoverage(corpus) {
@@ -228,47 +259,113 @@ function setupUpload() {
     
     const contributor = creditInput.value || 'Anonymous';
     const server = serverSelect.value;
-    
+    const corpusMap = {
+      'nfi': 'NFI',
+      'sfi': 'SFI',
+      'unknown': 'unknown'
+    };
+
     const processingMsg = translations[currentLang].upload_processing.replace('{count}', files.length);
     status.innerHTML = `<p class="accent">${processingMsg}</p>`;
     
     let successCount = 0;
+    let duplicateCount = 0;
     let errorCount = 0;
 
     for (const file of files) {
       try {
-        const filePath = `${server}/${Date.now()}_${file.name}`;
+        // 1. Browser-side SHA-256 Hashing (Deduplication Layer)
+        const sha256 = await getSHA256(file);
         
-        const { error } = await supabase.storage
+        // 2. Check for duplicate records in Supabase
+        const { data: existing } = await supabase
+          .from('raw_logs')
+          .select('id')
+          .eq('sha256', sha256)
+          .single();
+
+        if (existing) {
+          duplicateCount++;
+          continue;
+        }
+
+        // 3. Metadata Extraction
+        const { year, month } = parseLogMetadata(file.name);
+        const { timezone } = getBrowserMetadata();
+        const text = await file.text();
+        const lines = text.split('\n');
+        
+        // 4. Immutable Storage (Indexed by Hash)
+        const storageKey = `raw/${sha256}.txt`;
+        const { error: storageError } = await supabase.storage
           .from('logs-archive')
-          .upload(filePath, file);
+          .upload(storageKey, file);
 
-        if (error) throw error;
+        // Ignore 'Duplicate' error from storage if the file already exists physically
+        if (storageError && storageError.message !== 'The resource already exists') throw storageError;
 
-        // Record in database
-        await supabase.from('logs').insert({
+        // 5. Minimal Metadata Registration (Preservation Layer)
+        const { error: dbError } = await supabase.from('raw_logs').insert({
+          sha256: sha256,
           filename: file.name,
-          storage_path: filePath,
-          contributor: contributor,
-          server: server,
-          size_bytes: file.size
+          log_type: 'trade',
+          corpus: corpusMap[server],
+          contributor_alias: contributor,
+          browser_timezone: timezone,
+          storage_key: storageKey,
+          byte_size: file.size,
+          line_count: lines.length,
+          period_year: year,
+          period_month: month,
+          first_line_raw: lines[0]?.substring(0, 500),
+          last_line_raw: lines[lines.length - 1]?.substring(0, 500)
         });
+
+        if (dbError) throw dbError;
 
         successCount++;
       } catch (err) {
-        console.error('Upload failed:', err);
+        console.error('Archival failed:', err);
         errorCount++;
       }
     }
 
+    // Feedback Loop
+    let resultMsg = '';
     if (successCount > 0) {
-      status.innerHTML = `<p style="color: var(--success-color)">${translations[currentLang].upload_success} (${successCount} files)</p>`;
-    } else {
-      status.innerHTML = `<p style="color: var(--error-color)">Upload failed. Please check if the 'logs-archive' bucket exists.</p>`;
+      resultMsg += `<p style="color: var(--success-color)">${translations[currentLang].upload_success} (${successCount} fragments preserved)</p>`;
     }
+    if (duplicateCount > 0) {
+      resultMsg += `<p style="color: var(--accent-color); font-size: 0.8rem; opacity: 0.7;">${duplicateCount} fragments were already in the vault.</p>`;
+    }
+    if (errorCount > 0) {
+      resultMsg += `<p style="color: var(--error-color)">${errorCount} fragments encountered an issue during preservation.</p>`;
+    }
+    
+    status.innerHTML = resultMsg;
     
     setTimeout(() => {
       status.innerHTML = '';
-    }, 5000);
+      if (successCount > 0) fetchArchiveData();
+    }, 6000);
+  }
+}
+
+// Data Fetching (Phase 0)
+async function fetchArchiveData() {
+  const corpus = document.querySelector('.control-btn.active').dataset.corpus;
+  const corpusValue = corpus.toUpperCase(); // 'NFI' or 'SFI'
+  
+  try {
+    const { data, error } = await supabase
+      .from('raw_logs')
+      .select('period_year, period_month, sha256')
+      .eq('corpus', corpusValue);
+
+    if (error) throw error;
+    
+    console.log(`Fetched ${data.length} records for ${corpusValue}`);
+  } catch (err) {
+    console.error('Failed to fetch archival data:', err);
   }
 }
