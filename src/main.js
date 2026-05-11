@@ -79,24 +79,29 @@ function renderCoverage(corpus) {
   
   const data = COVERAGE_DATA[corpus];
   
-  data.forEach(item => {
+  data.forEach((item, index) => {
     const row = document.createElement('div');
     row.className = 'timeline-row';
     
     row.innerHTML = `
-      <div class="year-label">${item.year}</div>
+      <div class="year-label serif italic" style="font-size: 1.1rem; opacity: 0.6;">Anno ${item.year}</div>
       <div class="coverage-bar">
         <div class="coverage-fill" style="width: 0%"></div>
+        <div class="fragment-status serif italic" style="position: absolute; right: 0; top: -1.5rem; font-size: 0.7rem; color: var(--text-secondary); opacity: 0;">
+          ${item.coverage === 100 ? 'Fully Restored' : 'Recovering Fragments...'}
+        </div>
       </div>
     `;
     
     container.appendChild(row);
     
-    // Animate fill
+    // Animate fill with a delay to simulate careful restoration
     setTimeout(() => {
       const fill = row.querySelector('.coverage-fill');
+      const status = row.querySelector('.fragment-status');
       if (fill) fill.style.width = `${item.coverage}%`;
-    }, 100);
+      if (status) status.style.opacity = '0.4';
+    }, 200 + (index * 150));
   });
 }
 
