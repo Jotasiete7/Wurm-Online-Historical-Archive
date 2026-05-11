@@ -89,7 +89,7 @@ function getBrowserMetadata() {
 }
 
 function renderCoverage(corpus) {
-  const container = document.getElementById('coverage-list');
+  const container = document.getElementById('coverage-timeline');
   if (!container) return;
   container.innerHTML = '';
 
@@ -308,7 +308,8 @@ function setupUpload() {
   if (!dropZone) return;
 
   dropZone.addEventListener('click', (e) => {
-    if (e.target !== creditInput && e.target !== serverSelect) {
+    // Only trigger file input if clicking the zone itself or non-input text
+    if (!creditInput.contains(e.target) && !serverSelect.contains(e.target)) {
       fileInput.click();
     }
   });
@@ -418,9 +419,10 @@ function setupUpload() {
       status.innerHTML = '';
       if (successCount > 0) {
         await refreshArchivalState();
-        renderCoverage(server);
+        const activeCorpus = document.querySelector('.control-btn.active')?.dataset.corpus || 'nfi';
+        renderCoverage(activeCorpus);
         renderArchive();
       }
-    }, 6000);
+    }, 4000);
   }
 }
