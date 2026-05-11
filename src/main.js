@@ -26,8 +26,8 @@ const COVERAGE_DATA = {
 // Mock Archive Data
 const ARCHIVE_BUNDLES = [
   { corpus: 'NFI', year: 2024, month: 10, files: 124, lines: '1.2M', size: '45MB' },
-  { corpus: 'NFI', year: 2024, month: 09, files: 98, lines: '850K', size: '32MB' },
-  { corpus: 'SFI', year: 2018, month: 03, files: 45, lines: '320K', size: '12MB' },
+  { corpus: 'NFI', year: 2024, month: 9, files: 98, lines: '850K', size: '32MB' },
+  { corpus: 'SFI', year: 2018, month: 3, files: 45, lines: '320K', size: '12MB' },
 ];
 
 // Initialize UI
