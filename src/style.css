@@ -237,7 +237,33 @@ select, input {
   align-items: center;
 }
 
-.selection-year-label { font-family: var(--font-serif); font-size: 1.8rem; color: var(--gold-primary); }
+.selection-year-label { font-family: var(--font-serif); font-size: 1.8rem; color: var(--gold-primary); line-height: 1; }
+
+.year-select-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.year-select-btn {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  color: var(--gold-muted);
+  padding: 0.3rem 0.6rem;
+  font-size: 0.6rem;
+  cursor: pointer;
+  font-family: var(--font-serif);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.year-select-btn:hover {
+  border-color: var(--gold-primary);
+  color: var(--gold-primary);
+  background: rgba(212, 175, 55, 0.05);
+}
 
 .selection-months {
   display: grid;

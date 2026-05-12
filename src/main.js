@@ -250,7 +250,7 @@ function renderArchive() {
         <div class="selection-year-row">
           <div class="year-select-group">
             <div class="selection-year-label">${year}</div>
-            <button class="year-select-btn" data-year="${year}">Select Year</button>
+            <button class="year-select-btn" data-year="${year}">Select All</button>
           </div>
           <div class="selection-months">
             ${Array.from({ length: 12 }, (_, i) => {
