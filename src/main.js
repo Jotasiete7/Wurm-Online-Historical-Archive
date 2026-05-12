@@ -96,11 +96,7 @@ async function processLogSplitting(text) {
 
   lines.forEach(line => {
     const dayMatch = line.match(/Logging started (\d{4}-\d{2}-\d{2})/);
-    if (dayMatch) {
-      currentDay = dayMatch[1];
-      return;
-    }
-
+    if (dayMatch) { currentDay = dayMatch[1]; return; }
     if (!currentDay) return;
 
     const match = line.match(prefixRegex);
@@ -108,22 +104,18 @@ async function processLogSplitting(text) {
 
     if (match) {
       const prefix = match[1];
-      let cluster = null;
-      if (NFI_PREFIXES.has(prefix)) cluster = 'NFI';
-      else if (SFI_PREFIXES.has(prefix)) cluster = 'SFI';
-
+      const cluster = NFI_PREFIXES.has(prefix) ? 'NFI' : (SFI_PREFIXES.has(prefix) ? 'SFI' : null);
       if (cluster) {
-        // Ensure day header exists for this cluster
-        if (!fragments[cluster].some(l => l.includes(`Logging started ${currentDay}`))) {
+        if (!fragments[cluster].some(l => l === `Logging started ${currentDay}`)) {
           fragments[cluster].push(`Logging started ${currentDay}`);
         }
         fragments[cluster].push(line);
         stats[cluster][prefix] = (stats[cluster][prefix] || 0) + 1;
       }
     } else if (isSystem) {
-      // Duplicate system rules to both if they are active for this day
       ['NFI', 'SFI'].forEach(c => {
-        if (fragments[c].some(l => l.includes(`Logging started ${currentDay}`))) {
+        // Only add system message if we have active data for this day in this cluster
+        if (fragments[c].some(l => l === `Logging started ${currentDay}`)) {
           fragments[c].push(line);
         }
       });

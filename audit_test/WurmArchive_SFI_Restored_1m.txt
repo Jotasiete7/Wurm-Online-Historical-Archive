@@ -1,553 +1,762 @@
-
 Logging started 2026-01-01
+[02:00:25] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[02:00:25] <System> Please PM the person if you are interested in the Item.
+[02:00:25] <System> This is the Trade channel.
+[02:00:25] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[02:00:25] <System> You can also use @<name> to send a reply in this channel to <name>.
+[02:00:25] <System> You can disable receiving these messages, by a setting in your profile.
+[11:33:34] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:33:34] <System> Please PM the person if you are interested in the Item.
+[11:33:34] <System> This is the Trade channel.
+[11:33:34] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:33:34] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:33:34] <System> You can disable receiving these messages, by a setting in your profile.
+[11:49:56] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:49:56] <System> Please PM the person if you are interested in the Item.
+[11:49:56] <System> This is the Trade channel.
+[11:49:56] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:49:56] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:49:56] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-02
+[13:24:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:24:28] <System> Please PM the person if you are interested in the Item.
+[13:24:28] <System> This is the Trade channel.
+[13:24:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:24:28] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:24:28] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-03
+[00:11:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[00:11:36] <System> Please PM the person if you are interested in the Item.
+[00:11:36] <System> This is the Trade channel.
+[00:11:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[00:11:36] <System> You can also use @<name> to send a reply in this channel to <name>.
+[00:11:36] <System> You can disable receiving these messages, by a setting in your profile.
+[14:04:34] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[14:04:34] <System> Please PM the person if you are interested in the Item.
+[14:04:34] <System> This is the Trade channel.
+[14:04:34] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[14:04:34] <System> You can also use @<name> to send a reply in this channel to <name>.
+[14:04:34] <System> You can disable receiving these messages, by a setting in your profile.
+[19:07:26] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[19:07:26] <System> Please PM the person if you are interested in the Item.
+[19:07:26] <System> This is the Trade channel.
+[19:07:26] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[19:07:26] <System> You can also use @<name> to send a reply in this channel to <name>.
+[19:07:26] <System> You can disable receiving these messages, by a setting in your profile.
+[22:08:46] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[22:08:46] <System> Please PM the person if you are interested in the Item.
+[22:08:46] <System> This is the Trade channel.
+[22:08:46] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[22:08:46] <System> You can also use @<name> to send a reply in this channel to <name>.
+[22:08:46] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-04
+[00:53:52] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[00:53:52] <System> Please PM the person if you are interested in the Item.
+[00:53:52] <System> This is the Trade channel.
+[00:53:52] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[00:53:52] <System> You can also use @<name> to send a reply in this channel to <name>.
+[00:53:52] <System> You can disable receiving these messages, by a setting in your profile.
+[11:30:40] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:30:40] <System> Please PM the person if you are interested in the Item.
+[11:30:40] <System> This is the Trade channel.
+[11:30:40] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:30:40] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:30:40] <System> You can disable receiving these messages, by a setting in your profile.
+[15:36:42] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[15:36:42] <System> Please PM the person if you are interested in the Item.
+[15:36:42] <System> This is the Trade channel.
+[15:36:42] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[15:36:42] <System> You can also use @<name> to send a reply in this channel to <name>.
+[15:36:42] <System> You can disable receiving these messages, by a setting in your profile.
+[15:50:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[15:50:53] <System> Please PM the person if you are interested in the Item.
+[15:50:53] <System> This is the Trade channel.
+[15:50:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[15:50:53] <System> You can also use @<name> to send a reply in this channel to <name>.
+[15:50:53] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-05
+[00:33:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[00:33:03] <System> Please PM the person if you are interested in the Item.
+[00:33:03] <System> This is the Trade channel.
+[00:33:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[00:33:03] <System> You can also use @<name> to send a reply in this channel to <name>.
+[00:33:03] <System> You can disable receiving these messages, by a setting in your profile.
+[03:12:26] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[03:12:26] <System> Please PM the person if you are interested in the Item.
+[03:12:26] <System> This is the Trade channel.
+[03:12:26] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[03:12:26] <System> You can also use @<name> to send a reply in this channel to <name>.
+[03:12:26] <System> You can disable receiving these messages, by a setting in your profile.
+[03:30:41] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[03:30:41] <System> Please PM the person if you are interested in the Item.
+[03:30:41] <System> This is the Trade channel.
+[03:30:41] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[03:30:41] <System> You can also use @<name> to send a reply in this channel to <name>.
+[03:30:41] <System> You can disable receiving these messages, by a setting in your profile.
+[11:39:24] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:39:24] <System> Please PM the person if you are interested in the Item.
+[11:39:24] <System> This is the Trade channel.
+[11:39:24] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:39:24] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:39:24] <System> You can disable receiving these messages, by a setting in your profile.
+[13:13:40] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:13:40] <System> Please PM the person if you are interested in the Item.
+[13:13:40] <System> This is the Trade channel.
+[13:13:40] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:13:40] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:13:40] <System> You can disable receiving these messages, by a setting in your profile.
+[13:27:16] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:27:16] <System> Please PM the person if you are interested in the Item.
+[13:27:16] <System> This is the Trade channel.
+[13:27:16] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:27:16] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:27:16] <System> You can disable receiving these messages, by a setting in your profile.
+[15:48:08] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[15:48:08] <System> Please PM the person if you are interested in the Item.
+[15:48:08] <System> This is the Trade channel.
+[15:48:08] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[15:48:08] <System> You can also use @<name> to send a reply in this channel to <name>.
+[15:48:08] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-06
+[11:11:30] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:11:30] <System> Please PM the person if you are interested in the Item.
+[11:11:30] <System> This is the Trade channel.
+[11:11:30] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:11:30] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:11:30] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-07
+[11:39:08] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:39:08] <System> Please PM the person if you are interested in the Item.
+[11:39:08] <System> This is the Trade channel.
+[11:39:08] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:39:08] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:39:08] <System> You can disable receiving these messages, by a setting in your profile.
+[15:50:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[15:50:51] <System> Please PM the person if you are interested in the Item.
+[15:50:51] <System> This is the Trade channel.
+[15:50:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[15:50:51] <System> You can also use @<name> to send a reply in this channel to <name>.
+[15:50:51] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-08
+[14:20:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[14:20:03] <System> Please PM the person if you are interested in the Item.
+[14:20:03] <System> This is the Trade channel.
+[14:20:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[14:20:03] <System> You can also use @<name> to send a reply in this channel to <name>.
+[14:20:03] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-09
+[13:55:02] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:55:02] <System> Please PM the person if you are interested in the Item.
+[13:55:02] <System> This is the Trade channel.
+[13:55:02] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:55:02] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:55:02] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-10
+[00:54:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[00:54:06] <System> Please PM the person if you are interested in the Item.
+[00:54:06] <System> This is the Trade channel.
+[00:54:06] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[00:54:06] <System> You can also use @<name> to send a reply in this channel to <name>.
+[00:54:06] <System> You can disable receiving these messages, by a setting in your profile.
+[10:45:01] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[10:45:01] <System> Please PM the person if you are interested in the Item.
+[10:45:01] <System> This is the Trade channel.
+[10:45:01] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[10:45:01] <System> You can also use @<name> to send a reply in this channel to <name>.
+[10:45:01] <System> You can disable receiving these messages, by a setting in your profile.
+[21:13:44] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[21:13:44] <System> Please PM the person if you are interested in the Item.
+[21:13:44] <System> This is the Trade channel.
+[21:13:44] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[21:13:44] <System> You can also use @<name> to send a reply in this channel to <name>.
+[21:13:44] <System> You can disable receiving these messages, by a setting in your profile.
+[21:13:46] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[21:13:46] <System> Please PM the person if you are interested in the Item.
+[21:13:46] <System> This is the Trade channel.
+[21:13:46] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[21:13:46] <System> You can also use @<name> to send a reply in this channel to <name>.
+[21:13:46] <System> You can disable receiving these messages, by a setting in your profile.
+[21:14:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[21:14:28] <System> Please PM the person if you are interested in the Item.
+[21:14:28] <System> This is the Trade channel.
+[21:14:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[21:14:28] <System> You can also use @<name> to send a reply in this channel to <name>.
+[21:14:28] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-11
+[12:31:58] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[12:31:58] <System> Please PM the person if you are interested in the Item.
+[12:31:58] <System> This is the Trade channel.
+[12:31:58] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[12:31:58] <System> You can also use @<name> to send a reply in this channel to <name>.
+[12:31:58] <System> You can disable receiving these messages, by a setting in your profile.
+[12:48:14] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[12:48:14] <System> Please PM the person if you are interested in the Item.
+[12:48:14] <System> This is the Trade channel.
+[12:48:14] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[12:48:14] <System> You can also use @<name> to send a reply in this channel to <name>.
+[12:48:14] <System> You can disable receiving these messages, by a setting in your profile.
+[16:18:32] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:18:32] <System> Please PM the person if you are interested in the Item.
+[16:18:32] <System> This is the Trade channel.
+[16:18:32] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:18:32] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:18:32] <System> You can disable receiving these messages, by a setting in your profile.
+[16:18:34] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:18:34] <System> Please PM the person if you are interested in the Item.
+[16:18:34] <System> This is the Trade channel.
+[16:18:34] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:18:34] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:18:34] <System> You can disable receiving these messages, by a setting in your profile.
+[16:19:05] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:19:05] <System> Please PM the person if you are interested in the Item.
+[16:19:05] <System> This is the Trade channel.
+[16:19:05] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:19:05] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:19:05] <System> You can disable receiving these messages, by a setting in your profile.
+[17:42:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[17:42:20] <System> Please PM the person if you are interested in the Item.
+[17:42:20] <System> This is the Trade channel.
+[17:42:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[17:42:20] <System> You can also use @<name> to send a reply in this channel to <name>.
+[17:42:20] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-12
+[10:17:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[10:17:28] <System> Please PM the person if you are interested in the Item.
+[10:17:28] <System> This is the Trade channel.
+[10:17:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[10:17:28] <System> You can also use @<name> to send a reply in this channel to <name>.
+[10:17:28] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-13
+[10:36:41] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[10:36:41] <System> Please PM the person if you are interested in the Item.
+[10:36:41] <System> This is the Trade channel.
+[10:36:41] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[10:36:41] <System> You can also use @<name> to send a reply in this channel to <name>.
+[10:36:41] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-14
+[10:56:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[10:56:36] <System> Please PM the person if you are interested in the Item.
+[10:56:36] <System> This is the Trade channel.
+[10:56:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[10:56:36] <System> You can also use @<name> to send a reply in this channel to <name>.
+[10:56:36] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-15
+[03:05:25] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[03:05:25] <System> Please PM the person if you are interested in the Item.
+[03:05:25] <System> This is the Trade channel.
+[03:05:25] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[03:05:25] <System> You can also use @<name> to send a reply in this channel to <name>.
+[03:05:25] <System> You can disable receiving these messages, by a setting in your profile.
+[08:34:42] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[08:34:42] <System> Please PM the person if you are interested in the Item.
+[08:34:42] <System> This is the Trade channel.
+[08:34:42] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[08:34:42] <System> You can also use @<name> to send a reply in this channel to <name>.
+[08:34:42] <System> You can disable receiving these messages, by a setting in your profile.
+[19:16:43] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[19:16:43] <System> Please PM the person if you are interested in the Item.
+[19:16:43] <System> This is the Trade channel.
+[19:16:43] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[19:16:43] <System> You can also use @<name> to send a reply in this channel to <name>.
+[19:16:43] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-16
+[10:30:45] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[10:30:45] <System> Please PM the person if you are interested in the Item.
+[10:30:45] <System> This is the Trade channel.
+[10:30:45] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[10:30:45] <System> You can also use @<name> to send a reply in this channel to <name>.
+[10:30:45] <System> You can disable receiving these messages, by a setting in your profile.
+[12:11:38] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[12:11:38] <System> Please PM the person if you are interested in the Item.
+[12:11:38] <System> This is the Trade channel.
+[12:11:38] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[12:11:38] <System> You can also use @<name> to send a reply in this channel to <name>.
+[12:11:38] <System> You can disable receiving these messages, by a setting in your profile.
+[17:52:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[17:52:20] <System> Please PM the person if you are interested in the Item.
+[17:52:20] <System> This is the Trade channel.
+[17:52:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[17:52:20] <System> You can also use @<name> to send a reply in this channel to <name>.
+[17:52:20] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-17
+[11:14:17] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:14:17] <System> Please PM the person if you are interested in the Item.
+[11:14:17] <System> This is the Trade channel.
+[11:14:17] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:14:17] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:14:17] <System> You can disable receiving these messages, by a setting in your profile.
+[14:12:57] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[14:12:57] <System> Please PM the person if you are interested in the Item.
+[14:12:57] <System> This is the Trade channel.
+[14:12:57] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[14:12:57] <System> You can also use @<name> to send a reply in this channel to <name>.
+[14:12:57] <System> You can disable receiving these messages, by a setting in your profile.
+[18:19:01] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[18:19:01] <System> Please PM the person if you are interested in the Item.
+[18:19:01] <System> This is the Trade channel.
+[18:19:01] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[18:19:01] <System> You can also use @<name> to send a reply in this channel to <name>.
+[18:19:01] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-18
+[12:03:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[12:03:28] <System> Please PM the person if you are interested in the Item.
+[12:03:28] <System> This is the Trade channel.
+[12:03:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[12:03:28] <System> You can also use @<name> to send a reply in this channel to <name>.
+[12:03:28] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-19
+[10:50:39] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[10:50:39] <System> Please PM the person if you are interested in the Item.
+[10:50:39] <System> This is the Trade channel.
+[10:50:39] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[10:50:39] <System> You can also use @<name> to send a reply in this channel to <name>.
+[10:50:39] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-20
+[11:07:55] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:07:55] <System> Please PM the person if you are interested in the Item.
+[11:07:55] <System> This is the Trade channel.
+[11:07:55] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:07:55] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:07:55] <System> You can disable receiving these messages, by a setting in your profile.
+[16:20:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:20:36] <System> Please PM the person if you are interested in the Item.
+[16:20:36] <System> This is the Trade channel.
+[16:20:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:20:36] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:20:36] <System> You can disable receiving these messages, by a setting in your profile.
+[17:57:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[17:57:27] <System> Please PM the person if you are interested in the Item.
+[17:57:27] <System> This is the Trade channel.
+[17:57:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[17:57:27] <System> You can also use @<name> to send a reply in this channel to <name>.
+[17:57:27] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-21
+[02:02:16] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[02:02:16] <System> Please PM the person if you are interested in the Item.
+[02:02:16] <System> This is the Trade channel.
+[02:02:16] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[02:02:16] <System> You can also use @<name> to send a reply in this channel to <name>.
+[02:02:16] <System> You can disable receiving these messages, by a setting in your profile.
+[09:53:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[09:53:51] <System> Please PM the person if you are interested in the Item.
+[09:53:51] <System> This is the Trade channel.
+[09:53:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[09:53:51] <System> You can also use @<name> to send a reply in this channel to <name>.
+[09:53:51] <System> You can disable receiving these messages, by a setting in your profile.
+[23:14:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[23:14:03] <System> Please PM the person if you are interested in the Item.
+[23:14:03] <System> This is the Trade channel.
+[23:14:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[23:14:03] <System> You can also use @<name> to send a reply in this channel to <name>.
+[23:14:03] <System> You can disable receiving these messages, by a setting in your profile.
+[23:16:52] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[23:16:52] <System> Please PM the person if you are interested in the Item.
+[23:16:52] <System> This is the Trade channel.
+[23:16:52] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[23:16:52] <System> You can also use @<name> to send a reply in this channel to <name>.
+[23:16:52] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-22
+[11:38:04] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:38:04] <System> Please PM the person if you are interested in the Item.
+[11:38:04] <System> This is the Trade channel.
+[11:38:04] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:38:04] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:38:04] <System> You can disable receiving these messages, by a setting in your profile.
+[16:30:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:30:27] <System> Please PM the person if you are interested in the Item.
+[16:30:27] <System> This is the Trade channel.
+[16:30:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:30:27] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:30:27] <System> You can disable receiving these messages, by a setting in your profile.
+[20:09:38] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:09:38] <System> Please PM the person if you are interested in the Item.
+[20:09:38] <System> This is the Trade channel.
+[20:09:38] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:09:38] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:09:38] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-23
+[04:07:00] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[04:07:00] <System> Please PM the person if you are interested in the Item.
+[04:07:00] <System> This is the Trade channel.
+[04:07:00] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[04:07:00] <System> You can also use @<name> to send a reply in this channel to <name>.
+[04:07:00] <System> You can disable receiving these messages, by a setting in your profile.
+[09:55:43] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[09:55:43] <System> Please PM the person if you are interested in the Item.
+[09:55:43] <System> This is the Trade channel.
+[09:55:43] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[09:55:43] <System> You can also use @<name> to send a reply in this channel to <name>.
+[09:55:43] <System> You can disable receiving these messages, by a setting in your profile.
+[13:42:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:42:36] <System> Please PM the person if you are interested in the Item.
+[13:42:36] <System> This is the Trade channel.
+[13:42:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:42:36] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:42:36] <System> You can disable receiving these messages, by a setting in your profile.
+[13:43:12] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:43:12] <System> Please PM the person if you are interested in the Item.
+[13:43:12] <System> This is the Trade channel.
+[13:43:12] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:43:12] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:43:12] <System> You can disable receiving these messages, by a setting in your profile.
+[13:52:39] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:52:39] <System> Please PM the person if you are interested in the Item.
+[13:52:39] <System> This is the Trade channel.
+[13:52:39] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:52:39] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:52:39] <System> You can disable receiving these messages, by a setting in your profile.
+[14:02:41] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[14:02:41] <System> Please PM the person if you are interested in the Item.
+[14:02:41] <System> This is the Trade channel.
+[14:02:41] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[14:02:41] <System> You can also use @<name> to send a reply in this channel to <name>.
+[14:02:41] <System> You can disable receiving these messages, by a setting in your profile.
+[14:03:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[14:03:06] <System> Please PM the person if you are interested in the Item.
+[14:03:06] <System> This is the Trade channel.
+[14:03:06] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[14:03:06] <System> You can also use @<name> to send a reply in this channel to <name>.
+[14:03:06] <System> You can disable receiving these messages, by a setting in your profile.
+[20:34:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:34:53] <System> Please PM the person if you are interested in the Item.
+[20:34:53] <System> This is the Trade channel.
+[20:34:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:34:53] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:34:53] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-24
+[02:58:07] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[02:58:07] <System> Please PM the person if you are interested in the Item.
+[02:58:07] <System> This is the Trade channel.
+[02:58:07] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[02:58:07] <System> You can also use @<name> to send a reply in this channel to <name>.
+[02:58:07] <System> You can disable receiving these messages, by a setting in your profile.
+[11:13:55] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:13:55] <System> Please PM the person if you are interested in the Item.
+[11:13:55] <System> This is the Trade channel.
+[11:13:55] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:13:55] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:13:55] <System> You can disable receiving these messages, by a setting in your profile.
+[11:34:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:34:53] <System> Please PM the person if you are interested in the Item.
+[11:34:53] <System> This is the Trade channel.
+[11:34:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:34:53] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:34:53] <System> You can disable receiving these messages, by a setting in your profile.
+[11:45:29] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:45:29] <System> Please PM the person if you are interested in the Item.
+[11:45:29] <System> This is the Trade channel.
+[11:45:29] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:45:29] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:45:29] <System> You can disable receiving these messages, by a setting in your profile.
+[12:34:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[12:34:20] <System> Please PM the person if you are interested in the Item.
+[12:34:20] <System> This is the Trade channel.
+[12:34:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[12:34:20] <System> You can also use @<name> to send a reply in this channel to <name>.
+[12:34:20] <System> You can disable receiving these messages, by a setting in your profile.
+[13:09:43] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:09:43] <System> Please PM the person if you are interested in the Item.
+[13:09:43] <System> This is the Trade channel.
+[13:09:43] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:09:43] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:09:43] <System> You can disable receiving these messages, by a setting in your profile.
+[13:12:52] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:12:52] <System> Please PM the person if you are interested in the Item.
+[13:12:52] <System> This is the Trade channel.
+[13:12:52] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:12:52] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:12:52] <System> You can disable receiving these messages, by a setting in your profile.
+[19:29:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[19:29:51] <System> Please PM the person if you are interested in the Item.
+[19:29:51] <System> This is the Trade channel.
+[19:29:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[19:29:51] <System> You can also use @<name> to send a reply in this channel to <name>.
+[19:29:51] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-25
+[01:53:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[01:53:27] <System> Please PM the person if you are interested in the Item.
+[01:53:27] <System> This is the Trade channel.
+[01:53:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[01:53:27] <System> You can also use @<name> to send a reply in this channel to <name>.
+[01:53:27] <System> You can disable receiving these messages, by a setting in your profile.
+[10:09:56] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[10:09:56] <System> Please PM the person if you are interested in the Item.
+[10:09:56] <System> This is the Trade channel.
+[10:09:56] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[10:09:56] <System> You can also use @<name> to send a reply in this channel to <name>.
+[10:09:56] <System> You can disable receiving these messages, by a setting in your profile.
+[11:24:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:24:51] <System> Please PM the person if you are interested in the Item.
+[11:24:51] <System> This is the Trade channel.
+[11:24:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:24:51] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:24:51] <System> You can disable receiving these messages, by a setting in your profile.
+[13:20:30] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:20:30] <System> Please PM the person if you are interested in the Item.
+[13:20:30] <System> This is the Trade channel.
+[13:20:30] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:20:30] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:20:30] <System> You can disable receiving these messages, by a setting in your profile.
+[20:16:01] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:16:01] <System> Please PM the person if you are interested in the Item.
+[20:16:01] <System> This is the Trade channel.
+[20:16:01] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:16:01] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:16:01] <System> You can disable receiving these messages, by a setting in your profile.
+[20:16:02] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:16:02] <System> Please PM the person if you are interested in the Item.
+[20:16:02] <System> This is the Trade channel.
+[20:16:02] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:16:02] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:16:02] <System> You can disable receiving these messages, by a setting in your profile.
+[20:26:19] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:26:19] <System> Please PM the person if you are interested in the Item.
+[20:26:19] <System> This is the Trade channel.
+[20:26:19] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:26:19] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:26:19] <System> You can disable receiving these messages, by a setting in your profile.
+[20:38:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:38:03] <System> Please PM the person if you are interested in the Item.
+[20:38:03] <System> This is the Trade channel.
+[20:38:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:38:03] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:38:03] <System> You can disable receiving these messages, by a setting in your profile.
+[20:40:37] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:40:37] <System> Please PM the person if you are interested in the Item.
+[20:40:37] <System> This is the Trade channel.
+[20:40:37] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:40:37] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:40:37] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-26
+[03:04:02] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[03:04:02] <System> Please PM the person if you are interested in the Item.
+[03:04:02] <System> This is the Trade channel.
+[03:04:02] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[03:04:02] <System> You can also use @<name> to send a reply in this channel to <name>.
+[03:04:02] <System> You can disable receiving these messages, by a setting in your profile.
+[12:30:46] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[12:30:46] <System> Please PM the person if you are interested in the Item.
+[12:30:46] <System> This is the Trade channel.
+[12:30:46] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[12:30:46] <System> You can also use @<name> to send a reply in this channel to <name>.
+[12:30:46] <System> You can disable receiving these messages, by a setting in your profile.
+[21:33:05] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[21:33:05] <System> Please PM the person if you are interested in the Item.
+[21:33:05] <System> This is the Trade channel.
+[21:33:05] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[21:33:05] <System> You can also use @<name> to send a reply in this channel to <name>.
+[21:33:05] <System> You can disable receiving these messages, by a setting in your profile.
+[21:36:39] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[21:36:39] <System> Please PM the person if you are interested in the Item.
+[21:36:39] <System> This is the Trade channel.
+[21:36:39] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[21:36:39] <System> You can also use @<name> to send a reply in this channel to <name>.
+[21:36:39] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-27
+[02:03:17] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[02:03:17] <System> Please PM the person if you are interested in the Item.
+[02:03:17] <System> This is the Trade channel.
+[02:03:17] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[02:03:17] <System> You can also use @<name> to send a reply in this channel to <name>.
+[02:03:17] <System> You can disable receiving these messages, by a setting in your profile.
+[12:06:23] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[12:06:23] <System> Please PM the person if you are interested in the Item.
+[12:06:23] <System> This is the Trade channel.
+[12:06:23] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[12:06:23] <System> You can also use @<name> to send a reply in this channel to <name>.
+[12:06:23] <System> You can disable receiving these messages, by a setting in your profile.
+[20:44:07] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:44:07] <System> Please PM the person if you are interested in the Item.
+[20:44:07] <System> This is the Trade channel.
+[20:44:07] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:44:07] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:44:07] <System> You can disable receiving these messages, by a setting in your profile.
+[20:58:24] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:58:24] <System> Please PM the person if you are interested in the Item.
+[20:58:24] <System> This is the Trade channel.
+[20:58:24] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:58:24] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:58:24] <System> You can disable receiving these messages, by a setting in your profile.
+[22:05:48] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[22:05:48] <System> Please PM the person if you are interested in the Item.
+[22:05:48] <System> This is the Trade channel.
+[22:05:48] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[22:05:48] <System> You can also use @<name> to send a reply in this channel to <name>.
+[22:05:48] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-28
+[00:50:35] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[00:50:35] <System> Please PM the person if you are interested in the Item.
+[00:50:35] <System> This is the Trade channel.
+[00:50:35] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[00:50:35] <System> You can also use @<name> to send a reply in this channel to <name>.
+[00:50:35] <System> You can disable receiving these messages, by a setting in your profile.
+[11:02:09] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:02:09] <System> Please PM the person if you are interested in the Item.
+[11:02:09] <System> This is the Trade channel.
+[11:02:09] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:02:09] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:02:09] <System> You can disable receiving these messages, by a setting in your profile.
+[16:41:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:41:20] <System> Please PM the person if you are interested in the Item.
+[16:41:20] <System> This is the Trade channel.
+[16:41:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:41:20] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:41:20] <System> You can disable receiving these messages, by a setting in your profile.
+[16:51:54] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:51:54] <System> Please PM the person if you are interested in the Item.
+[16:51:54] <System> This is the Trade channel.
+[16:51:54] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:51:54] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:51:54] <System> You can disable receiving these messages, by a setting in your profile.
+[17:40:49] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[17:40:49] <System> Please PM the person if you are interested in the Item.
+[17:40:49] <System> This is the Trade channel.
+[17:40:49] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[17:40:49] <System> You can also use @<name> to send a reply in this channel to <name>.
+[17:40:49] <System> You can disable receiving these messages, by a setting in your profile.
+[18:34:07] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[18:34:07] <System> Please PM the person if you are interested in the Item.
+[18:34:07] <System> This is the Trade channel.
+[18:34:07] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[18:34:07] <System> You can also use @<name> to send a reply in this channel to <name>.
+[18:34:07] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-29
+[00:39:04] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[00:39:04] <System> Please PM the person if you are interested in the Item.
+[00:39:04] <System> This is the Trade channel.
+[00:39:04] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[00:39:04] <System> You can also use @<name> to send a reply in this channel to <name>.
+[00:39:04] <System> You can disable receiving these messages, by a setting in your profile.
+[11:17:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:17:27] <System> Please PM the person if you are interested in the Item.
+[11:17:27] <System> This is the Trade channel.
+[11:17:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:17:27] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:17:27] <System> You can disable receiving these messages, by a setting in your profile.
+[20:39:32] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:39:32] <System> Please PM the person if you are interested in the Item.
+[20:39:32] <System> This is the Trade channel.
+[20:39:32] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:39:32] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:39:32] <System> You can disable receiving these messages, by a setting in your profile.
+[20:40:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:40:53] <System> Please PM the person if you are interested in the Item.
+[20:40:53] <System> This is the Trade channel.
+[20:40:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:40:53] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:40:53] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-30
+[01:35:44] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[01:35:44] <System> Please PM the person if you are interested in the Item.
+[01:35:44] <System> This is the Trade channel.
+[01:35:44] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[01:35:44] <System> You can also use @<name> to send a reply in this channel to <name>.
+[01:35:44] <System> You can disable receiving these messages, by a setting in your profile.
+[11:29:09] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:29:09] <System> Please PM the person if you are interested in the Item.
+[11:29:09] <System> This is the Trade channel.
+[11:29:09] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:29:09] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:29:09] <System> You can disable receiving these messages, by a setting in your profile.
+[11:32:24] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:32:24] <System> Please PM the person if you are interested in the Item.
+[11:32:24] <System> This is the Trade channel.
+[11:32:24] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:32:24] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:32:24] <System> You can disable receiving these messages, by a setting in your profile.
+[11:51:00] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[11:51:00] <System> Please PM the person if you are interested in the Item.
+[11:51:00] <System> This is the Trade channel.
+[11:51:00] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[11:51:00] <System> You can also use @<name> to send a reply in this channel to <name>.
+[11:51:00] <System> You can disable receiving these messages, by a setting in your profile.
+[14:36:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[14:36:20] <System> Please PM the person if you are interested in the Item.
+[14:36:20] <System> This is the Trade channel.
+[14:36:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[14:36:20] <System> You can also use @<name> to send a reply in this channel to <name>.
+[14:36:20] <System> You can disable receiving these messages, by a setting in your profile.
+[15:21:45] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[15:21:45] <System> Please PM the person if you are interested in the Item.
+[15:21:45] <System> This is the Trade channel.
+[15:21:45] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[15:21:45] <System> You can also use @<name> to send a reply in this channel to <name>.
+[15:21:45] <System> You can disable receiving these messages, by a setting in your profile.
+[21:37:33] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[21:37:33] <System> Please PM the person if you are interested in the Item.
+[21:37:33] <System> This is the Trade channel.
+[21:37:33] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[21:37:33] <System> You can also use @<name> to send a reply in this channel to <name>.
+[21:37:33] <System> You can disable receiving these messages, by a setting in your profile.
+
 Logging started 2026-01-31
 [00:00:50] <Friiida> (Exo) WTB 3k Mortar - 2k Marble Brick
 [00:06:44] <Darrenkushknee> (Xan) WTS 1k dirt
 [00:08:52] <Hellifiknow> (Ind) wts [rare silver ore QL:75.0895 DMG:0.0 WT:20.0 ][rare silver ore QL:72.56445 DMG:0.0 WT:20.0 ]
 [00:10:14] <Monacum> (Ind) wtb magranon favor gems PLEASE
-[00:11:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[00:11:36] <System> Please PM the person if you are interested in the Item.
-[00:11:36] <System> This is the Trade channel. 
-[00:11:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:11:36] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:11:36] <System> You can disable receiving these messages, by a setting in your profile.
 [00:15:21] <Hellifiknow> (Ind) wts [rare silver lump QL:75.0895 DMG:0.0 WT:0.1 ][rare silver lump QL:72.56445 DMG:0.0 WT:0.1 ]
 [00:18:14] <Legios> (Xan) WTS [rare silver longsword QL:92.9615 DMG:0.0 WT:3.0 Nim 99 • RZM • AD • CoC 105 • ImWS 8 • BT 10000 • MS 81][rare iron medium maul QL:89.03823 DMG:0.0 WT:4.0 Nim 90 • MD • CoC 92 • RStV • EsD 86][rare iron medium maul QL:70.11952 DMG:0.0 WT:4.0 Nim 82 • LT 82 • CoC 95 • MS 90][rare iron longsword QL:82.2481 DMG:0.0 WT:3.0 Nim 91 • CoC 85 • EsD 41 • MS 83][rare leather saddle QL:66.2212 DMG:0.0 WT:5.501 RTV]
 [00:30:19] <Joaum> (Ind) WTB Summon to Any Independence Crystal
-[00:33:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[00:33:03] <System> Please PM the person if you are interested in the Item.
-[00:33:03] <System> This is the Trade channel. 
-[00:33:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:33:03] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:33:03] <System> You can disable receiving these messages, by a setting in your profile.
-[00:39:04] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[00:39:04] <System> Please PM the person if you are interested in the Item.
-[00:39:04] <System> This is the Trade channel. 
-[00:39:04] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:39:04] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:39:04] <System> You can disable receiving these messages, by a setting in your profile.
 [00:40:37] <Teeebomb> (Ind) WTS [rare birchwood small dirty casket QL:42.0 DMG:4.33264 WT:5.0 ] 2s
 [00:47:59] <Katonya> (Pri) wtb a few wagon fragments
-[00:50:35] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[00:50:35] <System> Please PM the person if you are interested in the Item.
-[00:50:35] <System> This is the Trade channel. 
-[00:50:35] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:50:35] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:50:35] <System> You can disable receiving these messages, by a setting in your profile.
-[00:53:52] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[00:53:52] <System> Please PM the person if you are interested in the Item.
-[00:53:52] <System> This is the Trade channel. 
-[00:53:52] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:53:52] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:53:52] <System> You can disable receiving these messages, by a setting in your profile.
-[00:54:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[00:54:06] <System> Please PM the person if you are interested in the Item.
-[00:54:06] <System> This is the Trade channel. 
-[00:54:06] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:54:06] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:54:06] <System> You can disable receiving these messages, by a setting in your profile.
-[01:35:44] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[01:35:44] <System> Please PM the person if you are interested in the Item.
-[01:35:44] <System> This is the Trade channel. 
-[01:35:44] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[01:35:44] <System> You can also use @<name> to send a reply in this channel to <name>.
-[01:35:44] <System> You can disable receiving these messages, by a setting in your profile.
-[01:53:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[01:53:27] <System> Please PM the person if you are interested in the Item.
-[01:53:27] <System> This is the Trade channel. 
-[01:53:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[01:53:27] <System> You can also use @<name> to send a reply in this channel to <name>.
-[01:53:27] <System> You can disable receiving these messages, by a setting in your profile.
-[02:00:25] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[02:00:25] <System> Please PM the person if you are interested in the Item.
-[02:00:25] <System> This is the Trade channel. 
-[02:00:25] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[02:00:25] <System> You can also use @<name> to send a reply in this channel to <name>.
-[02:00:25] <System> You can disable receiving these messages, by a setting in your profile.
-[02:02:16] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[02:02:16] <System> Please PM the person if you are interested in the Item.
-[02:02:16] <System> This is the Trade channel. 
-[02:02:16] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[02:02:16] <System> You can also use @<name> to send a reply in this channel to <name>.
-[02:02:16] <System> You can disable receiving these messages, by a setting in your profile.
-[02:03:17] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[02:03:17] <System> Please PM the person if you are interested in the Item.
-[02:03:17] <System> This is the Trade channel. 
-[02:03:17] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[02:03:17] <System> You can also use @<name> to send a reply in this channel to <name>.
-[02:03:17] <System> You can disable receiving these messages, by a setting in your profile.
-[02:58:07] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[02:58:07] <System> Please PM the person if you are interested in the Item.
-[02:58:07] <System> This is the Trade channel. 
-[02:58:07] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[02:58:07] <System> You can also use @<name> to send a reply in this channel to <name>.
-[02:58:07] <System> You can disable receiving these messages, by a setting in your profile.
-[03:04:02] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[03:04:02] <System> Please PM the person if you are interested in the Item.
-[03:04:02] <System> This is the Trade channel. 
-[03:04:02] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[03:04:02] <System> You can also use @<name> to send a reply in this channel to <name>.
-[03:04:02] <System> You can disable receiving these messages, by a setting in your profile.
-[03:05:25] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[03:05:25] <System> Please PM the person if you are interested in the Item.
-[03:05:25] <System> This is the Trade channel. 
-[03:05:25] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[03:05:25] <System> You can also use @<name> to send a reply in this channel to <name>.
-[03:05:25] <System> You can disable receiving these messages, by a setting in your profile.
-[03:12:26] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[03:12:26] <System> Please PM the person if you are interested in the Item.
-[03:12:26] <System> This is the Trade channel. 
-[03:12:26] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[03:12:26] <System> You can also use @<name> to send a reply in this channel to <name>.
-[03:12:26] <System> You can disable receiving these messages, by a setting in your profile.
-[03:30:41] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[03:30:41] <System> Please PM the person if you are interested in the Item.
-[03:30:41] <System> This is the Trade channel. 
-[03:30:41] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[03:30:41] <System> You can also use @<name> to send a reply in this channel to <name>.
-[03:30:41] <System> You can disable receiving these messages, by a setting in your profile.
-[04:07:00] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[04:07:00] <System> Please PM the person if you are interested in the Item.
-[04:07:00] <System> This is the Trade channel. 
-[04:07:00] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[04:07:00] <System> You can also use @<name> to send a reply in this channel to <name>.
-[04:07:00] <System> You can disable receiving these messages, by a setting in your profile.
-[08:34:42] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[08:34:42] <System> Please PM the person if you are interested in the Item.
-[08:34:42] <System> This is the Trade channel. 
-[08:34:42] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[08:34:42] <System> You can also use @<name> to send a reply in this channel to <name>.
-[08:34:42] <System> You can disable receiving these messages, by a setting in your profile.
-[09:53:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[09:53:51] <System> Please PM the person if you are interested in the Item.
-[09:53:51] <System> This is the Trade channel. 
-[09:53:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[09:53:51] <System> You can also use @<name> to send a reply in this channel to <name>.
-[09:53:51] <System> You can disable receiving these messages, by a setting in your profile.
-[09:55:43] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[09:55:43] <System> Please PM the person if you are interested in the Item.
-[09:55:43] <System> This is the Trade channel. 
-[09:55:43] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[09:55:43] <System> You can also use @<name> to send a reply in this channel to <name>.
-[09:55:43] <System> You can disable receiving these messages, by a setting in your profile.
-[10:09:56] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[10:09:56] <System> Please PM the person if you are interested in the Item.
-[10:09:56] <System> This is the Trade channel. 
-[10:09:56] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:09:56] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:09:56] <System> You can disable receiving these messages, by a setting in your profile.
-[10:17:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[10:17:28] <System> Please PM the person if you are interested in the Item.
-[10:17:28] <System> This is the Trade channel. 
-[10:17:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:17:28] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:17:28] <System> You can disable receiving these messages, by a setting in your profile.
-[10:30:45] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[10:30:45] <System> Please PM the person if you are interested in the Item.
-[10:30:45] <System> This is the Trade channel. 
-[10:30:45] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:30:45] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:30:45] <System> You can disable receiving these messages, by a setting in your profile.
-[10:36:41] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[10:36:41] <System> Please PM the person if you are interested in the Item.
-[10:36:41] <System> This is the Trade channel. 
-[10:36:41] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:36:41] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:36:41] <System> You can disable receiving these messages, by a setting in your profile.
-[10:45:01] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[10:45:01] <System> Please PM the person if you are interested in the Item.
-[10:45:01] <System> This is the Trade channel. 
-[10:45:01] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:45:01] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:45:01] <System> You can disable receiving these messages, by a setting in your profile.
-[10:50:39] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[10:50:39] <System> Please PM the person if you are interested in the Item.
-[10:50:39] <System> This is the Trade channel. 
-[10:50:39] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:50:39] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:50:39] <System> You can disable receiving these messages, by a setting in your profile.
-[10:56:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[10:56:36] <System> Please PM the person if you are interested in the Item.
-[10:56:36] <System> This is the Trade channel. 
-[10:56:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:56:36] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:56:36] <System> You can disable receiving these messages, by a setting in your profile.
-[11:02:09] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:02:09] <System> Please PM the person if you are interested in the Item.
-[11:02:09] <System> This is the Trade channel. 
-[11:02:09] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:02:09] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:02:09] <System> You can disable receiving these messages, by a setting in your profile.
-[11:07:55] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:07:55] <System> Please PM the person if you are interested in the Item.
-[11:07:55] <System> This is the Trade channel. 
-[11:07:55] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:07:55] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:07:55] <System> You can disable receiving these messages, by a setting in your profile.
-[11:11:30] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:11:30] <System> Please PM the person if you are interested in the Item.
-[11:11:30] <System> This is the Trade channel. 
-[11:11:30] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:11:30] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:11:30] <System> You can disable receiving these messages, by a setting in your profile.
-[11:13:55] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:13:55] <System> Please PM the person if you are interested in the Item.
-[11:13:55] <System> This is the Trade channel. 
-[11:13:55] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:13:55] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:13:55] <System> You can disable receiving these messages, by a setting in your profile.
-[11:14:17] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:14:17] <System> Please PM the person if you are interested in the Item.
-[11:14:17] <System> This is the Trade channel. 
-[11:14:17] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:14:17] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:14:17] <System> You can disable receiving these messages, by a setting in your profile.
-[11:17:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:17:27] <System> Please PM the person if you are interested in the Item.
-[11:17:27] <System> This is the Trade channel. 
-[11:17:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:17:27] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:17:27] <System> You can disable receiving these messages, by a setting in your profile.
-[11:24:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:24:51] <System> Please PM the person if you are interested in the Item.
-[11:24:51] <System> This is the Trade channel. 
-[11:24:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:24:51] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:24:51] <System> You can disable receiving these messages, by a setting in your profile.
-[11:29:09] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:29:09] <System> Please PM the person if you are interested in the Item.
-[11:29:09] <System> This is the Trade channel. 
-[11:29:09] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:29:09] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:29:09] <System> You can disable receiving these messages, by a setting in your profile.
-[11:30:40] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:30:40] <System> Please PM the person if you are interested in the Item.
-[11:30:40] <System> This is the Trade channel. 
-[11:30:40] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:30:40] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:30:40] <System> You can disable receiving these messages, by a setting in your profile.
-[11:32:24] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:32:24] <System> Please PM the person if you are interested in the Item.
-[11:32:24] <System> This is the Trade channel. 
-[11:32:24] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:32:24] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:32:24] <System> You can disable receiving these messages, by a setting in your profile.
-[11:33:34] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:33:34] <System> Please PM the person if you are interested in the Item.
-[11:33:34] <System> This is the Trade channel. 
-[11:33:34] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:33:34] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:33:34] <System> You can disable receiving these messages, by a setting in your profile.
-[11:34:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:34:53] <System> Please PM the person if you are interested in the Item.
-[11:34:53] <System> This is the Trade channel. 
-[11:34:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:34:53] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:34:53] <System> You can disable receiving these messages, by a setting in your profile.
-[11:38:04] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:38:04] <System> Please PM the person if you are interested in the Item.
-[11:38:04] <System> This is the Trade channel. 
-[11:38:04] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:38:04] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:38:04] <System> You can disable receiving these messages, by a setting in your profile.
-[11:39:08] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:39:08] <System> Please PM the person if you are interested in the Item.
-[11:39:08] <System> This is the Trade channel. 
-[11:39:08] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:39:08] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:39:08] <System> You can disable receiving these messages, by a setting in your profile.
-[11:39:24] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:39:24] <System> Please PM the person if you are interested in the Item.
-[11:39:24] <System> This is the Trade channel. 
-[11:39:24] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:39:24] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:39:24] <System> You can disable receiving these messages, by a setting in your profile.
-[11:45:29] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:45:29] <System> Please PM the person if you are interested in the Item.
-[11:45:29] <System> This is the Trade channel. 
-[11:45:29] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:45:29] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:45:29] <System> You can disable receiving these messages, by a setting in your profile.
-[11:49:56] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:49:56] <System> Please PM the person if you are interested in the Item.
-[11:49:56] <System> This is the Trade channel. 
-[11:49:56] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:49:56] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:49:56] <System> You can disable receiving these messages, by a setting in your profile.
-[11:51:00] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[11:51:00] <System> Please PM the person if you are interested in the Item.
-[11:51:00] <System> This is the Trade channel. 
-[11:51:00] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:51:00] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:51:00] <System> You can disable receiving these messages, by a setting in your profile.
-[12:03:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[12:03:28] <System> Please PM the person if you are interested in the Item.
-[12:03:28] <System> This is the Trade channel. 
-[12:03:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:03:28] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:03:28] <System> You can disable receiving these messages, by a setting in your profile.
-[12:06:23] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[12:06:23] <System> Please PM the person if you are interested in the Item.
-[12:06:23] <System> This is the Trade channel. 
-[12:06:23] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:06:23] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:06:23] <System> You can disable receiving these messages, by a setting in your profile.
-[12:11:38] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[12:11:38] <System> Please PM the person if you are interested in the Item.
-[12:11:38] <System> This is the Trade channel. 
-[12:11:38] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:11:38] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:11:38] <System> You can disable receiving these messages, by a setting in your profile.
-[12:30:46] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[12:30:46] <System> Please PM the person if you are interested in the Item.
-[12:30:46] <System> This is the Trade channel. 
-[12:30:46] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:30:46] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:30:46] <System> You can disable receiving these messages, by a setting in your profile.
-[12:31:58] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[12:31:58] <System> Please PM the person if you are interested in the Item.
-[12:31:58] <System> This is the Trade channel. 
-[12:31:58] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:31:58] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:31:58] <System> You can disable receiving these messages, by a setting in your profile.
-[12:34:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[12:34:20] <System> Please PM the person if you are interested in the Item.
-[12:34:20] <System> This is the Trade channel. 
-[12:34:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:34:20] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:34:20] <System> You can disable receiving these messages, by a setting in your profile.
-[12:48:14] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[12:48:14] <System> Please PM the person if you are interested in the Item.
-[12:48:14] <System> This is the Trade channel. 
-[12:48:14] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:48:14] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:48:14] <System> You can disable receiving these messages, by a setting in your profile.
-[13:09:43] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[13:09:43] <System> Please PM the person if you are interested in the Item.
-[13:09:43] <System> This is the Trade channel. 
-[13:09:43] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:09:43] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:09:43] <System> You can disable receiving these messages, by a setting in your profile.
-[13:12:52] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[13:12:52] <System> Please PM the person if you are interested in the Item.
-[13:12:52] <System> This is the Trade channel. 
-[13:12:52] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:12:52] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:12:52] <System> You can disable receiving these messages, by a setting in your profile.
-[13:13:40] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[13:13:40] <System> Please PM the person if you are interested in the Item.
-[13:13:40] <System> This is the Trade channel. 
-[13:13:40] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:13:40] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:13:40] <System> You can disable receiving these messages, by a setting in your profile.
-[13:20:30] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[13:20:30] <System> Please PM the person if you are interested in the Item.
-[13:20:30] <System> This is the Trade channel. 
-[13:20:30] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:20:30] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:20:30] <System> You can disable receiving these messages, by a setting in your profile.
-[13:24:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[13:24:28] <System> Please PM the person if you are interested in the Item.
-[13:24:28] <System> This is the Trade channel. 
-[13:24:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:24:28] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:24:28] <System> You can disable receiving these messages, by a setting in your profile.
-[13:27:16] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[13:27:16] <System> Please PM the person if you are interested in the Item.
-[13:27:16] <System> This is the Trade channel. 
-[13:27:16] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:27:16] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:27:16] <System> You can disable receiving these messages, by a setting in your profile.
-[13:42:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[13:42:36] <System> Please PM the person if you are interested in the Item.
-[13:42:36] <System> This is the Trade channel. 
-[13:42:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:42:36] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:42:36] <System> You can disable receiving these messages, by a setting in your profile.
-[13:43:12] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[13:43:12] <System> Please PM the person if you are interested in the Item.
-[13:43:12] <System> This is the Trade channel. 
-[13:43:12] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:43:12] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:43:12] <System> You can disable receiving these messages, by a setting in your profile.
-[13:52:39] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[13:52:39] <System> Please PM the person if you are interested in the Item.
-[13:52:39] <System> This is the Trade channel. 
-[13:52:39] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:52:39] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:52:39] <System> You can disable receiving these messages, by a setting in your profile.
-[13:55:02] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[13:55:02] <System> Please PM the person if you are interested in the Item.
-[13:55:02] <System> This is the Trade channel. 
-[13:55:02] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:55:02] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:55:02] <System> You can disable receiving these messages, by a setting in your profile.
-[14:02:41] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[14:02:41] <System> Please PM the person if you are interested in the Item.
-[14:02:41] <System> This is the Trade channel. 
-[14:02:41] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:02:41] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:02:41] <System> You can disable receiving these messages, by a setting in your profile.
-[14:03:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[14:03:06] <System> Please PM the person if you are interested in the Item.
-[14:03:06] <System> This is the Trade channel. 
-[14:03:06] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:03:06] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:03:06] <System> You can disable receiving these messages, by a setting in your profile.
-[14:04:34] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[14:04:34] <System> Please PM the person if you are interested in the Item.
-[14:04:34] <System> This is the Trade channel. 
-[14:04:34] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:04:34] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:04:34] <System> You can disable receiving these messages, by a setting in your profile.
-[14:12:57] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[14:12:57] <System> Please PM the person if you are interested in the Item.
-[14:12:57] <System> This is the Trade channel. 
-[14:12:57] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:12:57] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:12:57] <System> You can disable receiving these messages, by a setting in your profile.
-[14:20:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[14:20:03] <System> Please PM the person if you are interested in the Item.
-[14:20:03] <System> This is the Trade channel. 
-[14:20:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:20:03] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:20:03] <System> You can disable receiving these messages, by a setting in your profile.
-[14:36:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[14:36:20] <System> Please PM the person if you are interested in the Item.
-[14:36:20] <System> This is the Trade channel. 
-[14:36:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:36:20] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:36:20] <System> You can disable receiving these messages, by a setting in your profile.
-[15:21:45] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[15:21:45] <System> Please PM the person if you are interested in the Item.
-[15:21:45] <System> This is the Trade channel. 
-[15:21:45] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:21:45] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:21:45] <System> You can disable receiving these messages, by a setting in your profile.
-[15:36:42] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[15:36:42] <System> Please PM the person if you are interested in the Item.
-[15:36:42] <System> This is the Trade channel. 
-[15:36:42] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:36:42] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:36:42] <System> You can disable receiving these messages, by a setting in your profile.
-[15:43:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
+[15:43:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
 [15:43:06] <System> Please PM the person if you are interested in the Item.
-[15:43:06] <System> This is the Trade channel. 
+[15:43:06] <System> This is the Trade channel.
 [15:43:06] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
 [15:43:06] <System> You can also use @<name> to send a reply in this channel to <name>.
 [15:43:06] <System> You can disable receiving these messages, by a setting in your profile.
-[15:48:08] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[15:48:08] <System> Please PM the person if you are interested in the Item.
-[15:48:08] <System> This is the Trade channel. 
-[15:48:08] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:48:08] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:48:08] <System> You can disable receiving these messages, by a setting in your profile.
-[15:50:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[15:50:51] <System> Please PM the person if you are interested in the Item.
-[15:50:51] <System> This is the Trade channel. 
-[15:50:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:50:51] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:50:51] <System> You can disable receiving these messages, by a setting in your profile.
-[15:50:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[15:50:53] <System> Please PM the person if you are interested in the Item.
-[15:50:53] <System> This is the Trade channel. 
-[15:50:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:50:53] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:50:53] <System> You can disable receiving these messages, by a setting in your profile.
-[16:00:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
+[16:00:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
 [16:00:51] <System> Please PM the person if you are interested in the Item.
-[16:00:51] <System> This is the Trade channel. 
+[16:00:51] <System> This is the Trade channel.
 [16:00:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
 [16:00:51] <System> You can also use @<name> to send a reply in this channel to <name>.
 [16:00:51] <System> You can disable receiving these messages, by a setting in your profile.
-[16:18:32] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[16:18:32] <System> Please PM the person if you are interested in the Item.
-[16:18:32] <System> This is the Trade channel. 
-[16:18:32] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:18:32] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:18:32] <System> You can disable receiving these messages, by a setting in your profile.
-[16:18:34] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[16:18:34] <System> Please PM the person if you are interested in the Item.
-[16:18:34] <System> This is the Trade channel. 
-[16:18:34] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:18:34] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:18:34] <System> You can disable receiving these messages, by a setting in your profile.
-[16:19:05] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[16:19:05] <System> Please PM the person if you are interested in the Item.
-[16:19:05] <System> This is the Trade channel. 
-[16:19:05] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:19:05] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:19:05] <System> You can disable receiving these messages, by a setting in your profile.
 [16:20:20] <Laplace> (Rel) PC scales
 [16:20:33] <Gomeo> (Pri) PC 70-80c per 0.01
-[16:20:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[16:20:36] <System> Please PM the person if you are interested in the Item.
-[16:20:36] <System> This is the Trade channel. 
-[16:20:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:20:36] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:20:36] <System> You can disable receiving these messages, by a setting in your profile.
 [16:21:31] <Mithrian> (Xan) PC hide is 50c/.01, scale is 70c/.01
 [16:22:58] <Laplace> (Rel) PC thanks
 [16:28:25] <Raphvw> (Xan) WTS Black tome of magic 1 charge [common null black tome of magic QL:82.4918 DMG:0.0 WT:1.0 ] 40s
-[16:30:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[16:30:27] <System> Please PM the person if you are interested in the Item.
-[16:30:27] <System> This is the Trade channel. 
-[16:30:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:30:27] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:30:27] <System> You can disable receiving these messages, by a setting in your profile.
 [16:31:01] <Theodemis> (Exo) WTS [common iron rake QL:91.2846 DMG:0.0 WT:1.2 WoA 88 • CoC 99]
 [16:32:41] <Ryaa> (Rel) pc [common null pearl QL:13.995835 DMG:0.0 WT:0.5 ]
 [16:35:08] <Voidedsage> (Rel) PC 5s ebony
 [16:35:25] <Kubinhetz> (Exo) pc about 50s from what i've heard
 [16:36:27] <Beale> (Xan) pc agreed, usually about 50s
 [16:39:21] <Parafinaum> (Rel) wts [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[16:41:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[16:41:20] <System> Please PM the person if you are interested in the Item.
-[16:41:20] <System> This is the Trade channel. 
-[16:41:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:41:20] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:41:20] <System> You can disable receiving these messages, by a setting in your profile.
 [16:45:47] <Dipahip> (Xan) wts sandstone brick 1k 2s
 [16:46:10] <Tristeza> (Ind) PC / WTS  [common null red tome of magic QL:80.5104 DMG:0.0 WT:1.0 ]
 [16:47:34] <Dipahip> (Xan) wts Corbita 60ql 2s
 [16:50:10] <Hellifiknow> (Ind) wtb Courier cast
 [16:50:34] <Meman> (Ind) wts [supreme clay clay QL:22.265793 DMG:0.0 WT:2.0 ][rare null stone brick QL:29.890697 DMG:0.0 WT:15.0 ][rare clay mortar QL:12.6977 DMG:0.0 WT:2.0 ]
 [16:51:41] <Timothymarker> (Xan) WTS Leather gear, armor, toolbelts, WoA saddles. Imping service (up to QL97). Stock and prices see http://forum.wurmonline.com/index.php?/topic/131555-tims-tannery-vrock-landing-xanadu
-[16:51:54] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[16:51:54] <System> Please PM the person if you are interested in the Item.
-[16:51:54] <System> This is the Trade channel. 
-[16:51:54] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:51:54] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:51:54] <System> You can disable receiving these messages, by a setting in your profile.
 [16:52:45] <Tristeza> (Ind) WTS [rare null bouquet of white flowers QL:7.50654 DMG:94.1134 WT:0.05 ][rare null stone brick QL:19.6464 DMG:0.0 WT:15.0 ][rare birchwood log QL:19.4567 DMG:0.0 WT:24.0 ][rare iron lump QL:1.13305 DMG:0.0 WT:1.0 ]x6  [rare null dirt QL:52.0029 DMG:0.0 WT:20.0 ]x16
 [16:55:55] <Muliro> (Rel) WTS Explore your maximum skillgain potential with Muliro’s Everlasting Spirits! – Custom Affinity Moonshines 50h & 100h timers. Check the store: https://forum.wurmonline.com/index.php?/topic/208788-muliro%E2%80%99s-everlasting-spirits-%E2%80%93-custom-affinity-moonshines-50h-100h-timers/
 [16:56:07] <Voltarelli> (Rel) WTS [common wheat sleep powder QL:99.0 DMG:0.0 WT:0.025 ]x36 = 35s in white dragon slay
@@ -583,169 +792,13 @@ Logging started 2026-01-31
 [17:35:32] <Starker> (Rel) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
 [17:37:41] <Mattmustell> (Rel) pc minion mask
 [17:40:17] <Gthunter> (Rel) wts [common null blood QL:100.0 DMG:0.0 WT:0.1 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ][common leather white dragon scales QL:93.29711 DMG:0.0 WT:0.024 ]
-[17:40:49] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[17:40:49] <System> Please PM the person if you are interested in the Item.
-[17:40:49] <System> This is the Trade channel. 
-[17:40:49] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[17:40:49] <System> You can also use @<name> to send a reply in this channel to <name>.
-[17:40:49] <System> You can disable receiving these messages, by a setting in your profile.
 [17:41:02] <Lordzmielot> (Cel) WTS [common leather white dragon scales QL:89.69931 DMG:0.0 WT:0.042 ] 3s
-[17:42:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[17:42:20] <System> Please PM the person if you are interested in the Item.
-[17:42:20] <System> This is the Trade channel. 
-[17:42:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[17:42:20] <System> You can also use @<name> to send a reply in this channel to <name>.
-[17:42:20] <System> You can disable receiving these messages, by a setting in your profile.
-[17:52:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[17:52:20] <System> Please PM the person if you are interested in the Item.
-[17:52:20] <System> This is the Trade channel. 
-[17:52:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[17:52:20] <System> You can also use @<name> to send a reply in this channel to <name>.
-[17:52:20] <System> You can disable receiving these messages, by a setting in your profile.
-[17:57:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[17:57:27] <System> Please PM the person if you are interested in the Item.
-[17:57:27] <System> This is the Trade channel. 
-[17:57:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[17:57:27] <System> You can also use @<name> to send a reply in this channel to <name>.
-[17:57:27] <System> You can disable receiving these messages, by a setting in your profile.
-[18:19:01] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[18:19:01] <System> Please PM the person if you are interested in the Item.
-[18:19:01] <System> This is the Trade channel. 
-[18:19:01] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[18:19:01] <System> You can also use @<name> to send a reply in this channel to <name>.
-[18:19:01] <System> You can disable receiving these messages, by a setting in your profile.
-[18:34:07] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[18:34:07] <System> Please PM the person if you are interested in the Item.
-[18:34:07] <System> This is the Trade channel. 
-[18:34:07] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[18:34:07] <System> You can also use @<name> to send a reply in this channel to <name>.
-[18:34:07] <System> You can disable receiving these messages, by a setting in your profile.
-[19:07:26] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[19:07:26] <System> Please PM the person if you are interested in the Item.
-[19:07:26] <System> This is the Trade channel. 
-[19:07:26] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[19:07:26] <System> You can also use @<name> to send a reply in this channel to <name>.
-[19:07:26] <System> You can disable receiving these messages, by a setting in your profile.
-[19:16:43] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[19:16:43] <System> Please PM the person if you are interested in the Item.
-[19:16:43] <System> This is the Trade channel. 
-[19:16:43] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[19:16:43] <System> You can also use @<name> to send a reply in this channel to <name>.
-[19:16:43] <System> You can disable receiving these messages, by a setting in your profile.
-[19:29:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[19:29:51] <System> Please PM the person if you are interested in the Item.
-[19:29:51] <System> This is the Trade channel. 
-[19:29:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[19:29:51] <System> You can also use @<name> to send a reply in this channel to <name>.
-[19:29:51] <System> You can disable receiving these messages, by a setting in your profile.
-[20:09:38] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:09:38] <System> Please PM the person if you are interested in the Item.
-[20:09:38] <System> This is the Trade channel. 
-[20:09:38] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:09:38] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:09:38] <System> You can disable receiving these messages, by a setting in your profile.
-[20:16:01] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:16:01] <System> Please PM the person if you are interested in the Item.
-[20:16:01] <System> This is the Trade channel. 
-[20:16:01] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:16:01] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:16:01] <System> You can disable receiving these messages, by a setting in your profile.
-[20:16:02] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:16:02] <System> Please PM the person if you are interested in the Item.
-[20:16:02] <System> This is the Trade channel. 
-[20:16:02] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:16:02] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:16:02] <System> You can disable receiving these messages, by a setting in your profile.
-[20:26:19] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:26:19] <System> Please PM the person if you are interested in the Item.
-[20:26:19] <System> This is the Trade channel. 
-[20:26:19] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:26:19] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:26:19] <System> You can disable receiving these messages, by a setting in your profile.
-[20:34:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:34:53] <System> Please PM the person if you are interested in the Item.
-[20:34:53] <System> This is the Trade channel. 
-[20:34:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:34:53] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:34:53] <System> You can disable receiving these messages, by a setting in your profile.
-[20:38:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:38:03] <System> Please PM the person if you are interested in the Item.
-[20:38:03] <System> This is the Trade channel. 
-[20:38:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:38:03] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:38:03] <System> You can disable receiving these messages, by a setting in your profile.
-[20:39:32] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:39:32] <System> Please PM the person if you are interested in the Item.
-[20:39:32] <System> This is the Trade channel. 
-[20:39:32] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:39:32] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:39:32] <System> You can disable receiving these messages, by a setting in your profile.
-[20:40:37] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:40:37] <System> Please PM the person if you are interested in the Item.
-[20:40:37] <System> This is the Trade channel. 
-[20:40:37] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:40:37] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:40:37] <System> You can disable receiving these messages, by a setting in your profile.
-[20:40:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:40:53] <System> Please PM the person if you are interested in the Item.
-[20:40:53] <System> This is the Trade channel. 
-[20:40:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:40:53] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:40:53] <System> You can disable receiving these messages, by a setting in your profile.
-[20:44:07] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:44:07] <System> Please PM the person if you are interested in the Item.
-[20:44:07] <System> This is the Trade channel. 
-[20:44:07] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:44:07] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:44:07] <System> You can disable receiving these messages, by a setting in your profile.
-[20:58:24] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[20:58:24] <System> Please PM the person if you are interested in the Item.
-[20:58:24] <System> This is the Trade channel. 
-[20:58:24] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:58:24] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:58:24] <System> You can disable receiving these messages, by a setting in your profile.
-[21:13:44] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[21:13:44] <System> Please PM the person if you are interested in the Item.
-[21:13:44] <System> This is the Trade channel. 
-[21:13:44] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:13:44] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:13:44] <System> You can disable receiving these messages, by a setting in your profile.
-[21:13:46] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[21:13:46] <System> Please PM the person if you are interested in the Item.
-[21:13:46] <System> This is the Trade channel. 
-[21:13:46] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:13:46] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:13:46] <System> You can disable receiving these messages, by a setting in your profile.
-[21:14:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[21:14:28] <System> Please PM the person if you are interested in the Item.
-[21:14:28] <System> This is the Trade channel. 
-[21:14:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:14:28] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:14:28] <System> You can disable receiving these messages, by a setting in your profile.
 [21:15:56] <Luciusmalefortum> (Exo) pc [common null potion of butchery QL:57.448254 DMG:0.0 WT:0.2 ]
 [21:16:33] <Rabican> (Xan) WTS [rare null strange bone fragment [1/12] QL:61.1336 DMG:0.0 WT:0.125 ]
 [21:16:41] <Theodemis> (Exo) WTS [common iron rake QL:91.2846 DMG:0.0 WT:1.2 WoA 88 • CoC 99]
 [21:17:13] <Gibbs> (Ind) wts [rare silver staff QL:90.0425 DMG:0.0 WT:3.0 LT 90 • BoTD 101] 9s
-[21:33:05] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[21:33:05] <System> Please PM the person if you are interested in the Item.
-[21:33:05] <System> This is the Trade channel. 
-[21:33:05] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:33:05] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:33:05] <System> You can disable receiving these messages, by a setting in your profile.
 [21:33:50] <Tallowyn> (Exo) wts [supreme lindenwood plank QL:3.0 DMG:0.0 WT:2.0 ]
 [21:34:00] <Aeo> (Pri) wtb size/speed rune for wagon x3
-[21:36:39] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[21:36:39] <System> Please PM the person if you are interested in the Item.
-[21:36:39] <System> This is the Trade channel. 
-[21:36:39] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:36:39] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:36:39] <System> You can disable receiving these messages, by a setting in your profile.
-[21:37:33] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[21:37:33] <System> Please PM the person if you are interested in the Item.
-[21:37:33] <System> This is the Trade channel. 
-[21:37:33] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:37:33] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:37:33] <System> You can disable receiving these messages, by a setting in your profile.
 [21:39:31] <Moraes> (Ind) PC [rare birchwood shaft QL:5.708106 DMG:0.0 WT:1.0 ]
 [21:40:29] <Stagnatrious> (Rel) pc 1s
 [21:47:46] <Wulfgar> (Rel) WTS - Scorpion Hota
@@ -757,18 +810,6 @@ Logging started 2026-01-31
 [22:02:18] <Sircoloraltemperum> (Ind) PC stamina sandwich?
 [22:02:29] <Theodemis> (Exo) WTS [common iron rake QL:91.2846 DMG:0.0 WT:1.2 WoA 88 • CoC 99]
 [22:05:13] <Fatynoob> (Xan) PC [rare bronze dioptra fragment [1/24] QL:70.8001 DMG:0.0 WT:0.02 ]
-[22:05:48] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[22:05:48] <System> Please PM the person if you are interested in the Item.
-[22:05:48] <System> This is the Trade channel. 
-[22:05:48] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[22:05:48] <System> You can also use @<name> to send a reply in this channel to <name>.
-[22:05:48] <System> You can disable receiving these messages, by a setting in your profile.
-[22:08:46] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[22:08:46] <System> Please PM the person if you are interested in the Item.
-[22:08:46] <System> This is the Trade channel. 
-[22:08:46] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[22:08:46] <System> You can also use @<name> to send a reply in this channel to <name>.
-[22:08:46] <System> You can disable receiving these messages, by a setting in your profile.
 [22:22:16] <Havi> (Ind) WTB CCFP food
 [22:22:33] <Jpopper> (Xan) Wtb one socketed ring for 15s.
 [22:22:40] <Muliro> (Exo) WTS Explore your maximum skillgain potential with Muliro’s Everlasting Spirits! – Custom Affinity Moonshines 50h & 100h timers. Check the store: https://forum.wurmonline.com/index.php?/topic/208788-muliro%E2%80%99s-everlasting-spirits-%E2%80%93-custom-affinity-moonshines-50h-100h-timers/
@@ -779,19 +820,7 @@ Logging started 2026-01-31
 [22:41:02] <Hayezd> (Del) PC [common raspberrywood plank QL:17.767954 DMG:0.0 WT:2.0 ][common camelliawood plank QL:34.540054 DMG:0.0 WT:2.0 ]
 [22:51:42] <Quasiwud> (Del) wts rare colossis bricks 50c
 [23:03:37] <Lithi> (Cel) wts wta a set of horse shoes https://forum.wurmonline.com/index.php?/topic/209940-set-of-horse-shoes/
-[23:14:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[23:14:03] <System> Please PM the person if you are interested in the Item.
-[23:14:03] <System> This is the Trade channel. 
-[23:14:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[23:14:03] <System> You can also use @<name> to send a reply in this channel to <name>.
-[23:14:03] <System> You can disable receiving these messages, by a setting in your profile.
-[23:16:52] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed. 
-[23:16:52] <System> Please PM the person if you are interested in the Item.
-[23:16:52] <System> This is the Trade channel. 
-[23:16:52] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[23:16:52] <System> You can also use @<name> to send a reply in this channel to <name>.
-[23:16:52] <System> You can disable receiving these messages, by a setting in your profile.
 [23:28:01] <Nukwolf> (Xan) WTB cheap saddle and saddle bags via mail
 [23:43:33] <Benjames> (Ind) WTS LW,BS,PAS,SS,Fine Carp/Carp imps to 95 ql. https://forum.wurmonline.com/index.php?/topic/209554-bennys-smithing-and-co/
 [23:52:10] <Artz> (Xan) Wts [common glimmersteel lump QL:91.6487 DMG:0.0 WT:0.369 ]
-[23:55:22] <Joaum> (Ind) WTB Summon to Any Independence Crystal
+[23:55:22] <Joaum> (Ind) WTB Summon to Any Independence Crystal
