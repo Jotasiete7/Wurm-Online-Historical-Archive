@@ -33,7 +33,13 @@ export const translations = {
     faq_a3: "Private messages, sensitive coordination, or behavioral telemetry. We focus on the public and semi-public history of the world.",
     faq_q4: "Contribution Credit",
     faq_a4: "All contributions are voluntary. You can choose to be credited in the archive or remain anonymous. The logs you upload are already generated locally by your game client.",
-    footer_copy: "&copy; 2024 Wurm Online Historical Archive Project. An independent community initiative."
+    footer_copy: "&copy; 2024 Wurm Online Historical Archive Project. An independent community initiative.",
+    year_label: "Year",
+    days_recovered: "days recovered",
+    hours_recovered: "hours recovered",
+    select_all: "Select All",
+    archive_instruction: "Click on recovered months to build your restoration set, or use the year shortcuts.",
+    temporal_selection: "Temporal Selection"
   },
   pt: {
     title: "Wurm Online Historical Archive",
@@ -69,6 +75,12 @@ export const translations = {
     faq_a3: "Mensagens privadas, coordenação sensível ou telemetria comportamental. Focamos na história pública e semi-pública do mundo.",
     faq_q4: "Crédito de Contribuição",
     faq_a4: "Todas as contribuições são voluntárias. Você pode escolher ser creditado no arquivo ou permanecer anônimo. Os logs que você envia já são gerados localmente pelo seu cliente de jogo.",
-    footer_copy: "&copy; 2024 Projeto de Arquivo Histórico Wurm Online. Uma iniciativa comunitária independente."
+    footer_copy: "&copy; 2024 Projeto de Arquivo Histórico Wurm Online. Uma iniciativa comunitária independente.",
+    year_label: "Ano",
+    days_recovered: "dias recuperados",
+    hours_recovered: "horas recuperadas",
+    select_all: "Selecionar Tudo",
+    archive_instruction: "Clique nos meses recuperados para montar seu conjunto de restauração ou use os atalhos de ano.",
+    temporal_selection: "Seleção Temporal"
   }
 }

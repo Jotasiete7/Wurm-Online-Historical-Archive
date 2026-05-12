@@ -203,7 +203,7 @@ function renderCoverage(corpus) {
   const corpusKey = corpus.toUpperCase();
   const data = ARCHIVE_DATA[corpusKey] || [];
   const totalDays = data.reduce((acc, y) => acc + Object.values(y.months).reduce((mAcc, m) => mAcc + Object.keys(m).length, 0), 0);
-  if (document.getElementById('preservation-metric')) document.getElementById('preservation-metric').innerHTML = `${totalDays} <span class="archival-meta">days recovered</span>`;
+  if (document.getElementById('preservation-metric')) document.getElementById('preservation-metric').innerHTML = `${totalDays} <span class="archival-meta">${translations[currentLang].days_recovered}</span>`;
   
   if (data.length === 0) {
     container.innerHTML = `<div class="empty-archival-state"><p class="archival-text">${translations[currentLang].no_data}</p></div>`;
@@ -213,7 +213,7 @@ function renderCoverage(corpus) {
   [...data].sort((a, b) => b.year - a.year).forEach(yearData => {
     const yearRow = document.createElement('div');
     yearRow.className = 'year-row';
-    yearRow.innerHTML = `<div class="year-label">Anno ${yearData.year}</div><div class="months-container">
+    yearRow.innerHTML = `<div class="year-label">${translations[currentLang].year_label} ${yearData.year}</div><div class="months-container">
       ${Array.from({ length: 12 }, (_, i) => {
         const mIdx = i + 1;
         const mData = yearData.months[mIdx] || {};
@@ -225,7 +225,7 @@ function renderCoverage(corpus) {
             const hrs = mData[dKey] || [];
             const dens = hrs.length > 0 ? Math.min(100, 20 + (hrs.length * 15)) : 0;
             if (dNum > daysInMonth) return '<div class="day-slot disabled"></div>';
-            return `<div class="day-slot ${dens > 0 ? 'active' : 'empty'}" style="opacity: ${dens > 0 ? dens / 100 : 1}" data-info="${dens > 0 ? `${dKey}: ${hrs.length} hours recovered` : `${dKey}: ${translations[currentLang].missing_call}`}"></div>`;
+            return `<div class="day-slot ${dens > 0 ? 'active' : 'empty'}" style="opacity: ${dens > 0 ? dens / 100 : 1}" data-info="${dens > 0 ? `${dKey}: ${hrs.length} ${translations[currentLang].hours_recovered}` : `${dKey}: ${translations[currentLang].missing_call}`}"></div>`;
           }).join('')}
         </div></div>`;
       }).join('')}</div>`;
@@ -263,19 +263,19 @@ function renderArchive() {
   container.innerHTML = `
     <div class="archive-header">
       <div class="header-main">
-        <h3 class="serif">Temporal Selection</h3>
+        <h3 class="serif">${translations[currentLang].temporal_selection}</h3>
         <button id="bulk-restore-btn" class="download-btn" ${SELECTED_MONTHS.size === 0 ? 'disabled' : ''}>
           <span>${SELECTED_MONTHS.size === 0 ? translations[currentLang].restore_corpus : `Restore Selected (${SELECTED_MONTHS.size})`}</span>
         </button>
       </div>
-      <p class="archival-text">Click on recovered months to build your restoration set, or use the year shortcuts.</p>
+      <p class="archival-text">${translations[currentLang].archive_instruction}</p>
     </div>
     <div class="selection-grid">
       ${years.map(year => `
         <div class="selection-year-row">
           <div class="year-select-group">
             <div class="selection-year-label">${year}</div>
-            <button class="year-select-btn" data-year="${year}">Select All</button>
+            <button class="year-select-btn" data-year="${year}">${translations[currentLang].select_all}</button>
           </div>
           <div class="selection-months">
             ${Array.from({ length: 12 }, (_, i) => {
