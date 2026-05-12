@@ -108,6 +108,7 @@ function setLanguage(lang) {
     if (translations[lang][key]) el.innerHTML = translations[lang][key];
   });
   if (document.getElementById('credit-input')) document.getElementById('credit-input').placeholder = translations[lang].upload_credit_placeholder;
+  if (document.getElementById('modal-alias-input')) document.getElementById('modal-alias-input').placeholder = translations[lang].upload_credit_placeholder;
   document.documentElement.lang = lang;
 }
 
@@ -448,9 +449,40 @@ function setupUpload() {
   dropZone.addEventListener('drop', (e) => { e.preventDefault(); dropZone.classList.remove('drag-over'); handleFiles(e.dataTransfer.files); });
   fileInput.addEventListener('change', (e) => handleFiles(e.target.files));
 
+  async function requestAlias() {
+    const modal = document.getElementById('alias-modal');
+    const input = document.getElementById('modal-alias-input');
+    const anonBtn = document.getElementById('modal-anon-btn');
+    const confirmBtn = document.getElementById('modal-confirm-btn');
+    const t = translations[currentLang];
+    
+    modal.style.display = 'flex';
+    input.value = '';
+    input.focus();
+
+    return new Promise((resolve) => {
+      const cleanup = (val) => {
+        modal.style.display = 'none';
+        anonBtn.onclick = null;
+        confirmBtn.onclick = null;
+        input.onkeydown = null;
+        resolve(val || 'Anonymous');
+      };
+      anonBtn.onclick = () => cleanup('Anonymous');
+      confirmBtn.onclick = () => cleanup(input.value);
+      input.onkeydown = (e) => { if (e.key === 'Enter') cleanup(input.value); };
+    });
+  }
+
   async function handleFiles(files) {
     if (files.length === 0) return;
-    const contributor = creditInput.value || 'Anonymous';
+    
+    let contributor = creditInput.value;
+    if (!contributor) {
+      contributor = await requestAlias();
+      creditInput.value = contributor;
+    }
+
     status.innerHTML = `<p class="accent">Archaeological Scanning...</p>`;
     let totalSuccess = 0;
 

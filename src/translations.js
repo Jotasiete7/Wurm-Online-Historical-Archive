@@ -41,7 +41,11 @@ export const translations = {
     archive_instruction: "Click on recovered months to build your restoration set, or use the year shortcuts.",
     temporal_selection: "Temporal Selection",
     month_label: "Month",
-    coverage_label: "Coverage"
+    coverage_label: "Coverage",
+    modal_title: "Identify the Archaeologist",
+    modal_desc: "How should these fragments be credited in the Hall of Contributors?",
+    modal_anon: "Stay Anonymous",
+    modal_confirm: "Confirm Credit"
   },
   pt: {
     title: "Wurm Online Historical Archive",
@@ -85,6 +89,10 @@ export const translations = {
     archive_instruction: "Clique nos meses recuperados para montar seu conjunto de restauração ou use os atalhos de ano.",
     temporal_selection: "Seleção Temporal",
     month_label: "Mês",
-    coverage_label: "Cobertura"
+    coverage_label: "Cobertura",
+    modal_title: "Identificar o Arqueólogo",
+    modal_desc: "Como esses fragmentos devem ser creditados no Mural dos Contribuidores?",
+    modal_anon: "Permanecer Anônimo",
+    modal_confirm: "Confirmar Crédito"
   }
 }
