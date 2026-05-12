@@ -50,4 +50,10 @@ Our visuals reflect the process of **reconstructing fragments**:
 
 ---
 
+## 📖 Learn More
+
+For technical details on how we handle timezones, privacy, and deduplication, check out our **[Frequently Asked Questions (FAQ)](FAQ.md)**.
+
+---
+
 *This project is an independent community initiative and is not affiliated with Code Club AB.*
