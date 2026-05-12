@@ -87,33 +87,52 @@ function scanTemporalCoverage(lines) {
 
 async function processLogSplitting(text) {
   const lines = text.split('\n');
-  const nfiLines = [];
-  const sfiLines = [];
-  const systemLines = [];
-  const nfiStats = {};
-  const sfiStats = {};
+  const fragments = { NFI: [], SFI: [] };
+  const stats = { NFI: {}, SFI: {} };
+  
+  let currentDay = null;
   const prefixRegex = /<[^>]+>\s*\((\w+)\)/;
+  const systemMsgRegex = /^\[\d{2}:\d{2}:\d{2}\] <System>/;
 
   lines.forEach(line => {
+    const dayMatch = line.match(/Logging started (\d{4}-\d{2}-\d{2})/);
+    if (dayMatch) {
+      currentDay = dayMatch[1];
+      return;
+    }
+
+    if (!currentDay) return;
+
     const match = line.match(prefixRegex);
+    const isSystem = line.match(systemMsgRegex);
+
     if (match) {
       const prefix = match[1];
-      if (NFI_PREFIXES.has(prefix)) {
-        nfiLines.push(line);
-        nfiStats[prefix] = (nfiStats[prefix] || 0) + 1;
-      } else if (SFI_PREFIXES.has(prefix)) {
-        sfiLines.push(line);
-        sfiStats[prefix] = (sfiStats[prefix] || 0) + 1;
+      let cluster = null;
+      if (NFI_PREFIXES.has(prefix)) cluster = 'NFI';
+      else if (SFI_PREFIXES.has(prefix)) cluster = 'SFI';
+
+      if (cluster) {
+        // Ensure day header exists for this cluster
+        if (!fragments[cluster].some(l => l.includes(`Logging started ${currentDay}`))) {
+          fragments[cluster].push(`Logging started ${currentDay}`);
+        }
+        fragments[cluster].push(line);
+        stats[cluster][prefix] = (stats[cluster][prefix] || 0) + 1;
       }
-    } else {
-      systemLines.push(line);
+    } else if (isSystem) {
+      // Duplicate system rules to both if they are active for this day
+      ['NFI', 'SFI'].forEach(c => {
+        if (fragments[c].some(l => l.includes(`Logging started ${currentDay}`))) {
+          fragments[c].push(line);
+        }
+      });
     }
   });
 
-  const fragments = [];
-  if (nfiLines.length > 0) fragments.push({ cluster: 'NFI', lines: [...systemLines, ...nfiLines], stats: nfiStats });
-  if (sfiLines.length > 0) fragments.push({ cluster: 'SFI', lines: [...systemLines, ...sfiLines], stats: sfiStats });
-  return fragments;
+  return Object.keys(fragments)
+    .filter(c => fragments[c].length > 0)
+    .map(c => ({ cluster: c, lines: fragments[c], stats: stats[c] }));
 }
 
 function renderCoverage(corpus) {
@@ -253,8 +272,29 @@ async function handleBulkRestore(corpusKey, event) {
       }
     }
     btn.innerHTML = `<span>${t.merging}</span>`;
-    const unique = Array.from(new Set(allLines)).sort();
-    const blob = new Blob([unique.join('\n')], { type: 'text/plain' });
+    
+    const dayGroups = {}; // { "2026-01-01": Set([lines...]) }
+    let currentDay = null;
+
+    allLines.forEach(line => {
+      const dayMatch = line.match(/Logging started (\d{4}-\d{2}-\d{2})/);
+      if (dayMatch) {
+        currentDay = dayMatch[1];
+        if (!dayGroups[currentDay]) dayGroups[currentDay] = new Set();
+      } else if (currentDay && line.trim()) {
+        dayGroups[currentDay].add(line.trim());
+      }
+    });
+
+    const finalOutput = [];
+    Object.keys(dayGroups).sort().forEach(day => {
+      finalOutput.push(`Logging started ${day}`);
+      const sortedLines = Array.from(dayGroups[day]).sort();
+      finalOutput.push(...sortedLines);
+      finalOutput.push(""); // Spacer between days
+    });
+
+    const blob = new Blob([finalOutput.join('\n')], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url; a.download = `WurmArchive_${corpusKey}_Restored_${list.length}m.txt`;
