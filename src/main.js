@@ -457,6 +457,7 @@ function setupUpload() {
             filename: file.name,
             cluster: frag.cluster,
             contributor_alias: contributor,
+            browser_timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
             storage_key: fragKey,
             byte_size: fragText.length,
             line_count: frag.lines.length,

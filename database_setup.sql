@@ -6,8 +6,8 @@
 -- 2. Raw uploaded material is append-only and immutable.
 -- 3. Interpretation systems must derive from preserved sources, never modify them.
 
--- Cleanup for re-execution during Phase 0 development
-DROP TABLE IF EXISTS raw_logs CASCADE;
+-- Cleanup for re-execution during Phase 0 development (DISABLED TO PREVENT DATA LOSS)
+-- DROP TABLE IF EXISTS raw_logs CASCADE;
 
 -- Minimal table for raw log metadata and file pointers
 CREATE TABLE raw_logs (
