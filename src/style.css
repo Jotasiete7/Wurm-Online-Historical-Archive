@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -58,58 +58,62 @@ body {
 
 /* Header */
 header {
-  padding: 4rem 0;
+  padding: 6rem 0;
   text-align: center;
 }
 
 h1 {
   font-family: var(--font-serif);
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   font-weight: 400;
-  line-height: 1.2;
-  margin-bottom: 1rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
 }
 
 .mission-sub {
   font-family: var(--font-serif);
   color: var(--text-secondary);
-  font-size: 1rem;
-  opacity: 0.7;
+  font-size: 1.1rem;
+  opacity: 0.6;
+  letter-spacing: 0.05em;
 }
 
-/* Upload */
-.upload-section { margin-bottom: 6rem; }
+/* Upload Section */
+.upload-section { margin-bottom: 8rem; }
 
 .drop-zone {
   border: 1px dashed var(--border-color);
   background: var(--bg-secondary);
-  padding: 5rem 2rem;
+  padding: 6rem 2rem;
   text-align: center;
+  border-radius: 4px;
   cursor: pointer;
-  transition: border-color 0.3s;
+  transition: all 0.3s ease;
 }
 
-.drop-zone:hover { border-color: var(--gold-muted); }
+.drop-zone:hover { border-color: var(--gold-muted); background: #1a1a1a; }
 
 .drop-zone-icon {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--gold-primary);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   opacity: 0.4;
 }
 
 .drop-zone h3 {
   font-family: var(--font-serif);
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 400;
+  letter-spacing: 0.05em;
 }
 
 .contributor-input {
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 select, input {
@@ -121,89 +125,164 @@ select, input {
   text-align: center;
   outline: none;
   font-family: var(--font-serif);
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 300px;
 }
 
-/* Coverage */
-.coverage-section { margin-bottom: 6rem; }
+/* Coverage - THE STICKS (A BOA) */
+.coverage-section { margin-bottom: 8rem; }
 
 .section-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2rem;
+  align-items: flex-end;
+  margin-bottom: 3rem;
   border-bottom: 1px solid var(--border-color);
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.preservation-metric {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--gold-primary);
 }
 
 .control-btn {
   background: none;
   border: 1px solid var(--border-color);
   color: var(--text-secondary);
-  padding: 0.4rem 1rem;
-  font-size: 0.7rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.75rem;
   cursor: pointer;
   font-family: var(--font-serif);
+  transition: all 0.3s;
 }
 
 .control-btn.active {
   border-color: var(--gold-primary);
   color: var(--gold-primary);
+  background: rgba(212, 175, 55, 0.05);
 }
 
-/* Timeline */
-.year-block { margin-bottom: 3rem; }
-.year-label { font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 1rem; }
-.months-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 1rem; }
-.month-label-small { font-size: 0.6rem; text-transform: uppercase; text-align: center; opacity: 0.5; margin-bottom: 0.3rem; }
-.day-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
-.day-slot { aspect-ratio: 1; background: #1a1a1a; }
-.day-slot.active { background: var(--gold-muted); }
+/* Timeline Sticks */
+.year-block { margin-bottom: 6rem; }
+.year-label { font-family: var(--font-serif); font-size: 2rem; margin-bottom: 2rem; opacity: 0.8; }
 
-/* Archive Browser */
+.months-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 2rem;
+}
+
+.month-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.month-label-small {
+  font-family: var(--font-serif);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.4;
+}
+
+.day-grid {
+  display: flex;
+  gap: 1px;
+  height: 40px;
+  background: rgba(255,255,255,0.02);
+  align-items: stretch;
+}
+
+.day-slot {
+  flex: 1;
+  background: rgba(255,255,255,0.05);
+  transition: all 0.3s ease;
+}
+
+.day-slot.active {
+  background: var(--gold-primary);
+}
+
+.day-slot.empty {
+  background: rgba(255,255,255,0.02);
+}
+
+.day-slot.disabled {
+  display: none;
+}
+
+/* Archive Selection */
+.archive-section { margin-bottom: 8rem; }
+
 .archive-browser {
   background: var(--bg-secondary);
-  padding: 2rem;
+  padding: 3rem;
+  border: 1px solid var(--border-color);
+}
+
+.selection-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .selection-year-row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 2rem;
   align-items: center;
-  margin-bottom: 1.5rem;
 }
+
+.selection-year-label { font-family: var(--font-serif); font-size: 1.8rem; color: var(--gold-primary); }
 
 .selection-months {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 0.4rem;
+  gap: 0.5rem;
 }
 
 .month-pill {
-  padding: 0.6rem;
+  padding: 1rem;
   border: 1px solid var(--border-color);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   text-align: center;
   cursor: pointer;
   font-family: var(--font-serif);
+  transition: all 0.3s;
 }
 
 .month-pill.available { color: var(--gold-primary); border-color: var(--gold-muted); }
-.month-pill.selected { background: var(--gold-primary); color: #000; }
-.month-pill.unavailable { opacity: 0.2; }
+.month-pill.selected { background: var(--gold-primary); color: #000; border-color: var(--gold-primary); }
+.month-pill.unavailable { opacity: 0.15; cursor: not-allowed; }
 
 .download-btn {
   background: var(--gold-primary);
   color: #000;
   border: none;
-  padding: 0.8rem 1.5rem;
+  padding: 1rem 2.5rem;
   font-family: var(--font-serif);
   font-weight: 700;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 
+.download-btn:disabled { background: #333; color: #666; cursor: not-allowed; }
+
 footer {
-  padding: 4rem 0;
+  padding: 6rem 0;
   text-align: center;
-  opacity: 0.3;
+  opacity: 0.2;
   font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  border-top: 1px solid var(--border-color);
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  .selection-year-row { grid-template-columns: 1fr; }
+  .months-container { grid-template-columns: 1fr 1fr; }
 }
