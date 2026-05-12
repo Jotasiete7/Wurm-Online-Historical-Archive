@@ -59,7 +59,9 @@ export const translations = {
     mission_month_gap: "month gap",
     mission_consecutive: "consecutive",
     path_helper_title: "Where are my logs?",
-    path_helper_tip: "Look for _Trade logs"
+    path_helper_tip: "Look for _Trade logs",
+    path_standalone: "Standalone Launcher",
+    path_steam: "Steam Version"
   },
   pt: {
     title: "Wurm Online Historical Archive",
@@ -121,6 +123,8 @@ export const translations = {
     mission_month_gap: "mês de lacuna",
     mission_consecutive: "consecutivos",
     path_helper_title: "Onde encontro meus logs?",
-    path_helper_tip: "Procure pelos arquivos _Trade"
+    path_helper_tip: "Procure pelos arquivos _Trade",
+    path_standalone: "Launcher Próprio",
+    path_steam: "Versão Steam"
   }
 }
