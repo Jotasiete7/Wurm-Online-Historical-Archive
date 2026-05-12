@@ -475,9 +475,6 @@ function renderImpactStats(corpus) {
   document.getElementById('stat-coverage-detail').textContent = `${uniqueMonths.size} ${t.mission_of} ${totalPossibleMonths} ${t.mission_months} ${t.mission_recovered}`;
 
   // 3. Longest Gap
-  const now = new Date();
-  const currentYear = now.getFullYear();
-  const currentMonth = now.getMonth() + 1;
   const currentMonthIndex = currentYear * 12 + currentMonth;
   const startMonthIndex = corpusKey === 'NFI' ? (2020 * 12 + 1) : (2009 * 12 + 7);
 
