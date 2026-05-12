@@ -25,14 +25,16 @@ document.addEventListener('DOMContentLoaded', () => {
     renderCoverage(activeCorpus);
     renderArchive();
     renderRecentDiscoveries();
+    renderContributors();
   });
 });
 
 async function refreshArchivalState() {
-  await Promise.all([fetchCoverage(), fetchArchiveBundles(), fetchRecentDiscoveries()]);
+  await Promise.all([fetchCoverage(), fetchArchiveBundles(), fetchRecentDiscoveries(), fetchContributors()]);
 }
 
 let RECENT_DISCOVERIES = [];
+let CONTRIBUTORS = [];
 
 async function fetchRecentDiscoveries() {
   try {
@@ -44,6 +46,28 @@ async function fetchRecentDiscoveries() {
     if (error) throw error;
     RECENT_DISCOVERIES = data || [];
   } catch (err) { console.error(err); }
+}
+
+async function fetchContributors() {
+  try {
+    const { data, error } = await supabase.from('raw_logs').select('contributor_alias');
+    if (error) throw error;
+    const unique = Array.from(new Set(data.map(d => d.contributor_alias))).filter(n => n && n !== 'Anonymous');
+    CONTRIBUTORS = unique.sort();
+  } catch (err) { console.error(err); }
+}
+
+function renderContributors() {
+  const container = document.getElementById('contributors-list');
+  if (!container) return;
+  const t = translations[currentLang];
+
+  container.innerHTML = `
+    <div class="contributors-title">${t.contributors_title || 'Hall of Archeologists'}</div>
+    <div class="contributor-names">
+      ${CONTRIBUTORS.map(name => `<span class="contributor-name">${name}</span>`).join('')}
+    </div>
+  `;
 }
 
 function renderRecentDiscoveries() {
@@ -95,6 +119,7 @@ function setupLanguageSwitcher() {
       setLanguage(btn.dataset.lang);
       renderCoverage(document.querySelector('.control-btn.active')?.dataset.corpus || 'nfi');
       renderArchive();
+      renderContributors();
     });
   });
 }
@@ -456,6 +481,7 @@ function setupUpload() {
         renderCoverage(document.querySelector('.control-btn.active').dataset.corpus); 
         renderArchive(); 
         renderRecentDiscoveries();
+        renderContributors();
       }, 3000);
     } else {
       status.innerHTML = `<p class="archival-meta">No new fragments identified.</p>`;

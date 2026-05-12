@@ -298,6 +298,41 @@ select, input {
 
 .download-btn:disabled { background: #333; color: #666; cursor: not-allowed; }
 
+.contributors-list {
+  margin-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.contributors-title {
+  font-family: var(--font-serif);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--gold-muted);
+  margin-bottom: 2rem;
+}
+
+.contributor-names {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.contributor-name {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--gold-primary);
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.contributor-name:hover {
+  opacity: 1;
+}
+
 footer {
   padding: 6rem 0;
   text-align: center;
