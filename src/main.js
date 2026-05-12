@@ -475,38 +475,67 @@ function renderImpactStats(corpus) {
   document.getElementById('stat-coverage-detail').textContent = `${uniqueMonths.size} ${t.mission_of} ${totalPossibleMonths} ${t.mission_months} ${t.mission_recovered}`;
 
   // 3. Longest Gap
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  const currentMonth = now.getMonth() + 1;
+  const currentMonthIndex = currentYear * 12 + currentMonth;
+  const startMonthIndex = corpusKey === 'NFI' ? (2020 * 12 + 1) : (2009 * 12 + 7);
+
   const monthIndices = bundles
     .map(b => b.year * 12 + b.month)
     .sort((a, b) => a - b);
 
   let maxGap = 0;
-  let gapStart = null;
-  let gapEnd = null;
+  let gapStartIdx = null;
+  let gapEndIdx = null;
 
-  if (monthIndices.length > 1) {
+  if (monthIndices.length > 0) {
+    // Check gap from project start to first log
+    const initialGap = monthIndices[0] - startMonthIndex;
+    if (initialGap > 0) {
+      maxGap = initialGap;
+      gapStartIdx = startMonthIndex;
+      gapEndIdx = monthIndices[0];
+    }
+
+    // Check gaps between logs
     for (let i = 0; i < monthIndices.length - 1; i++) {
       const gap = monthIndices[i+1] - monthIndices[i] - 1;
       if (gap > maxGap) {
         maxGap = gap;
-        gapStart = monthIndices[i];
-        gapEnd = monthIndices[i+1];
+        gapStartIdx = monthIndices[i];
+        gapEndIdx = monthIndices[i+1];
       }
     }
+
+    // Check gap from last log to now
+    const trailingGap = currentMonthIndex - monthIndices[monthIndices.length - 1];
+    if (trailingGap > maxGap) {
+      maxGap = trailingGap;
+      gapStartIdx = monthIndices[monthIndices.length - 1];
+      gapEndIdx = currentMonthIndex;
+    }
+  } else {
+    // No logs at all? The gap is the entire history
+    maxGap = currentMonthIndex - startMonthIndex + 1;
+    gapStartIdx = startMonthIndex;
+    gapEndIdx = currentMonthIndex;
   }
 
   const gapValueEl = document.getElementById('stat-gap-value');
   const gapDetailEl = document.getElementById('stat-gap-detail');
 
   if (maxGap > 0) {
-    const startY = Math.floor(gapStart / 12);
-    const endY = Math.floor(gapEnd / 12);
+    // Fix: correct year calculation (index-1)/12
+    const startY = Math.floor((gapStartIdx - 1) / 12);
+    const endY = Math.floor((gapEndIdx - 1) / 12);
     const yearLabel = startY === endY ? `${startY}` : `${startY}–${endY}`;
     
     gapValueEl.textContent = `${maxGap} ${maxGap === 1 ? t.mission_month_gap : t.mission_months_gap}`;
     gapDetailEl.textContent = `${t.mission_consecutive} · ${yearLabel}`;
   } else {
-    gapValueEl.textContent = bundles.length > 0 ? "0" : "--";
-    gapDetailEl.textContent = t.no_data;
+    gapValueEl.textContent = "0";
+    gapDetailEl.textContent = "Complete Coverage";
   }
 }
 
