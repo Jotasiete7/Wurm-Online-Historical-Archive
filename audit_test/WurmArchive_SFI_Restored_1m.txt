@@ -1,826 +1,544 @@
-Logging started 2026-01-01
-[02:00:25] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[02:00:25] <System> Please PM the person if you are interested in the Item.
-[02:00:25] <System> This is the Trade channel.
-[02:00:25] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[02:00:25] <System> You can also use @<name> to send a reply in this channel to <name>.
-[02:00:25] <System> You can disable receiving these messages, by a setting in your profile.
-[11:33:34] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:33:34] <System> Please PM the person if you are interested in the Item.
-[11:33:34] <System> This is the Trade channel.
-[11:33:34] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:33:34] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:33:34] <System> You can disable receiving these messages, by a setting in your profile.
-[11:49:56] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:49:56] <System> Please PM the person if you are interested in the Item.
-[11:49:56] <System> This is the Trade channel.
-[11:49:56] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:49:56] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:49:56] <System> You can disable receiving these messages, by a setting in your profile.
+Logging started 2026-03-15
+[12:52:53] <Wackamole> (Xan) Wts https://forum.wurmonline.com/index.php?/topic/210758-blue-tome-for-sale/
+[12:53:11] <Wackamole> (Xan) Wts https://forum.wurmonline.com/index.php?/topic/210759-white-tome-for-sale/
+[13:00:09] <Vigii> (Ind) WTS 4 Draft -Horses,Hellhorses,Bisons,Mules. 4 Speed -Horses,Hellhorses. Champ horses,deers,bison,ram 48 Pens. Animals restocked. Merchants with rare items. Self Service Market https://independence.yaga.host/#3143,3379
+[13:02:05] <Stelara> (Ind) wts [rare birchwood dirty casket (Independence) QL:28.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:27.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:36.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:63.0 DMG:0.0 WT:5.0 ]
+[13:03:12] <Storelot> (Cel) wtb 5x 5s horse or permaneutral 4s hellie
+[13:09:22] <Drjacobhayes> (Rel) WTS [common leather goblin war bonnet QL:55.0 DMG:0.0 WT:0.7 ]
+[13:13:36] <Meelis> (Exo) WTB 2x 80+ ql 90+ botd iron shovels, pickaxes pm me!
+[13:16:34] <Sonera> (Xan) wtb pendulum with LitWoods
+[13:17:19] <Minixcaliber> (Exo) WTB Rare Mallet
+[13:19:24] <Hergasterix> (Ind) WTS 12sp
+[13:33:03] <Lordzmielot> (Cel) WTS 30 large amphoras of milk (10 of each type) - 18s (10c per barrel)   https://forum.wurmonline.com/index.php?/topic/210328-wts-30-large-amphors-of-milk-10-of-each-type/
+[13:33:05] <Lordzmielot> (Cel) WTS 3+1 draft ebony black horse - 5s   https://ibb.co/C5gdDLGJ
+[13:33:06] <Lordzmielot> (Cel) WTS [rare null grindstone QL:97.049644 DMG:0.0 WT:3.0 WoA 99 • CoC 96 • RStV] 5s
+[13:33:43] <Sentoria> (Xan) Wts Auction: tortoise pet - https://forum.wurmonline.com/index.php?/topic/210737-%E2%80%8B%F0%9F%90%A2tortoise-pet-%E2%80%8B%F0%9F%8F%A1/
+[13:35:55] <Artz> (Xan) Wts large crates 8c each
+[13:36:11] <Borntoplay> (Xan) WTS [supreme null heap of sand QL:13.330526 DMG:0.0 WT:20.0 ][supreme null heap of sand QL:14.1305 DMG:0.0 WT:20.0 ] 20c each COD.
+[13:36:55] <Meelis> (Exo) WTB 2x 80+ ql 90+ botd iron shovels, pickaxes pm me!
+[13:37:53] <Borntoplay> (Xan) WTS sand sold
+[13:39:00] <Brotherstwo> (Xan) WTS Bricks & Mortar via wagoner here in Xanadu. In stock - Stone (1k) Slate (1k) Rounded Stone (1k) Marble (1k) Sandstone (1k) Mortar (1k). Larger orders  are accepted, PM me your needs.
+[13:43:22] <Anestasia> (Pri) wts "Afterglow" 4 Draft & 4 Speed Horses, Hell Horses, Mules, Bisons & Rare Traits. Find your new little friend! Self-serve. MOLTEN Hell Horses and MULES Restocked! O26 Pristine. https://tinyurl.com/AftergIow
+[13:43:44] <Artz> (Xan) Wts large crates 8c each
+[13:45:19] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:45:19] <System> Please PM the person if you are interested in the Item.
+[13:45:19] <System> This is the Trade channel.
+[13:45:19] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:45:19] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:45:19] <System> You can disable receiving these messages, by a setting in your profile.
+[13:56:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[13:56:06] <System> Please PM the person if you are interested in the Item.
+[13:56:06] <System> This is the Trade channel.
+[13:56:06] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[13:56:06] <System> You can also use @<name> to send a reply in this channel to <name>.
+[13:56:06] <System> You can disable receiving these messages, by a setting in your profile.
+[14:00:04] <Ryld> (Pri) WTB thorn peg or tenon bought
+[14:00:10] <Vigii> (Ind) WTS 4 Draft -Horses,Hellhorses,Bisons,Mules. 4 Speed -Horses,Hellhorses. Champ horses,deers,bison,ram 48 Pens. Animals restocked. Merchants with rare items. Self Service Market https://independence.yaga.host/#3143,3379
+[14:00:22] <Zsolt> (Del) wts small barrels of targeted affinity moonshine 1s.
+[14:00:59] <Dinahsm> (Rel) WTS [common seryll bracelet of inspiration QL:81.798 DMG:0.0 WT:0.3 ]
+[14:11:37] <Righout> (Xan) wts 100 support beams for 4s (can deliver to the coast for free)
+[14:21:12] <Lunadew> (Xan) WTS 100ql Wemp,cotton,wool,veg,fruits 1s per k .xan wagoneer or pickup ..also 4s horses 50c
+[14:21:41] <Elymas> (Rel) wts 59 roses
+[14:22:50] <Spyte> (Pri) wts [common leather red dragon scales QL:93.7551 DMG:0.0 WT:0.588 ][common leather red dragon scales QL:80.0 DMG:0.0 WT:0.588 ][common leather red dragon scales QL:93.7214 DMG:0.0 WT:0.364 ][common leather black dragon scales QL:86.2724 DMG:0.0 WT:1.532 ]   3x[common leather blue dragon scales QL:82.628 DMG:0.0 WT:0.251 ]
+[14:23:14] <Stelara> (Ind) wts [rare birchwood dirty casket (Independence) QL:28.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:27.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:36.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:63.0 DMG:0.0 WT:5.0 ]
+[14:24:44] <Elymas> (Rel) wts 10 sleep powder 8 silver
+[14:24:50] <Tamoshanter> (Ind) pc rare mountain lion statue ql 59
+[14:25:24] <Saul> (Xan) WTS [common null mountain lion pelt QL:100.0 DMG:0.0 WT:0.4 BoTD 93]
+[14:25:56] <Tamoshanter> (Ind) wts [common wheat sleep powder QL:99.0 DMG:0.0 WT:0.025 ] x30
+[14:30:07] <Bankers> (Cel) WTS [rare clay clay QL:24.2973 DMG:0.0 WT:2.0 ]x3
+[14:32:14] <Againsttermsofservice> (Xan) WTB trash gold any weight
+[14:33:47] <Wackamole> (Xan) Wts https://forum.wurmonline.com/index.php?/topic/210758-blue-tome-for-sale/
+[14:33:54] <Wackamole> (Xan) Wts https://forum.wurmonline.com/index.php?/topic/210759-white-tome-for-sale/
+[14:34:17] <Lordzmielot> (Cel) WTS 30 large amphoras of milk (10 of each type) - 18s (10c per barrel)   https://forum.wurmonline.com/index.php?/topic/210328-wts-30-large-amphors-of-milk-10-of-each-type/
+[14:34:19] <Lordzmielot> (Cel) WTS 3+1 draft ebony black horse - 5s   https://ibb.co/C5gdDLGJ
+[14:34:22] <Lordzmielot> (Cel) WTS [rare null grindstone QL:97.049644 DMG:0.0 WT:3.0 WoA 99 • CoC 96 • RStV] 5s
+[14:35:43] <Bankers> (Cel) WTS [rare cotton meditation rug QL:92.4517 DMG:0.0 WT:1.5 CoC 103 • RStV][rare iron horse shoe QL:90.2252 DMG:0.0 WT:0.5 WoA 93][rare iron horse shoe QL:90.1993 DMG:0.0 WT:0.5 WoA 94][rare iron horse shoe QL:90.17 DMG:0.0 WT:0.5 WoA 95][rare iron horse shoe QL:90.2022 DMG:0.0 WT:0.5 WoA 93]
+[14:47:59] <Melissablueflame> (Xan) WTS auction [common leather blessed water skin QL:56.0424 DMG:0.0 WT:3.0 RSiM] https://forum.wurmonline.com/index.php?/topic/210782-wts-blessed-waterskin/
+[14:53:24] <Glamour> (Xan) wts [rare cotton fishing net QL:65.3883 DMG:0.0 WT:0.501 CoC 99] 4s
+[15:00:00] <Lunadew> (Xan) WTS 100ql Wemp,cotton,wool,veg,fruits 1s per k .xan wagoneer or pickup ..also 4s horses 50c
+[15:00:05] <Vigii> (Ind) WTS 4 Draft -Horses,Hellhorses,Bisons,Mules. 4 Speed -Horses,Hellhorses. Champ horses,deers,bison,ram 48 Pens. Animals restocked. Merchants with rare items. Self Service Market https://independence.yaga.host/#3143,3379
+[15:00:15] <Lilas> (Exo) WTS Make QL 90 leather items. I make complete Studded/Leather sets, belts, and saddles. QL 90.
+[15:01:27] <Spyte> (Pri) WTB bulk sleep powders
+[15:06:02] <Salt> (Del) wts libila enchants and any kind of imps or crafted stuff
+[15:11:25] <Deebalee> (Xan) WTS [rare birchwood dirty casket (Xanadu) QL:54.0 DMG:0.0 WT:5.0 ]
+[15:13:01] <Elymas> (Rel) wts [rare clay mortar QL:71.261 DMG:1.26296 WT:2.0 ][rare clay mortar QL:71.261 DMG:1.26296 WT:2.0 ] 50 copper each
+[15:15:52] <Meelis> (Exo) WTB 80+ ql 90+ botd iron pickaxes x2 and shovel x2 pm me!
+[15:16:28] <Omega> (Ind) WTS [rare cotton unfinished military tent QL:8.7993 DMG:0.0 WT:4.3 ][rare sandstone unfinished altar QL:3.80934 DMG:0.0 WT:17.0 ][rare sandstone unfinished altar QL:3.44459 DMG:0.0 WT:17.0 ][rare pinewood unfinished spinning wheel QL:8.4238 DMG:0.0 WT:8.0 ][rare null unfinished forge QL:4.18842 DMG:0.0 WT:17.0 ]
+[15:16:45] <Omega> (Ind) WTS [rare steel hammer QL:94.8861 DMG:0.0 WT:1.4 RGsL • BoTD 105][rare steel butchering knife QL:48.5338 DMG:0.0 WT:1.2 ][rare silver hammer QL:90.2239 DMG:0.0 WT:1.4 ][rare iron hatchet QL:94.9696 DMG:0.0 WT:2.5 RBzL • ImWC 100 • BoTD 104][common iron shovel QL:11.9998 DMG:0.0 WT:2.0 BoTD 100]
+[15:17:21] <Melissablueflame> (Xan) WTS auction blessed water skin, 10% more volume and WoA CoC enchant https://forum.wurmonline.com/index.php?/topic/210782-wts-blessed-waterskin/
+[15:18:44] <Sonera> (Xan) WTB LitWoods pendulum high cast
+[15:26:08] <Stelara> (Ind) wts [rare birchwood dirty casket (Independence) QL:28.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:27.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:36.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:63.0 DMG:0.0 WT:5.0 ]
+[15:28:20] <Minhocao> (Pri) wts [rare birchwood dirty casket (Pristine) QL:14.0 DMG:0.0 WT:5.0 ][rare birchwood dirty casket (Pristine) QL:68.0 DMG:0.0 WT:5.0 ]
+[15:37:49] <Voidedsage> (Rel) WTB Rare/Supreme Planks + Shafts
+[15:38:05] <Artz> (Xan) Wts Large Crates 8c each
+[15:43:28] <Spyte> (Pri) wts [common leather red dragon scales QL:93.7551 DMG:0.0 WT:0.588 ][common leather red dragon scales QL:80.0 DMG:0.0 WT:0.588 ][common leather red dragon scales QL:93.7214 DMG:0.0 WT:0.364 ][common leather black dragon scales QL:86.2724 DMG:0.0 WT:1.532 ]   3x[common leather blue dragon scales QL:82.628 DMG:0.0 WT:0.251 ]
+[15:44:08] <Roarkindrake> (Pri) wts [common leather black dragon hatchling drake hide QL:83.566 DMG:0.0 WT:1.23 ]
+[15:44:57] <Lunadew> (Xan) WTS 100ql Wemp,cotton,wool,veg,fruits 1s per k .xan wagoneer or pickup ..also 4s horses 50c
+[15:45:48] <Elymas> (Rel) wts 10 sleep powder 8 silver
+[15:48:28] <Vanex> (Xan) WTS [rare rounded stone unfinished forge QL:3.17607 DMG:0.0 WT:17.0 ]
+[15:49:17] <Melissablueflame> (Xan) WTS auction blessed water skin, 10% more volume and WoA CoC enchant https://forum.wurmonline.com/index.php?/topic/210782-wts-blessed-waterskin/
+[15:54:16] <Monax> (Xan) WTS [common cedarwood support beams QL:38.20811 DMG:0.0 WT:6000.0 ] 4s. wagoner.
+[15:57:52] <Minixcaliber> (Exo) WTB High QL Rare Pelt with casts - rare wetstone high QL casted
+[16:03:22] <Elymas> (Rel) wts 61 kg of scrap steel lump for 60 copper at 50 quality
+[16:05:30] <Stelara> (Ind) wts [rare iron hammer head QL:21.3387 DMG:0.0 WT:0.4 ][rare iron hatchet head QL:2.48724 DMG:0.0 WT:1.5 ][rare iron hatchet QL:90.3092 DMG:0.0 WT:2.5 BoTD 93][rare iron butchering knife blade QL:9.68653 DMG:0.0 WT:1.1 ]
+[16:05:34] <Stelara> (Ind) wts [rare birchwood dirty casket (Independence) QL:28.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:27.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:36.0 DMG:0.0 WT:5.0 ] [rare birchwood dirty casket (Independence) QL:63.0 DMG:0.0 WT:5.0 ]
+[16:08:37] <Minixcaliber> (Exo) pc Seryll / Adamantine / Glimmersteel - raging from 80QL - 99QL
+[16:09:09] <Shrimpiie> (Exo) PC 4s/1kg
+[16:09:19] <Mariel> (Xan) WTS [supreme tin lump QL:28.138 DMG:0.0 WT:0.5 ]
+[16:09:26] <Smackeddown> (Pri) WTS - [rare iron hammer QL:95.3853 DMG:0.0 WT:1.4 WoA 93 • ImBS 40 • RGsL • CoC 67 • ImWS 15] and crops - https://forum.wurmonline.com/index.php?/topic/209966-we-have-your-crops-for-sale/
+[16:09:30] <Wackamole> (Xan) Wts https://forum.wurmonline.com/index.php?/topic/210758-blue-tome-for-sale/
+[16:09:37] <Roarkindrake> (Pri) wts [rare adamantine lump QL:89.0195 DMG:0.0 WT:0.36 ]
+[16:09:48] <Wackamole> (Xan) Wts https://forum.wurmonline.com/index.php?/topic/210759-white-tome-for-sale/
+[16:14:52] <Tiduzz> (Pri) wts [common glimmersteel lump QL:86.8109 DMG:0.0 WT:0.348 ]
+[16:17:48] <Monacum> (Rel) WTS [rare null blue dragon hatchling strange bone QL:100.0 DMG:0.0 WT:7.5 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[16:18:50] <Tum> (Rel) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[16:20:03] <Melissablueflame> (Xan) WTS auction blessed water skin, 10% more volume and WoA CoC enchant https://forum.wurmonline.com/index.php?/topic/210782-wts-blessed-waterskin/
+[16:20:04] <Whispa> (Ind) wts i[common null bouquets of dotted flowers QL:77.6347 DMG:0.0 WT:0.006 ]3s the lot
+[16:20:50] <Joaum> (Xan) PC [rare iron butchering knife QL:36.854515 DMG:0.0 WT:1.2 ]
+[16:21:07] <Velociraptor> (Pri) pc 3s
+[16:21:14] <Joaum> (Xan) PC Ty
+[16:21:38] <Timothymarker> (Xan) WTS Leather gear, armor, toolbelts, WoA saddles. Imping service (up to QL97). Stock and prices see http://forum.wurmonline.com/index.php?/topic/131555-tims-tannery-vrock-landing-xanadu
+[16:23:58] <Righout> (Xan) wts 100 support beams for 4s (can deliver to the coast for free)
+[16:28:19] <Jothebard> (Del) WTS Why not visit Southport market U18 Deliverance - 50 merchants: rares, supremes, tools, weapons, armour, crafting materials, ready to complete statues, statuettes, masks, fragments, potions, rugs, carpets, runed and casted items, arch wood planks, shafts, pegs, tenons, branches, gifts, seasonal goods, halter ropes, WoA horseshoes, CoC skillers, AoSP chain, jewelry, goodies and so much more!
+[16:30:17] <Whispa> (Ind) wts [rare leather saddle QL:95.2048 DMG:9.034571 WT:9.0 WoA 97 • RStV][rare iron horse shoe QL:95.2115 DMG:9.198106 WT:0.5 RStV • BoTD 97][rare iron horse shoe QL:95.216 DMG:9.198102 WT:0.5 RStV • BoTD 97][rare iron horse shoe QL:95.2207 DMG:9.198099 WT:0.5 RStV • BoTD 93][rare iron horse shoe QL:95.2124 DMG:9.198105 WT:0.5 RStV • BoTD 95] as a set only, 40s in total. make horse go zoom zoom!
+[16:36:00] <Sentoria> (Xan) Wts Auction: tortoise pet - https://forum.wurmonline.com/index.php?/topic/210737-%E2%80%8B%F0%9F%90%A2tortoise-pet-%E2%80%8B%F0%9F%8F%A1/
+[16:36:30] <Whispa> (Ind) wts horse zoom zoom sold
+[16:36:38] <Courtney> (Ind) WTS WTA 4speed Foal with Twins trait https://forum.wurmonline.com/index.php?/topic/210773-4speed-twins-female-piebald-pinto/
+[16:37:41] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:37:41] <System> Please PM the person if you are interested in the Item.
+[16:37:41] <System> This is the Trade channel.
+[16:37:41] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:37:41] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:37:41] <System> You can disable receiving these messages, by a setting in your profile.
+[16:44:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:44:06] <System> Please PM the person if you are interested in the Item.
+[16:44:06] <System> This is the Trade channel.
+[16:44:06] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:44:06] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:44:06] <System> You can disable receiving these messages, by a setting in your profile.
+[18:47:13] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[18:47:13] <System> Please PM the person if you are interested in the Item.
+[18:47:13] <System> This is the Trade channel.
+[18:47:13] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[18:47:13] <System> You can also use @<name> to send a reply in this channel to <name>.
+[18:47:13] <System> You can disable receiving these messages, by a setting in your profile.
 
-Logging started 2026-01-02
-[13:24:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[13:24:28] <System> Please PM the person if you are interested in the Item.
-[13:24:28] <System> This is the Trade channel.
-[13:24:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:24:28] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:24:28] <System> You can disable receiving these messages, by a setting in your profile.
+Logging started 2026-03-21
+[00:10:51] <Kormolos> (Xan) WTB Sprout olivewood COD 30 coprum for 20 sprout in a small barrel :)
+[00:16:45] <Thegodwin> (Xan) PC [rare silver large axe QL:84.0531 DMG:0.0 WT:2.0 Nim 80 • LT 95 • MD • CoC 91 • MS 83]
+[00:17:47] <Parafinaum> (Xan) pc thegodwin my brazilian friend: its 10s
+[00:18:45] <Rhyxus> (Pri) WTS Support Beams (1200 in stock Costial delivery or Land Delivery in Pristine) 4s/100
+[00:18:49] <Rhyxus> (Pri) WTS [rare null strange bone fragment [1/12] QL:65.2926 DMG:0.0 WT:0.125 ] 3s 4x[rare walnut shaft QL:40.8473 DMG:0.0 WT:1.0 ] 1s/ea  3x[rare iron ribbon QL:74.0403 DMG:0.0 WT:3.0 ]1s/ea[rare tar tar QL:62.4813 DMG:0.0 WT:1.0 ] 1s
+[00:27:00] <Pedruo> (Xan) wtb butchering pots
+[00:29:48] <Xumbreca> (Cel) wts Steel - 95ql [common steel lump QL:95.17862 DMG:0.0 WT:64.0 ] 9s - 92ql [common steel lump QL:92.399704 DMG:0.0 WT:64.0 ] 4.5s - Open to offers / special prices for QL below 90
+[00:32:09] <Andromas> (Exo) WTS 500-650 gems at 30i per ql (total 30,000+ ql)
+[00:40:27] <Jingerjas> (Xan) WTS [supreme slate slate brick QL:88.773 DMG:0.0 WT:15.0 ] 3s
+[00:40:34] <Drjacobhayes> (Rel) WTS [rare null blue dragon hatchling strange bone QL:100.0 DMG:0.0 WT:7.5 ]
+[00:42:53] <Jingerjas> (Xan) WTS [supreme slate slate brick QL:88.773 DMG:0.0 WT:15.0 ] sold
+[00:53:20] <Gibbs> (Ind) wts [rare pinewood plank QL:27.18503 DMG:0.0 WT:2.0 ] *4  90c each  [rare null cordage rope QL:24.599148 DMG:0.0 WT:0.5 ] *12 25c each
+[00:54:11] <Pedruo> (Xan) WTB QL 80+ lye
+[00:58:49] <Rhyxus> (Pri) WTS Support Beams (1200 in stock Costial delivery or Land Delivery in Pristine) 4s/100
+[00:58:54] <Rhyxus> (Pri) WTS [rare null strange bone fragment [1/12] QL:65.2926 DMG:0.0 WT:0.125 ] 3s 4x[rare walnut shaft QL:40.8473 DMG:0.0 WT:1.0 ] 1s/ea  3x[rare iron ribbon QL:74.0403 DMG:0.0 WT:3.0 ]1s/ea[rare tar tar QL:62.4813 DMG:0.0 WT:1.0 ] 1s
+[01:04:44] <Pedruo> (Xan) WTB butchering pots
+[01:06:29] <Andromas> (Exo) WTS 5000 Source Salt 1c each
+[01:24:30] <Siegfried> (Cel) pc MR pmk wagon
+[01:26:11] <Voidedsage> (Rel) WTB 2 lingonberry planks, 2 lavenderwood planks
+[01:35:15] <Zsolt> (Del) wts small barrel of targeted affinity moonshine 1s, small barrels of Kahvesi 1.5s
+[01:55:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[01:55:20] <System> Please PM the person if you are interested in the Item.
+[01:55:20] <System> This is the Trade channel.
+[01:55:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[01:55:20] <System> You can also use @<name> to send a reply in this channel to <name>.
+[01:55:20] <System> You can disable receiving these messages, by a setting in your profile.
+[13:38:34] <Joaum> (Xan) WTS [rare iron butchering knife QL:70.7777 DMG:0.0 WT:1.2 ]
+[13:43:58] <Nocturnality> (Pri) WTB black ink :p
+[13:45:38] <Winterz> (Exo) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[13:45:40] <Nocturnality> (Pri) WTb Sleep powder
+[13:45:40] <Yekrut> (Pri) wts [rare iron hammer QL:6.51198 DMG:0.0 WT:1.4 ]([rare iron horse shoe QL:26.2185 DMG:0.0 WT:0.5 ]set10s),[rare iron spoon QL:6.0 DMG:0.0 WT:0.03 ][rare iron fork QL:5.07321 DMG:0.0 WT:0.03 ]  and supreme shovel auction, now at 31s https://tinyurl.com/mkjrcanr
+[13:46:10] <Storelot> (Cel) wts [common null uttacha slime QL:68.0 DMG:0.0 WT:0.2 ][common null tome of incineration QL:80.0139 DMG:0.0 WT:1.0 ][common null smoke from sol QL:74.0 DMG:0.0 WT:0.2 ]
+[13:46:11] <Xumbreca> (Cel) WTS Steel 95ql / alloys for runes / [supreme steel horse shoe QL:92.1865 DMG:0.0 WT:0.5 ] / [rare null strange bone fragment [1/12] QL:53.279 DMG:0.0 WT:0.125 ] / [rare seryll lump QL:98.1283 DMG:0.0 WT:0.293 ]
+[13:48:52] <Nymphalia> (Rel) wtb 64kg lump of iron any ql
+[13:55:43] <Drddoom> (Exo) PC [common wheat sleep powder QL:99.0 DMG:0.0 WT:0.025 ]
+[13:56:25] <Meninorevolta> (Exo) PC 1S
+[13:57:15] <Drddoom> (Exo) PC [supreme null stone shards QL:27.3387 DMG:0.0 WT:20.0 ]
+[13:57:38] <Kaligola> (Xan) pc pickaxe ql 90?
+[14:05:34] <Crukash> (Ind) WTS [rare clay clay QL:6.16041 DMG:0.0 WT:2.0 ][rare clay clay QL:5.63438 DMG:0.0 WT:2.0 ][rare clay clay QL:16.9755 DMG:0.0 WT:2.0 ][rare clay clay QL:20.0 DMG:0.0 WT:2.0 ] 1s each
+[14:06:38] <Cienio> (Pri) wts Rare 5 Speed Mule
+[14:07:37] <Vendricknewborn> (Xan) WTS [rare lindenwood shaft QL:27.7071 DMG:0.0 WT:1.0 ]
+[14:09:09] <Hcedzeb> (Xan) wts small barrel of targetted aff moonshine 2s or 2sp timer is  2days 8h of affinitys.
+[14:10:49] <Lordzmielot> (Cel) WTS SORRY LOL   98QL [rare null grindstone QL:98.0182 DMG:0.0 WT:3.0 WoA 99 • CoC 96 • RStV] 5s, [rare iron metal brush QL:16.384792 DMG:0.0 WT:1.4 ] 5s
+[14:10:52] <Lordzmielot> (Cel) WTS 30 large amphoras of milk (10 of each type) - 18s (10c a small barrel)   https://forum.wurmonline.com/index.php?/topic/210328-wts-30-large-amphors-of-milk-10-of-each-type/
+[14:11:33] <Tavivo> (Xan) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[14:13:27] <Kaligola> (Xan) pc rare medium maul?
+[14:13:59] <Joaum> (Xan) WTB Huge Axe enchant with LT
+[14:14:11] <Peewdigdeep> (Ind) pc no cast on it 3-6s
+[14:26:53] <Mypoppy> (Ind) wtb wc pots/bloods
+[14:27:02] <Winterz> (Exo) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[14:27:45] <Zsolt> (Del) wts small barrel of targeted affinity moonshine 1s, small barrels of Kahvesi 1.5s
+[14:29:56] <Drddoom> (Exo) WTS [rare lindenwood sprout QL:7.02514 DMG:0.0 WT:0.2 ] and [supreme null stone shards QL:27.3387 DMG:0.0 WT:20.0 ]
+[14:30:30] <Kaligola> (Xan) wtb low ql leather
+[14:34:01] <Vendricknewborn> (Xan) WTS [rare lindenwood shaft QL:27.7071 DMG:0.0 WT:1.0 ]
+[14:35:43] <Lordzmielot> (Cel) WTS 30 large amphoras of milk (10 of each type) - 18s (10c a small barrel)   https://forum.wurmonline.com/index.php?/topic/210328-wts-30-large-amphors-of-milk-10-of-each-type/
+[14:35:46] <Lordzmielot> (Cel) WTS 98QL [rare null grindstone QL:98.0182 DMG:0.0 WT:3.0 WoA 99 • CoC 96 • RStV] 5s, [rare iron metal brush QL:16.384792 DMG:0.0 WT:1.4 ] 5s
+[14:35:54] <Krylon> (Ind) wts Plate Armor Set, iron 90ql, 4s50c+cod, choose a color https://imgur.com/plate-armor-colors-4Ey6Vky
+[14:36:05] <Magicmike> (Xan) WTB 80+ QL Steel Greathelm
+[14:36:36] <Pingling> (Xan) WTS [rare iron pickaxe QL:42.1027 DMG:0.0 WT:2.0 ] 3s
+[14:36:39] <Sgtscum> (Xan) wtb bulk sleep powder 25 50 or more  PM
+[14:37:19] <Thegodwin> (Xan) WTS [common steel huge axe QL:86.34494 DMG:0.0 WT:2.5 WoA 100 • LT 100 • CoC 92 • RStV • MS 104]
+[14:37:32] <Ryld> (Xan) WTS 91ql Runed Knarr & Wagon sets, includes 4 creature cages & 12 lg crates.  Apple, Birchwood, Camellia,  Cedar, Chestnut, Hazelnut,  Lavender, Lemon, Lingonberry, Oleander, Olive, Pine, Raspberry, Rose Thorn, Walnut sets ready. 15s per set.
+[14:38:54] <Pingling> (Xan) WTS [rare iron pickaxe QL:42.1027 DMG:0.0 WT:2.0 ] sold
+[14:40:54] <Thegodwin> (Xan) WTB VIN + FO enchants
+[14:41:19] <Xumbreca> (Cel) wts [rare electrum bracelet QL:50.23258 DMG:0.0 WT:0.3 ] 1s
+[14:45:15] <Cienio> (Pri) wts Rare 5 Speed Mule - 47 kmh top speed so far
+[14:47:07] <Pingling> (Xan) WTB skiller rake
+[14:51:40] <Kaligola> (Xan) wtb medium maul
+[14:51:47] <Kaligola> (Xan) wtb RARE medium maul
+[14:51:49] <Stdev> (Rel) WTS [common bronze dioptra QL:95.3227 DMG:0.0 WT:0.5 ]
+[14:52:27] <Boppit> (Xan) WTB Dragon s
+[14:52:35] <Boppit> (Xan) WTB Dragon Staff Skin
+[14:52:59] <Nymphalia> (Rel) wtb saddle and set 4 horse shoes 50+ql and woa
+[14:53:32] <Drddoom> (Exo) WTS [rare lindenwood sprout QL:7.02514 DMG:0.0 WT:0.2 ] and [supreme null stone shards QL:27.3387 DMG:0.0 WT:20.0 ]
+[14:53:37] <Mypoppy> (Ind) wtb wc pots/bloods
+[14:54:45] <Birdbeback> (Ind) PC [supreme null colossus brick QL:76.01021 DMG:0.0 WT:15.0 ]
+[14:57:24] <Marabelle> (Xan) WTS FREE 3speed & 4speed horses, 3draft bison. Self-serve pen on the highway just south of Bounty Farm.
+[14:59:30] <Monax> (Xan) WTS [common cedarwood support beams QL:38.2081 DMG:0.0 WT:6000.0 ] 4s
+[14:59:53] <Spoon> (Xan) PC WTS  [common null blood QL:100.0 DMG:9.392 WT:0.1 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[15:02:06] <Miralux> (Del) wtb humongous easter egg
+[15:03:01] <Meninorevolta> (Exo) WTB Fishing net skiler
+[15:05:38] <Xanthor> (Xan) wts / wta https://forum.wurmonline.com/index.php?/topic/210825-wta-auld-lang-syne-2026/
+[15:08:07] <Jotasiete> (Xan) pc 1k mortar - xanadu
+[15:11:16] <Zsolt> (Del) wts small barrel of targeted affinity moonshine 1s, small barrels of Kahvesi 1.5s
+[15:11:23] <Led> (Ind) pc 2s/k
+[15:13:37] <Sgtscum> (Xan) wtb bulk sleep powder  25   50 or more  PM
+[15:17:10] <Xumbreca> (Cel) wtb 5k or more gold lumps any ql
+[15:20:02] <Gomeo> (Pri) wts dragon scale https://imgur.com/ahdFuY8   [rare silver staff QL:90.399 DMG:0.0 WT:3.0 Nim 102 • LT 100 • MD • CoC 102 • RStV • MS 102]
+[15:20:11] <Thegodwin> (Xan) WTS [common straw wicker cornucopia QL:80.0 DMG:0.0 WT:0.55 ]
+[15:20:17] <Meninorevolta> (Exo) WTB COC 90+
+[15:21:36] <Jothebard> (Del) WTS Why not visit Southport market U18 Deliverance - 50 merchants: rares, supremes, tools, weapons, armour, crafting materials, ready to complete statues, statuettes, masks, fragments, potions, rugs, carpets, runed and casted items, arch wood planks, shafts, pegs, tenons, branches, gifts, seasonal goods, halter ropes, WoA horseshoes, CoC skillers, AoSP chain, jewelry, skins, goodies +so much more!
+[15:24:50] <Krylon> (Ind) wts Plate Armor Set, iron 90ql, 4s50c+cod, choose a color https://imgur.com/plate-armor-colors-4Ey6Vky
+[15:29:47] <Birdbeback> (Ind) PC [supreme null colossus brick QL:76.01021 DMG:0.0 WT:15.0 ]
+[15:30:25] <Joaum> (Xan) PC Moon-metal Lump 80+
+[15:30:26] <Lordzmielot> (Cel) WTS 30 large amphoras of milk (10 of each type) - 18s (10c a small barrel)   https://forum.wurmonline.com/index.php?/topic/210328-wts-30-large-amphors-of-milk-10-of-each-type/
+[15:30:31] <Lordzmielot> (Cel) WTS 98QL [rare null grindstone QL:98.0182 DMG:0.0 WT:3.0 WoA 99 • CoC 96 • RStV] 5s
+[15:30:43] <Xumbreca> (Cel) pc 4s kg
+[15:31:43] <Jpopper> (Xan) Wtb a full set of tools and weapons next to a portal?  Jpopper’s merchants at Lormere’s Market sell 90q enchanted tools for 1s.  95q tools for 2s.  LT weapons.  Bows.  Fishing gear.  Horse gear.  In person sales of horses and vehicles at nearby Surefall Glade.  Free summons if needed.
+[15:32:16] <Thegodwin> (Xan) WTS [common steel huge axe QL:86.34494 DMG:0.0 WT:2.5 WoA 100 • LT 100 • CoC 92 • RStV • MS 104]
+[15:33:26] <Goldfinch> (Pri) WTS [common null seafarer's hat skin QL:80.0 DMG:0.0 WT:0.05 ] 10s
+[15:34:37] <Realcoffee> (Exo) WTB wooden beams - pm
+[15:43:02] <Meninorevolta> (Exo) WTB COC 90+
+[15:49:37] <Realcoffee> (Exo) WTB beams found :)
+[15:52:58] <Asmodeuss> (Xan) PC [rare null unfinished kiln QL:1.46053 DMG:0.0 WT:50.0 ]
+[15:53:13] <Marigold> (Xan) WTS [rare iron shovel QL:92.05155 DMG:0.0 WT:2.0 BoTD 102] 5s
+[15:56:02] <Wulfgar> (Rel) WTB - Dreadnaught Dynasty Tent
+[15:57:30] <Bankers> (Cel) WTB Most Supreme materials except clay and bricks. Planks, Nails, Strings etc.
+[15:59:22] <Cuillin> (Xan) WTB via Wagoner Small Crate of 98-99 Ql logs please
+[16:02:45] <Timothymarker> (Xan) WTS Leather gear, armor, toolbelts, WoA saddles. LW imping service (up to QL97). Stock and prices see http://forum.wurmonline.com/index.php?/topic/131555-tims-tannery-vrock-landing-xanadu
+[16:05:34] <Jingerjas> (Xan) WTS FREE halter ropes, 90ql, just pay shipping
+[16:05:36] <Hcedzeb> (Xan) wts small barrel of targetted aff moonshine 2s or 2sp timer is  2days 8h of affinitys.
+[16:07:34] <Meninorevolta> (Exo) WTB COC 90+
+[16:16:25] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:16:25] <System> Please PM the person if you are interested in the Item.
+[16:16:25] <System> This is the Trade channel.
+[16:16:25] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:16:25] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:16:25] <System> You can disable receiving these messages, by a setting in your profile.
+[16:17:35] <Jpopper> (Xan) Wts 95q caravels 15s, knarrs 12s, cogs 7s, corbitas 6s, sailboats 3s.  At Surefall By The Sea Q15.  Free summons on Xanadu and to the northwest side of all other South Freedom servers.
+[16:19:27] <Joaum> (Xan) WTB 80+ Compass
+[16:21:11] <Gibbs> (Ind) wts [common null wrapped full house pizza QL:99.0511 DMG:0.0 WT:70.62 Op 100] 1s 70c
+[16:21:55] <Goldfinch> (Pri) PC rare horse shoe ql 70, cast WOA 94?
+[16:26:58] <Zsolt> (Del) wts small barrel of targeted affinity moonshine 1s, small barrels of Kahvesi 1.5s
+[16:30:27] <Jingerjas> (Xan) WTS Valrei items 10c each, free shipping with orders of 10 or more
+[16:34:15] <Cuillin> (Xan) WTB via Wagoner Small Crate of 98-99 Ql logs please
+[16:36:15] <Nocturnality> (Exo) WTB some cotton for huntin
+[16:36:23] <Meninorevolta> (Exo) WTB COC 90+
+[16:39:44] <Kindrashae> (Xan) wtb 6 satchels
+[16:39:54] <Xumbreca> (Cel) wts [common steel lump QL:92.46633 DMG:0.0 WT:64.0 ] 4.5s / special prices for lower ql
+[16:40:06] <Lordzmielot> (Cel) WTS 30 large amphoras of milk (10 of each type) - 18s (10c a small barrel)   https://forum.wurmonline.com/index.php?/topic/210328-wts-30-large-amphors-of-milk-10-of-each-type/
+[16:40:07] <Lordzmielot> (Cel) WTS 98QL [rare null grindstone QL:98.0182 DMG:0.0 WT:3.0 WoA 99 • CoC 96 • RStV] 5s
+[16:40:27] <Siegfried> (Cel) wtb or trade for Ebonaura military tent
+[16:40:49] <Wulfgar> (Exo) WTB - Dreadnaught Dynasty Tent
+[16:44:49] <Drakons> (Ind) wts [rare null bow string QL:15.7859 DMG:0.0 WT:0.01 ][rare null bow string QL:57.3806 DMG:0.0 WT:0.01 ][rare null bow string QL:17.210861 DMG:0.0 WT:0.01 ][rare null bow string QL:38.8274 DMG:0.0 WT:0.01 ] mail cost
+[16:45:43] <Kindrashae> (Xan) pc Satchels bought
+[16:50:34] <Sgtscum> (Xan) wtb bulk sleep powder   25 50 or more  PM
+[16:52:13] <Wackamole> (Xan) WTB NIM BT COC and MS casts on a weapon convo me
+[16:52:48] <Farbauti> (Xan) wts rare lump of  lead  QL 53.4
+[16:53:39] <Pingpong> (Rel) wts 90-98ql ws imps
+[17:11:24] <Smackeddown> (Pri) WTS [rare iron hammer QL:95.3853 DMG:0.0 WT:1.4 WoA 93 • ImBS 40 • RGsL • CoC 67 • ImWS 15] and Crops - https://forum.wurmonline.com/index.php?/topic/209966-we-have-your-crops-for-sale/
+[17:12:04] <Melissablueflame> (Xan) WTS mailalbe statues. Rift beast, mountain lion 1s each. Kyklops 3s. Tich 3.5s pm
+[17:17:17] <Galtz> (Xan) wts [common null Cleaver Shortsword skin QL:86.4739 DMG:0.0 WT:0.05 ] I can go to any starter city
+[17:17:53] <Siegfried> (Cel) wtb or trade for fiendish maul skin
+[17:18:47] <Goldfinch> (Pri) WTS rare horse shoe with WOA 93
+[17:25:32] <Boralt> (Del) wts JK template wagon or trade for MR template
+[17:32:34] <Tavivo> (Xan) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[17:36:36] <Lordzmielot> (Cel) WTS 30 large amphoras of milk (10 of each type) - 18s (10c a small barrel)   https://forum.wurmonline.com/index.php?/topic/210328-wts-30-large-amphors-of-milk-10-of-each-type/
+[17:36:38] <Lordzmielot> (Cel) WTS 98QL [rare null grindstone QL:98.0182 DMG:0.0 WT:3.0 WoA 99 • CoC 96 • RStV] 5s
+[17:38:49] <Elsixto> (Xan) PC [common iron hammer QL:72.325 DMG:0.0 WT:1.4 CoC 84]
+[17:41:28] <Melissablueflame> (Xan) WTS mailalbe statues. Rift beast, mountain lion 1s each. Kyklops 3s. Tich 3.5s pm
+[17:43:56] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[17:43:56] <System> Please PM the person if you are interested in the Item.
+[17:43:56] <System> This is the Trade channel.
+[17:43:56] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[17:43:56] <System> You can also use @<name> to send a reply in this channel to <name>.
+[17:43:56] <System> You can disable receiving these messages, by a setting in your profile.
+[17:47:24] <Reflekted> (Rel) wtb a waterskin, or a small barrel of water
+[17:47:58] <Jothebard> (Del) WTS Why not visit Southport market U18 Deliverance - 50 merchants: rares, supremes, tools, weapons, armour, crafting materials, ready to complete statues, statuettes, masks, fragments, potions, rugs, carpets, runed and casted items, arch wood planks, shafts, pegs, tenons, branches, gifts, seasonal goods, halter ropes, WoA horseshoes, CoC skillers, AoSP chain, jewelry, skins, goodies +so much more!
+[17:56:20] <Brotherstwo> (Xan) WTS [rare null strange bone QL:46.5938 DMG:0.0 WT:1.5 ]
+[17:56:28] <Tamoshanter> (Ind) wts [common straw picnic basket QL:99.0 DMG:0.0 WT:0.8 ]
+[18:04:23] <Jekkumage> (Ind) WTS 98 Lurker in the Dark pendulum (gold, ql92), 1.75s [common gold pendulum QL:92.45846 DMG:0.0 WT:0.4 LITDa 98]
+[18:05:11] <Twillight> (Ind) wts [rare oakenwood rope tool QL:92.1394 DMG:0.0 WT:1.5 WoA 98 • CoC 92 • RCV] 6s [rare iron butchering knife QL:90.2834 DMG:0.0 WT:1.2 WoA 94 • CoC 90] 4s [rare iron large anvil QL:15.55 DMG:0.0 WT:10.0 ] 9s [common null oil of the weapon smith QL:57.9891 DMG:0.0 WT:0.2 ] 2s [rare cedarwood small rowing boat QL:91.5975 DMG:0.0 WT:120.0 RTV] 20s
+[18:07:10] <Iron> (Del) wts [common null large rat pelt QL:100.0 DMG:0.0 WT:0.2 WoA 102 • CoC 103]
+[18:11:50] <Timothymarker> (Xan) WTS Leather gear, armor, toolbelts, WoA saddles. LW imping service (up to QL97). Stock and prices see http://forum.wurmonline.com/index.php?/topic/131555-tims-tannery-vrock-landing-xanadu
+[18:12:56] <Highnoon> (Xan) PC bedroll
+[18:17:28] <Helorn> (Exo) wtb wc pots/blood
+[18:23:17] <Salos> (Exo) wts bracelet of inspiration 30s
+[18:24:16] <Reflekted> (Rel) wts same item for 25 , the normal price
+[18:26:42] <Malajane> (Del) WTB LW pots/blood
+[18:32:42] <Nicol> (Exo) wtb ql 90 silver two handed sword
+[18:33:47] <Smackeddown> (Pri) WTS - [rare iron hammer QL:95.3853 DMG:0.0 WT:1.4 WoA 93 • ImBS 40 • RGsL • CoC 67 • ImWS 15]
+[18:54:15] <Krylon> (Ind) wts Plate Armor Set, iron 90ql, 4s50c+cod, pick a color https://imgur.com/plate-armor-colors-4Ey6Vky
+[19:00:28] <Ltforge> (Exo) WTS [rare clay mortar QL:31.271458 DMG:0.0 WT:2.0 ] 20c
+[19:00:40] <Pumaco> (Xan) WTB mortar and pestle mid ql or better hopefully with coc
+[19:01:51] <Nymphalia> (Rel) wtb 3furs and 2sheets
+[19:02:11] <Mypoppy> (Exo) wtb wc pots/blood
+[19:02:56] <Mypoppy> (Exo) wts [rare iron file QL:90.0034 DMG:0.0 WT:0.4 WoA 84 • CoC 86][rare iron awl QL:90.0172 DMG:0.0 WT:0.4 WoA 84 • CoC 81][rare iron needle QL:89.9761 DMG:0.0 WT:0.005 WoA 84 • CoC 97][rare iron hammer QL:90.3825 DMG:0.0 WT:1.4 WoA 77 • CoC 78] 4s ea
+[19:19:23] <Jpopper> (Xan) Wtb a full set of tools and weapons next to a portal?  Jpopper’s merchants at Lormere’s Market sell 90q enchanted tools for 1s.  95q tools for 2s.  LT weapons.  Bows.  Fishing gear.  Horse gear.  In person sales of horses and vehicles at nearby Surefall Glade.  Free summons if needed.
+[19:22:06] <Foxdieone> (Exo) wts [rare birchwood dirty casket (Exodus) QL:15.0 DMG:0.0 WT:5.0 ] 1s
+[19:26:20] <Foxdieone> (Exo) wts [common walnut sealed small barrel [cafe au lait] QL:6.35588 DMG:0.0 WT:47.0 ] 60 c
+[19:26:39] <Smackeddown> (Pri) WTS - [rare iron hammer QL:95.3853 DMG:0.0 WT:1.4 WoA 93 • ImBS 40 • RGsL • CoC 67 • ImWS 15]
+[19:28:12] <Winterz> (Exo) WTS [common glimmersteel lump QL:87.4917 DMG:0.0 WT:0.354 ]
+[19:28:15] <Pumaco> (Xan) WTB mortar and pestle
+[19:37:49] <Crukash> (Ind) WTS [rare clay clay QL:20.0 DMG:0.0 WT:2.0 ] 1s
+[19:38:03] <Lunadew> (Xan) WTS 100ql Wemp,cotton,wool,veg,fruit 1s per k xan wagoneer or pickup ..also till its gone [sugar beet] special for 50c per k ..4s horses all colors and ages 50c ..xan
+[19:39:21] <Lunadew> (Xan) WTS [rare cedarwood shaft QL:43.64 DMG:0.0 WT:1.0 ] 1s
+[19:40:06] <Xumbreca> (Exo) wtb gold lumps 1k / 5k / 10k
+[19:41:04] <Xxgoosfrabaxx> (Del) PC [rare adamantine lump QL:83.8122 DMG:0.0 WT:0.34 ]
+[19:41:08] <Thegodwin> (Xan) WTS Free [common leather leather adventurer hat QL:60.081562 DMG:0.0 WT:0.4 ]
+[19:42:06] <Pingpong> (Rel) wtb 1 dragon egg
+[19:48:31] <Meninorevolta> (Exo) WTS [rare null perch QL:14.196074 DMG:0.0 WT:0.07 ]
+[19:52:14] <Rabican> (Xan) WTS [rare null strange bone fragment [1/12] QL:59.1095 DMG:0.0 WT:0.125 ]
+[19:55:40] <Mykeldayhawk> (Ind) PC [common slate slate bricks QL:23.22707 DMG:0.0 WT:8000.0 ]
+[19:55:58] <Thelyonhart> (Xan) PC 2s
+[19:56:12] <Tavivo> (Xan) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ][common leather white dragon scales QL:89.1771 DMG:0.0 WT:0.018 ]
+[19:58:10] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[19:58:10] <System> Please PM the person if you are interested in the Item.
+[19:58:10] <System> This is the Trade channel.
+[19:58:10] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[19:58:10] <System> You can also use @<name> to send a reply in this channel to <name>.
+[19:58:10] <System> You can disable receiving these messages, by a setting in your profile.
+[19:58:47] <Sarthow> (Xan) wts [rare sandstone shards QL:14.518687 DMG:0.0 WT:20.0 ]
+[20:04:16] <Yekrut> (Pri) wts supreme shovel auction. currently 31s https://tinyurl.com/mkjrcanr
+[20:04:22] <Tristeza> (Ind) WTS 3x [common null Thunder Forge skin QL:80.0 DMG:0.0 WT:0.05 ]
+[20:06:01] <Naevia> (Xan) WTS [rare leather atlas QL:30.997023 DMG:0.0 WT:0.25 ] bid/offer
+[20:09:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[20:09:28] <System> Please PM the person if you are interested in the Item.
+[20:09:28] <System> This is the Trade channel.
+[20:09:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[20:09:28] <System> You can also use @<name> to send a reply in this channel to <name>.
+[20:09:28] <System> You can disable receiving these messages, by a setting in your profile.
+[20:15:14] <Joaum> (Xan) WTS [rare iron butchering knife QL:70.7777 DMG:0.0 WT:1.2 ] 2s
+[20:16:07] <Foxdieone> (Exo) PC cafe au lait
+[20:20:04] <Jothebard> (Del) WTS Why not visit Southport market U18 Deliverance - 50 merchants: rares, supremes, tools, weapons, armour, crafting materials, ready to complete statues, statuettes, masks, fragments, potions, rugs, carpets, runed and casted items, arch wood planks, shafts, pegs, tenons, branches, gifts, seasonal goods, halter ropes, WoA horseshoes, CoC skillers, AoSP chain, jewelry, skins, goodies +so much more!
+[20:22:11] <Foxdieone> (Exo) wts [rare birchwood dirty casket (Exodus) QL:15.0 DMG:0.0 WT:5.0 ] 51c
+[20:22:24] <Lunadew> (Xan) WTS 100ql Wemp,cotton,wool,veg,fruit 1s per k xan wagoneer or pickup ..also till its gone [sugar beet] special for 50c per k ..4s horses all colors and ages 50c ..xan
+[20:22:50] <Thegodwin> (Xan) WTS FREE!!! [common leather leather adventurer hat QL:60.081562 DMG:0.0 WT:0.4 ][common leather leather adventurer hat QL:60.078876 DMG:0.0 WT:0.4 ][common leather studded leather cap QL:60.221115 DMG:0.0 WT:0.4 ]
+[20:23:20] <Xumbreca> (Cel) wts [rare null strange bone fragment [1/12] QL:53.279 DMG:0.0 WT:0.125 ] 3s / [rare seryll lump QL:98.1283 DMG:0.0 WT:0.293 ] 1.5s / [rare glimmersteel lump QL:86.26838 DMG:0.0 WT:0.344 ] 1.2s / [rare adamantine lump QL:71.099 DMG:0.0 WT:0.275 ] 1s
+[20:23:54] <Meninorevolta> (Exo) WTS [rare null perch QL:14.196074 DMG:0.0 WT:0.07 ]10C
+[20:24:13] <Lunadew> (Xan) WTS [rare cedarwood shaft QL:43.64 DMG:0.0 WT:1.0 ] 1s
+[20:33:15] <Drddoom> (Exo) WTS [rare lindenwood sprout QL:7.02514 DMG:0.0 WT:0.2 ] and [supreme null stone shards QL:27.3387 DMG:0.0 WT:20.0 ]
+[20:36:59] <Smackeddown> (Pri) WTS [rare iron hammer QL:95.3853 DMG:0.0 WT:1.4 WoA 93 • ImBS 40 • RGsL • CoC 67 • ImWS 15] and crops https://forum.wurmonline.com/index.php?/topic/209966-we-have-your-crops-for-sale/
+[20:38:21] <Krylon> (Ind) wts Plate Armor Set, iron 90ql, 4s50c+cod, pick a color https://imgur.com/plate-armor-colors-4Ey6Vky
+[20:39:08] <Thegodwin> (Xan) WTS Free [common leather leather adventurer hat QL:60.078876 DMG:0.0 WT:0.4 ][common leather studded leather cap QL:60.221115 DMG:0.0 WT:0.4 ]
+[20:41:28] <Meanwan> (Xan) WTS skilling scissors [common iron scissors QL:2.5962667 DMG:0.0 WT:0.4 WoA 66 • CoC 82] 1s
+[20:55:19] <Gorgonkain> (Exo) WTS [common leather white dragon scales QL:80.0 DMG:0.0 WT:0.018 ] 1.5s [common glimmersteel lump QL:82.54744 DMG:0.0 WT:0.335 ] 1s [rare zinc lump QL:54.0701 DMG:0.0 WT:1.0 ][rare zinc lump QL:45.2355 DMG:0.0 WT:1.0 ] 20c each
+[20:58:58] <Munci> (Xan) wtb coc tooth
+[20:59:31] <Smackeddown> (Pri) WTS [rare iron hammer QL:95.3853 DMG:0.0 WT:1.4 WoA 93 • ImBS 40 • RGsL • CoC 67 • ImWS 15] and crops https://forum.wurmonline.com/index.php?/topic/209966-we-have-your-crops-for-sale/
+[21:00:14] <Drddoom> (Exo) WTS [rare lindenwood sprout QL:7.02514 DMG:0.0 WT:0.2 ][rare birchwood dirty casket (Exodus) QL:23.0 DMG:0.0 WT:5.0 ][rare null dirt QL:22.911596 DMG:0.0 WT:20.0 ][supreme null stone shards QL:27.3387 DMG:0.0 WT:20.0 ]
+[21:07:49] <Naevia> (Xan) WTS [rare leather atlas QL:30.997023 DMG:0.0 WT:0.25 ] bid/offer
+[21:09:02] <Mypoppy> (Exo) wtb woodcutting pots/bloods
+[21:09:05] <Meanwan> (Xan) PC on [rare zinc carving knife QL:57.0354 DMG:0.0 WT:0.4 WoA 94 • CoC 45]
+[21:09:29] <Chasone> (Ind) pc ~3s maybe
+[21:09:43] <Mypoppy> (Exo) wts [rare iron needle QL:89.9761 DMG:0.0 WT:0.005 WoA 84 • CoC 97][rare iron hammer QL:90.3825 DMG:0.0 WT:1.4 WoA 77 • CoC 78][rare iron awl QL:90.0172 DMG:0.0 WT:0.4 WoA 84 • CoC 81][rare iron file QL:90.0034 DMG:0.0 WT:0.4 WoA 84 • CoC 86] 4s ea
+[21:11:06] <Lunadew> (Xan) WTS [rare zinc carving knife QL:57.0354 DMG:0.0 WT:0.4 WoA 94 • CoC 45] 3s
+[21:11:32] <Minixcaliber> (Exo) WTB Mining pots / thunderforge skins
+[21:14:12] <Smackeddown> (Pri) PC mining potions
+[21:14:24] <Brotherstwo> (Xan) WTS [rare null rounded stone QL:47.024437 DMG:0.0 WT:15.0 ]
+[21:15:45] <Mypoppy> (Exo) pc mining pots 3sish
+[21:16:08] <Gibbs> (Ind) wts wtt [common null potion of woodcutting QL:94.3254 DMG:0.0 WT:0.11 ][common null potion of woodcutting QL:67.8836 DMG:0.0 WT:0.11 ][common null potion of woodcutting QL:48.5272 DMG:0.0 WT:0.11 ][common null potion of woodcutting QL:66.1582 DMG:0.0 WT:0.11 ] for ropemaking bloods
+[21:16:13] <Voidedsage> (Rel) WTB 2 lavender wood planks, 2 lingonberry planks
+[21:17:57] <Jothebard> (Del) WTS Why not visit Southport market U18 Deliverance - 50 merchants: rares, supremes, tools, weapons, armour, crafting materials, ready to complete statues, statuettes, masks, fragments, potions, rugs, carpets, runed and casted items, arch wood planks, shafts, pegs, tenons, branches, gifts, seasonal goods, halter ropes, WoA horseshoes, CoC skillers, AoSP chain, jewelry, skins, goodies +so much more!
+[21:18:17] <Padrejarbas> (Xan) wtb a good hh speed
+[21:20:59] <Minixcaliber> (Exo) WTB pickaxe rune for QL
+[21:23:22] <Munci> (Xan) wtb 90+ coc eye and tooth
+[21:24:08] <Jotasiete> (Xan) wtb 64 concrete via mail =/
+[21:24:29] <Krylon> (Ind) wtb  ooo... i'll take an coc 90+ eye also
+[21:28:17] <Jotasiete> (Xan) wtb bought
+[21:28:22] <Foxdieone> (Exo) PC cafe au lait in small barrel full
+[21:29:44] <Xanthor> (Xan) Wts / wta https://forum.wurmonline.com/index.php?/topic/210825-wta-auld-lang-syne-2026/
+[21:41:11] <Minixcaliber> (Exo) WTB Rare Forge
+[21:41:18] <Minixcaliber> (Exo) WTB Rare Oven ***
+[21:45:15] <Mypoppy> (Exo) wtb wc pots
+[21:51:31] <Smackeddown> (Pri) PC pots of Butchering
+[21:54:27] <Zreyas> (Xan) PC Rare Forge
+[21:54:42] <Smackeddown> (Pri) WTS - 4x Ropemaking POTS 5s each, 4x POTS of Butchery 4s each
+[21:54:55] <Minixcaliber> (Exo) WTB Thunderforge skin x2 fair prices
+[21:54:58] <Mypoppy> (Exo) pc forges usually 4s
+[21:55:35] <Pedruo> (Xan) wtb potion of leatherworking
+[21:55:53] <Birdbeback> (Ind) pc [supreme null colossus brick QL:76.01021 DMG:0.0 WT:15.0 ]
+[21:57:56] <Acemccloud> (Pri) WTS - [common iron rake QL:89.1485 DMG:0.0 WT:1.2 WoA 90 • RGF][common oakenwood opal staff QL:10.7211 DMG:10.0 WT:2.0 ]
+[21:58:33] <Smackeddown> (Pri) PC pots of leather working. 3sish?
+[21:59:44] <Munci> (Xan) wtb 90+ coc cast or coc eye and tooth
+[22:03:27] <Drddoom> (Exo) WTS [rare lindenwood sprout QL:7.02514 DMG:0.0 WT:0.2 ][rare birchwood dirty casket (Exodus) QL:23.0 DMG:0.0 WT:5.0 ][rare null dirt QL:22.911596 DMG:0.0 WT:20.0 ][supreme null stone shards QL:27.3387 DMG:0.0 WT:20.0 ]
+[22:07:17] <Zsolt> (Del) wts small barrel of targeted affinity moonshine 1s, small barrels of Kahvesi 1.5s
+[22:07:37] <Kupferlisa> (Xan) wts [rare null colossus brick QL:63.2622 DMG:0.0 WT:15.0 ]
+[22:09:44] <Pomeray> (Ind) wts [supreme null Independence old treasure map QL:59.0 DMG:0.0 WT:0.01 ]  [common null star diamond QL:13.4351 DMG:0.0 WT:0.5 ]  [common null star emerald QL:7.94377 DMG:0.0 WT:0.5 ]  [common null star ruby QL:48.9919 DMG:0.0 WT:0.5 ]
+[22:16:57] <Sarthow> (Xan) wtb halter rope
+[22:17:33] <Thegodwin> (Exo) PC [common iron hatchet QL:1.33953 DMG:0.0 WT:2.5 RTF • RSeM • CoC 101 • RBrM][common iron pickaxe QL:2.25632 DMG:0.0 WT:2.0 CoC 100]
+[22:19:02] <Nymphalia> (Rel) wtb 1 square piece of canvas
+[22:20:43] <Farscape> (Rel) WTB Scale
+[22:21:37] <Jingerjas> (Xan) WTS Valrei items 10c each, free shipping with orders of 10 or more
+[22:22:00] <Tristeza> (Ind) WTS 5x [rare null dirt QL:54.7925 DMG:0.0 WT:20.0 ] 10c each && 1x [supreme null dirt QL:89.92037 DMG:0.0 WT:20.0 ] 20c
+[22:25:42] <Mypoppy> (Exo) wts [rare iron needle QL:89.9761 DMG:0.0 WT:0.005 WoA 84 • CoC 97][rare iron hammer QL:90.3825 DMG:0.0 WT:1.4 WoA 77 • CoC 78][rare iron awl QL:90.0172 DMG:0.0 WT:0.4 WoA 84 • CoC 81][rare iron file QL:90.0034 DMG:0.0 WT:0.4 WoA 84 • CoC 86][rare iron hatchet QL:90.1485 DMG:0.0 WT:2.5 WoA 94 • RBzL • ImWC 97 • CoC 101]
+[22:27:56] <Nymphalia> (Rel) wtb 2 4D horses
+[22:31:49] <Delacroix> (Cel) PC Crusader Tent
+[22:36:37] <Xumbreca> (Cel) wts Steel - 95ql [common steel lump QL:95.17862 DMG:0.0 WT:64.0 ] - 92ql [common steel lump QL:92.399704 DMG:0.0 WT:64.0 ] - [rare steel lump QL:92.5735 DMG:0.0 WT:0.4 ] x5 / special prices for QL below 90
+[22:37:30] <Pedruo> (Xan) wtb ql80+ lye
+[22:38:57] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[22:38:57] <System> Please PM the person if you are interested in the Item.
+[22:38:57] <System> This is the Trade channel.
+[22:38:57] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[22:38:57] <System> You can also use @<name> to send a reply in this channel to <name>.
+[22:38:57] <System> You can disable receiving these messages, by a setting in your profile.
+[23:13:07] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[23:13:07] <System> Please PM the person if you are interested in the Item.
+[23:13:07] <System> This is the Trade channel.
+[23:13:07] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[23:13:07] <System> You can also use @<name> to send a reply in this channel to <name>.
+[23:13:07] <System> You can disable receiving these messages, by a setting in your profile.
+[23:24:25] <Drddoom> (Exo) WTS [rare lindenwood sprout QL:7.02514 DMG:0.0 WT:0.2 ][rare birchwood dirty casket (Exodus) QL:23.0 DMG:0.0 WT:5.0 ][rare null dirt QL:22.911596 DMG:0.0 WT:20.0 ][supreme null stone shards QL:27.3387 DMG:0.0 WT:20.0 ]
+[23:28:33] <Jotasiete> (Xan) wtb 100 concrete
+[23:29:48] <Tamat> (Pri) PC concrete
+[23:30:07] <Knockbr> (Exo) PC [rare maplewood shaft QL:5.0392647 DMG:0.0 WT:1.0 ]
+[23:31:02] <Cesaille> (Cel) pc 1s
+[23:31:42] <Knockbr> (Exo) PC tnks
+[23:32:31] <Rhyxus> (Pri) WTS Support Beams (1200 in stock Costial delivery or Land Delivery in Pristine) 4s/100
+[23:35:35] <Xanthor> (Xan) Wts 2 rare sandstone forges
+[23:39:57] <Xumbreca> (Cel) WTB gold lumps in bulks 1k / 5k / 10k
+[23:40:05] <Xumbreca> (Cel) WTS [rare null strange bone fragment [1/12] QL:53.279 DMG:0.0 WT:0.125 ] 3s
+[23:43:39] <Sheridanz> (Ind) wts [rare oakenwood spindle QL:81.2466 DMG:0.0 WT:0.6 WoA 95 • CoC 97][rare iron hatchet QL:95.6857 DMG:0.0 WT:2.5 WoA 104 • RBzL • CoC 79][common iron shovel QL:8.04122 DMG:0.0 WT:2.0 CoC 92][common iron shovel QL:95.0121 DMG:0.0 WT:2.0 WoA 100 • CoC 95][common steel pickaxe QL:8.37938 DMG:0.0 WT:2.0 CoC 101]
+[23:46:09] <Rhyxus> (Pri) WTS [rare null strange bone fragment [1/12] QL:65.2926 DMG:0.0 WT:0.125 ] 3s 4x[rare walnut shaft QL:40.8473 DMG:0.0 WT:1.0 ] 1s/ea  3x[rare iron ribbon QL:74.0403 DMG:0.0 WT:3.0 ]1s/ea[rare tar tar QL:62.4813 DMG:0.0 WT:1.0 ] 1s
+[23:50:16] <Yekrut> (Pri) wts [rare iron hammer QL:6.51198 DMG:0.0 WT:1.4 ][rare iron spoon QL:6.22659 DMG:0.0 WT:0.03 ][rare iron fork QL:6.67783 DMG:0.0 WT:0.03 ]
+[23:52:04] <Jingerjas> (Xan) WTS FREE halter ropes 90ql, just pay shipping
+[23:52:07] <Pedruo> (Xan) wtb butchering pots
+[23:52:32] <Xanthor> (Xan) Wts / Wta new years chest https://forum.wurmonline.com/index.php?/topic/210825-wta-auld-lang-syne-2026/
 
-Logging started 2026-01-03
-[00:11:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[00:11:36] <System> Please PM the person if you are interested in the Item.
-[00:11:36] <System> This is the Trade channel.
-[00:11:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:11:36] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:11:36] <System> You can disable receiving these messages, by a setting in your profile.
-[14:04:34] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[14:04:34] <System> Please PM the person if you are interested in the Item.
-[14:04:34] <System> This is the Trade channel.
-[14:04:34] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:04:34] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:04:34] <System> You can disable receiving these messages, by a setting in your profile.
-[19:07:26] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[19:07:26] <System> Please PM the person if you are interested in the Item.
-[19:07:26] <System> This is the Trade channel.
-[19:07:26] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[19:07:26] <System> You can also use @<name> to send a reply in this channel to <name>.
-[19:07:26] <System> You can disable receiving these messages, by a setting in your profile.
+Logging started 2026-03-29
+[15:01:36] <Ikolteroht> (Ind) WTS pelts for free: [common null mountain lion pelt QL:40.2768 DMG:0.0 WT:0.4 ],  [common null large rat pelt QL:35.5274 DMG:0.0 WT:0.2 ],  [common null large rat pelt QL:42.5396 DMG:0.0176321 WT:0.2 ]
+[15:02:38] <Gibbs> (Rel) wts [common leather white dragon scales QL:87.4946 DMG:0.0 WT:0.045 ] 4s    [common leather blue dragon scale QL:88.069 DMG:0.0 WT:0.087 ]   7.2s
+[15:05:27] <Ikolteroht> (Ind) WTS [rare null stone brick QL:65.2385 DMG:0.0 WT:15.0 ] 1s,   [rare null rounded stone QL:27.2163 DMG:0.0 WT:15.0 ] 1s
+[15:06:45] <Majonezik> (Pri) wts [rare null blue dragon hatchling strange bone QL:100.0 DMG:0.0 WT:7.5 ]
+[15:08:36] <Reflekted> (Xan) wts [supreme marble marble planter QL:46.2523 DMG:3.53374 WT:90.0 ]
+[15:08:54] <Ryld> (Rel) WTS [supreme lead medium maul QL:95.50368 DMG:0.0 WT:4.0 RBrJ] 45s
+[15:10:18] <Winterz> (Rel) WTS [common adamantine lump QL:96.3302 DMG:0.0 WT:0.394 ]
+[15:11:08] <Reflekted> (Xan) wts [common bronze challenge statue QL:98.6748 DMG:0.0 WT:100.0 ] 40s
+[15:13:41] <Timothymarker> (Xan) WTS Leather gear, armor, toolbelts, WoA saddles. LW imping service (up to QL97). Stock and prices see http://forum.wurmonline.com/index.php?/topic/131555-tims-tannery-vrock-landing-xanadu
+[15:14:01] <Sidvicious> (Del) wtb 2h sword imp and leather chest + legs imp service
+[15:15:24] <Sidvicious> (Del) wts velrei items have about 25 total
+[15:20:17] <Trevize> (Del) WTS 32k 100ql wemp
+[15:24:01] <Grizzlone> (Ind) PC [common empyrean lump QL:32.39918 DMG:0.0 WT:0.079 ]
+[15:26:09] <Meninorevolta> (Rel) WTS [rare maplewood plank QL:33.2629 DMG:0.0 WT:2.0 ][common blueberrywood plank QL:64.19631 DMG:0.0 WT:2.0 ]
+[15:26:37] <Chudotvorets> (Rel) PC [rare glimmersteel lump QL:82.8979 DMG:0.0 WT:0.333 ]
+[15:29:00] <Sidvicious> (Del) wtb imp services bought
+[15:30:28] <Sidvicious> (Del) wts velrei mission items 25 total
+[15:31:55] <Birdbeback> (Ind) WTB large crate of 96+ql iron lumps wagoneer/delivery
+[15:32:53] <Meninorevolta> (Rel) WTS Planks sold
+[15:35:35] <Xagru> (Rel) WTS 23 sleep powders 1s each, can trade at public slay today
+[15:44:37] <Sidvicious> (Del) wtb 90ql grooming brush with botd
+[15:44:41] <Jotasiete> (Rel) pc scales
+[15:45:06] <Shrimpiie> (Cel) PC Dragon Scale you mean? 70c/.01kg
+[15:45:28] <Merfin> (Ind) WTS [common leather toolbelt QL:90.0751 DMG:0.0 WT:1.0 ][common leather saddle QL:90.3827 DMG:0.0 WT:5.501 ][common leather saddle QL:90.4312 DMG:0.0 WT:5.501 WoA 89][common leather saddle QL:91.2877 DMG:0.0 WT:5.501 WoA 92][common leather saddle QL:94.1445 DMG:0.0 WT:5.501 WoA 106], more gear and armours available, LW imps up to ql95
+[15:47:58] <Jotasiete> (Rel) pc ty
+[15:48:27] <Reflektionz> (Xan) pc it take 35 for the challage statue tho , its mailible
+[15:55:58] <Ituxnek> (Xan) pc [common null honey QL:78.64275 DMG:0.0 WT:45.0 ] small barrel
+[15:56:12] <Scarlett> (Rel) Wts sleep powders at slaying
+[15:58:37] <Sidvicious> (Del) wts velrei mission items 25 total
+[15:58:41] <Omega> (Ind) WTS [rare steel hammer QL:94.8861 DMG:0.0 WT:1.4 RGsL • BoTD 105][rare iron hatchet QL:94.9696 DMG:0.0 WT:2.5 RBzL • ImWC 100 • BoTD 104][rare steel butchering knife QL:48.5338 DMG:0.0 WT:1.2 ][rare silver hammer QL:90.1742 DMG:0.0 WT:1.4 ]
+[15:58:48] <Omega> (Ind) WTS [common iron carving knife QL:31.4697 DMG:0.0 WT:0.4 BoTD 105][common iron saw QL:10.1626 DMG:0.0 WT:1.2 CoC 101][common iron file QL:55.8732 DMG:0.0 WT:0.4 BoTD 101][common iron cutlass QL:69.8431 DMG:0.0 WT:3.0 ][common iron shovel QL:11.9998 DMG:0.0 WT:2.0 BoTD 100]
+[15:59:48] <Jothebard> (Del) WTS Why not visit Southport market U18 Deliverance - 50 merchants: rares, supremes, tools, weapons, armour, crafting materials, ready to complete statues, statuettes, masks, fragments, potions, rugs, carpets, runed and casted items, arch wood planks, shafts, pegs, tenons, branches, gifts, seasonal goods, halter ropes, WoA horseshoes, CoC skillers, AoSP chain, jewelry, skins, goodies +so much more!
+[16:03:21] <Parafinaum> (Rel) pc [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[16:03:52] <Laplace> (Rel) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[16:04:19] <Sarthow> (Rel) wts [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[16:04:48] <Xagru> (Rel) WTS sleep powders 1s each, can trade at public slay on Rel
+[16:05:01] <Thegodwin> (Rel) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ] 1,5s each
+[16:05:13] <Cristian> (Ind) PC [rare iron hunting arrow head QL:24.425123 DMG:0.0 WT:0.04 ]
+[16:05:13] <Jotasiete> (Rel) wts [common null oil of the blacksmith QL:83.17524 DMG:0.0 WT:0.11 ] 2s
+[16:05:34] <Led> (Ind) WTB cheap 5s horse WTS things @ https://ledinc.pl
+[16:06:03] <Gthunter> (Rel) WTS 2s [common leather white dragon scales QL:98.9369 DMG:0.0 WT:0.023 ]
+[16:06:19] <Sarthow> (Rel) wts [common leather white dragon scales QL:80.0 DMG:0.0 WT:0.023 ]
+[16:06:26] <Parafinaum> (Rel) wts [common leather white dragon scales QL:80.0 DMG:0.0 WT:0.023 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[16:06:36] <Laplace> (Rel) WTS [common leather white dragon scales QL:89.34113 DMG:0.0 WT:0.023 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
+[16:06:48] <Voltarelli> (Rel) WTB scales 70c per 0.01Kg
+[16:07:54] <Birdbeback> (Ind) WTB large crate of 96+ql iron lumps wagoneer/delivery
+[16:09:16] <Sarthow> (Rel) wts [common null blood QL:100.0 DMG:0.0 WT:0.1 ] accepting offers
+[16:09:56] <Dgar> (Rel) pc rift mats low ql ?
+[16:10:06] <Berimbaal> (Xan) wtb barrel of coffee
+[16:10:29] <Winterz> (Rel) WTS [rare glimmersteel lump QL:83.0531 DMG:0.0 WT:0.34 ][common seryll lump QL:93.8923 DMG:0.0 WT:0.28 ][common adamantine lump QL:96.3302 DMG:0.0 WT:0.394 ][supreme null colossus brick QL:59.9932 DMG:0.0 WT:15.0 ]
+[16:11:43] <Nippur> (Rel) PC white dragon blood?
+[16:12:30] <Birdbeback> (Ind) WTB BOUGHT
+[16:17:19] <Gibbs> (Rel) pc 1s
+[16:18:00] <Xumbreca> (Rel) pc 2-3s But since there was a slay, they're selling it cheaper
+[16:19:24] <Nippur> (Rel) pc thanks
+[16:19:32] <Nippur> (Rel) WTS [common leather white dragon scales QL:81.02863 DMG:0.0 WT:0.023 ]
+[16:22:17] <Sheridanz> (Ind) wts [common iron shovel QL:95.0121 DMG:0.0 WT:2.0 WoA 100 • CoC 95][common iron hatchet QL:91.53 DMG:0.0 WT:2.5 WoA 90 • CoC 93][rare iron hatchet QL:95.6857 DMG:0.0 WT:2.5 WoA 104 • RBzL • CoC 79][common iron trowel QL:92.7432 DMG:0.0 WT:0.45 BoTD 92][rare iron saw QL:9.09029 DMG:0.0 WT:1.2 ]
+[16:22:36] <Omega> (Ind) WTS [rare steel hammer QL:94.8861 DMG:0.0 WT:1.4 RGsL • BoTD 105][rare iron hatchet QL:94.9696 DMG:0.0 WT:2.5 RBzL • ImWC 100 • BoTD 104][rare steel butchering knife QL:48.5338 DMG:0.0 WT:1.2 ][rare silver hammer QL:90.1742 DMG:0.0 WT:1.4 ]
+[16:22:41] <Omega> (Ind) WTS [common iron carving knife QL:31.4697 DMG:0.0 WT:0.4 BoTD 105][common iron saw QL:10.1626 DMG:0.0 WT:1.2 CoC 101][common iron file QL:55.8732 DMG:0.0 WT:0.4 BoTD 101][common iron cutlass QL:69.8431 DMG:0.0 WT:3.0 ][common iron shovel QL:11.9998 DMG:0.0 WT:2.0 BoTD 100]
+[16:29:17] <Nippur> (Rel) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ] 2s
+[16:29:26] <Zsolt> (Del) wts small barrels of targeted affinity moonshine 1s.
+[16:31:20] <Trevize> (Del) WTS 32k 100ql wemp
+[16:35:58] <Led> (Ind) WTB cheap 5s horse WTS things @ https://ledinc.pl
+[16:36:07] <Chudotvorets> (Rel) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ][common leather white dragon scales QL:91.512085 DMG:0.0 WT:0.023 ] 2s each
+[16:37:01] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[16:37:01] <System> Please PM the person if you are interested in the Item.
+[16:37:01] <System> This is the Trade channel.
+[16:37:01] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[16:37:01] <System> You can also use @<name> to send a reply in this channel to <name>.
+[16:37:01] <System> You can disable receiving these messages, by a setting in your profile.
+[18:12:24] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[18:12:24] <System> Please PM the person if you are interested in the Item.
+[18:12:24] <System> This is the Trade channel.
+[18:12:24] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[18:12:24] <System> You can also use @<name> to send a reply in this channel to <name>.
+[18:12:24] <System> You can disable receiving these messages, by a setting in your profile.
+[18:12:32] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[18:12:32] <System> Please PM the person if you are interested in the Item.
+[18:12:32] <System> This is the Trade channel.
+[18:12:32] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[18:12:32] <System> You can also use @<name> to send a reply in this channel to <name>.
+[18:12:32] <System> You can disable receiving these messages, by a setting in your profile.
+[18:12:41] <Ikolteroht> (Ind) WTS [rare null stone brick QL:65.2385 DMG:0.0 WT:15.0 ] 1s  ,  [rare null rounded stone QL:27.2163 DMG:0.0 WT:15.0 ] 1s  ,  [rare cotton cotton QL:33.7051 DMG:0.0 WT:1.0 ] 10c  ,  [rare wool wool QL:92.7292 DMG:0.0 WT:0.2 ] 10c  ,  [rare null ash QL:12.914 DMG:0.0 WT:0.1 ] 10 c
+[18:13:20] <Gibbs> (Ind) wts [common null wrapped full house pizza QL:99.05113 DMG:0.0 WT:70.62 Op 100] 1s 70c
+[18:15:25] <Windspiel> (Rel) wts [common null Black Jewel QL:93.771996 DMG:11.23178 WT:0.1 ][common null Deadly Orb QL:86.7162 DMG:3.5004 WT:0.1 ]
+[18:17:13] <Ikolteroht> (Ind) WTS rare stone bricks, rounded stone, ash are sold, still left [rare cotton cotton QL:33.7051 DMG:0.0 WT:1.0 ] 10, [rare wool wool QL:92.7292 DMG:0.0 WT:0.2 ] 10c
+[18:24:19] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[18:24:19] <System> Please PM the person if you are interested in the Item.
+[18:24:19] <System> This is the Trade channel.
+[18:24:19] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[18:24:19] <System> You can also use @<name> to send a reply in this channel to <name>.
+[18:24:19] <System> You can disable receiving these messages, by a setting in your profile.
+[18:56:26] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[18:56:26] <System> Please PM the person if you are interested in the Item.
+[18:56:26] <System> This is the Trade channel.
+[18:56:26] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[18:56:26] <System> You can also use @<name> to send a reply in this channel to <name>.
+[18:56:26] <System> You can disable receiving these messages, by a setting in your profile.
+[21:12:50] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
+[21:12:50] <System> Please PM the person if you are interested in the Item.
+[21:12:50] <System> This is the Trade channel.
+[21:12:50] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
+[21:12:50] <System> You can also use @<name> to send a reply in this channel to <name>.
+[21:12:50] <System> You can disable receiving these messages, by a setting in your profile.
 [22:08:46] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
 [22:08:46] <System> Please PM the person if you are interested in the Item.
 [22:08:46] <System> This is the Trade channel.
 [22:08:46] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
 [22:08:46] <System> You can also use @<name> to send a reply in this channel to <name>.
 [22:08:46] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-04
-[00:53:52] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[00:53:52] <System> Please PM the person if you are interested in the Item.
-[00:53:52] <System> This is the Trade channel.
-[00:53:52] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:53:52] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:53:52] <System> You can disable receiving these messages, by a setting in your profile.
-[11:30:40] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:30:40] <System> Please PM the person if you are interested in the Item.
-[11:30:40] <System> This is the Trade channel.
-[11:30:40] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:30:40] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:30:40] <System> You can disable receiving these messages, by a setting in your profile.
-[15:36:42] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[15:36:42] <System> Please PM the person if you are interested in the Item.
-[15:36:42] <System> This is the Trade channel.
-[15:36:42] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:36:42] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:36:42] <System> You can disable receiving these messages, by a setting in your profile.
-[15:50:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[15:50:53] <System> Please PM the person if you are interested in the Item.
-[15:50:53] <System> This is the Trade channel.
-[15:50:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:50:53] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:50:53] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-05
-[00:33:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[00:33:03] <System> Please PM the person if you are interested in the Item.
-[00:33:03] <System> This is the Trade channel.
-[00:33:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:33:03] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:33:03] <System> You can disable receiving these messages, by a setting in your profile.
-[03:12:26] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[03:12:26] <System> Please PM the person if you are interested in the Item.
-[03:12:26] <System> This is the Trade channel.
-[03:12:26] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[03:12:26] <System> You can also use @<name> to send a reply in this channel to <name>.
-[03:12:26] <System> You can disable receiving these messages, by a setting in your profile.
-[03:30:41] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[03:30:41] <System> Please PM the person if you are interested in the Item.
-[03:30:41] <System> This is the Trade channel.
-[03:30:41] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[03:30:41] <System> You can also use @<name> to send a reply in this channel to <name>.
-[03:30:41] <System> You can disable receiving these messages, by a setting in your profile.
-[11:39:24] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:39:24] <System> Please PM the person if you are interested in the Item.
-[11:39:24] <System> This is the Trade channel.
-[11:39:24] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:39:24] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:39:24] <System> You can disable receiving these messages, by a setting in your profile.
-[13:13:40] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[13:13:40] <System> Please PM the person if you are interested in the Item.
-[13:13:40] <System> This is the Trade channel.
-[13:13:40] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:13:40] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:13:40] <System> You can disable receiving these messages, by a setting in your profile.
-[13:27:16] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[13:27:16] <System> Please PM the person if you are interested in the Item.
-[13:27:16] <System> This is the Trade channel.
-[13:27:16] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:27:16] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:27:16] <System> You can disable receiving these messages, by a setting in your profile.
-[15:48:08] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[15:48:08] <System> Please PM the person if you are interested in the Item.
-[15:48:08] <System> This is the Trade channel.
-[15:48:08] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:48:08] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:48:08] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-06
-[11:11:30] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:11:30] <System> Please PM the person if you are interested in the Item.
-[11:11:30] <System> This is the Trade channel.
-[11:11:30] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:11:30] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:11:30] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-07
-[11:39:08] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:39:08] <System> Please PM the person if you are interested in the Item.
-[11:39:08] <System> This is the Trade channel.
-[11:39:08] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:39:08] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:39:08] <System> You can disable receiving these messages, by a setting in your profile.
-[15:50:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[15:50:51] <System> Please PM the person if you are interested in the Item.
-[15:50:51] <System> This is the Trade channel.
-[15:50:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:50:51] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:50:51] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-08
-[14:20:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[14:20:03] <System> Please PM the person if you are interested in the Item.
-[14:20:03] <System> This is the Trade channel.
-[14:20:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:20:03] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:20:03] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-09
-[13:55:02] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[13:55:02] <System> Please PM the person if you are interested in the Item.
-[13:55:02] <System> This is the Trade channel.
-[13:55:02] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:55:02] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:55:02] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-10
-[00:54:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[00:54:06] <System> Please PM the person if you are interested in the Item.
-[00:54:06] <System> This is the Trade channel.
-[00:54:06] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:54:06] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:54:06] <System> You can disable receiving these messages, by a setting in your profile.
-[10:45:01] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[10:45:01] <System> Please PM the person if you are interested in the Item.
-[10:45:01] <System> This is the Trade channel.
-[10:45:01] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:45:01] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:45:01] <System> You can disable receiving these messages, by a setting in your profile.
-[21:13:44] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[21:13:44] <System> Please PM the person if you are interested in the Item.
-[21:13:44] <System> This is the Trade channel.
-[21:13:44] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:13:44] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:13:44] <System> You can disable receiving these messages, by a setting in your profile.
-[21:13:46] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[21:13:46] <System> Please PM the person if you are interested in the Item.
-[21:13:46] <System> This is the Trade channel.
-[21:13:46] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:13:46] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:13:46] <System> You can disable receiving these messages, by a setting in your profile.
-[21:14:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[21:14:28] <System> Please PM the person if you are interested in the Item.
-[21:14:28] <System> This is the Trade channel.
-[21:14:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:14:28] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:14:28] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-11
-[12:31:58] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[12:31:58] <System> Please PM the person if you are interested in the Item.
-[12:31:58] <System> This is the Trade channel.
-[12:31:58] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:31:58] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:31:58] <System> You can disable receiving these messages, by a setting in your profile.
-[12:48:14] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[12:48:14] <System> Please PM the person if you are interested in the Item.
-[12:48:14] <System> This is the Trade channel.
-[12:48:14] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:48:14] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:48:14] <System> You can disable receiving these messages, by a setting in your profile.
-[16:18:32] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[16:18:32] <System> Please PM the person if you are interested in the Item.
-[16:18:32] <System> This is the Trade channel.
-[16:18:32] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:18:32] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:18:32] <System> You can disable receiving these messages, by a setting in your profile.
-[16:18:34] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[16:18:34] <System> Please PM the person if you are interested in the Item.
-[16:18:34] <System> This is the Trade channel.
-[16:18:34] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:18:34] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:18:34] <System> You can disable receiving these messages, by a setting in your profile.
-[16:19:05] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[16:19:05] <System> Please PM the person if you are interested in the Item.
-[16:19:05] <System> This is the Trade channel.
-[16:19:05] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:19:05] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:19:05] <System> You can disable receiving these messages, by a setting in your profile.
-[17:42:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[17:42:20] <System> Please PM the person if you are interested in the Item.
-[17:42:20] <System> This is the Trade channel.
-[17:42:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[17:42:20] <System> You can also use @<name> to send a reply in this channel to <name>.
-[17:42:20] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-12
-[10:17:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[10:17:28] <System> Please PM the person if you are interested in the Item.
-[10:17:28] <System> This is the Trade channel.
-[10:17:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:17:28] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:17:28] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-13
-[10:36:41] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[10:36:41] <System> Please PM the person if you are interested in the Item.
-[10:36:41] <System> This is the Trade channel.
-[10:36:41] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:36:41] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:36:41] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-14
-[10:56:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[10:56:36] <System> Please PM the person if you are interested in the Item.
-[10:56:36] <System> This is the Trade channel.
-[10:56:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:56:36] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:56:36] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-15
-[03:05:25] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[03:05:25] <System> Please PM the person if you are interested in the Item.
-[03:05:25] <System> This is the Trade channel.
-[03:05:25] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[03:05:25] <System> You can also use @<name> to send a reply in this channel to <name>.
-[03:05:25] <System> You can disable receiving these messages, by a setting in your profile.
-[08:34:42] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[08:34:42] <System> Please PM the person if you are interested in the Item.
-[08:34:42] <System> This is the Trade channel.
-[08:34:42] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[08:34:42] <System> You can also use @<name> to send a reply in this channel to <name>.
-[08:34:42] <System> You can disable receiving these messages, by a setting in your profile.
-[19:16:43] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[19:16:43] <System> Please PM the person if you are interested in the Item.
-[19:16:43] <System> This is the Trade channel.
-[19:16:43] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[19:16:43] <System> You can also use @<name> to send a reply in this channel to <name>.
-[19:16:43] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-16
-[10:30:45] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[10:30:45] <System> Please PM the person if you are interested in the Item.
-[10:30:45] <System> This is the Trade channel.
-[10:30:45] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:30:45] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:30:45] <System> You can disable receiving these messages, by a setting in your profile.
-[12:11:38] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[12:11:38] <System> Please PM the person if you are interested in the Item.
-[12:11:38] <System> This is the Trade channel.
-[12:11:38] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:11:38] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:11:38] <System> You can disable receiving these messages, by a setting in your profile.
-[17:52:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[17:52:20] <System> Please PM the person if you are interested in the Item.
-[17:52:20] <System> This is the Trade channel.
-[17:52:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[17:52:20] <System> You can also use @<name> to send a reply in this channel to <name>.
-[17:52:20] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-17
-[11:14:17] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:14:17] <System> Please PM the person if you are interested in the Item.
-[11:14:17] <System> This is the Trade channel.
-[11:14:17] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:14:17] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:14:17] <System> You can disable receiving these messages, by a setting in your profile.
-[14:12:57] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[14:12:57] <System> Please PM the person if you are interested in the Item.
-[14:12:57] <System> This is the Trade channel.
-[14:12:57] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:12:57] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:12:57] <System> You can disable receiving these messages, by a setting in your profile.
-[18:19:01] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[18:19:01] <System> Please PM the person if you are interested in the Item.
-[18:19:01] <System> This is the Trade channel.
-[18:19:01] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[18:19:01] <System> You can also use @<name> to send a reply in this channel to <name>.
-[18:19:01] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-18
-[12:03:28] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[12:03:28] <System> Please PM the person if you are interested in the Item.
-[12:03:28] <System> This is the Trade channel.
-[12:03:28] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:03:28] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:03:28] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-19
-[10:50:39] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[10:50:39] <System> Please PM the person if you are interested in the Item.
-[10:50:39] <System> This is the Trade channel.
-[10:50:39] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:50:39] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:50:39] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-20
-[11:07:55] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:07:55] <System> Please PM the person if you are interested in the Item.
-[11:07:55] <System> This is the Trade channel.
-[11:07:55] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:07:55] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:07:55] <System> You can disable receiving these messages, by a setting in your profile.
-[16:20:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[16:20:36] <System> Please PM the person if you are interested in the Item.
-[16:20:36] <System> This is the Trade channel.
-[16:20:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:20:36] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:20:36] <System> You can disable receiving these messages, by a setting in your profile.
-[17:57:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[17:57:27] <System> Please PM the person if you are interested in the Item.
-[17:57:27] <System> This is the Trade channel.
-[17:57:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[17:57:27] <System> You can also use @<name> to send a reply in this channel to <name>.
-[17:57:27] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-21
-[02:02:16] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[02:02:16] <System> Please PM the person if you are interested in the Item.
-[02:02:16] <System> This is the Trade channel.
-[02:02:16] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[02:02:16] <System> You can also use @<name> to send a reply in this channel to <name>.
-[02:02:16] <System> You can disable receiving these messages, by a setting in your profile.
-[09:53:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[09:53:51] <System> Please PM the person if you are interested in the Item.
-[09:53:51] <System> This is the Trade channel.
-[09:53:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[09:53:51] <System> You can also use @<name> to send a reply in this channel to <name>.
-[09:53:51] <System> You can disable receiving these messages, by a setting in your profile.
-[23:14:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[23:14:03] <System> Please PM the person if you are interested in the Item.
-[23:14:03] <System> This is the Trade channel.
-[23:14:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[23:14:03] <System> You can also use @<name> to send a reply in this channel to <name>.
-[23:14:03] <System> You can disable receiving these messages, by a setting in your profile.
-[23:16:52] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[23:16:52] <System> Please PM the person if you are interested in the Item.
-[23:16:52] <System> This is the Trade channel.
-[23:16:52] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[23:16:52] <System> You can also use @<name> to send a reply in this channel to <name>.
-[23:16:52] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-22
-[11:38:04] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:38:04] <System> Please PM the person if you are interested in the Item.
-[11:38:04] <System> This is the Trade channel.
-[11:38:04] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:38:04] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:38:04] <System> You can disable receiving these messages, by a setting in your profile.
-[16:30:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[16:30:27] <System> Please PM the person if you are interested in the Item.
-[16:30:27] <System> This is the Trade channel.
-[16:30:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:30:27] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:30:27] <System> You can disable receiving these messages, by a setting in your profile.
-[20:09:38] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:09:38] <System> Please PM the person if you are interested in the Item.
-[20:09:38] <System> This is the Trade channel.
-[20:09:38] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:09:38] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:09:38] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-23
-[04:07:00] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[04:07:00] <System> Please PM the person if you are interested in the Item.
-[04:07:00] <System> This is the Trade channel.
-[04:07:00] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[04:07:00] <System> You can also use @<name> to send a reply in this channel to <name>.
-[04:07:00] <System> You can disable receiving these messages, by a setting in your profile.
-[09:55:43] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[09:55:43] <System> Please PM the person if you are interested in the Item.
-[09:55:43] <System> This is the Trade channel.
-[09:55:43] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[09:55:43] <System> You can also use @<name> to send a reply in this channel to <name>.
-[09:55:43] <System> You can disable receiving these messages, by a setting in your profile.
-[13:42:36] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[13:42:36] <System> Please PM the person if you are interested in the Item.
-[13:42:36] <System> This is the Trade channel.
-[13:42:36] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:42:36] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:42:36] <System> You can disable receiving these messages, by a setting in your profile.
-[13:43:12] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[13:43:12] <System> Please PM the person if you are interested in the Item.
-[13:43:12] <System> This is the Trade channel.
-[13:43:12] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:43:12] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:43:12] <System> You can disable receiving these messages, by a setting in your profile.
-[13:52:39] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[13:52:39] <System> Please PM the person if you are interested in the Item.
-[13:52:39] <System> This is the Trade channel.
-[13:52:39] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:52:39] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:52:39] <System> You can disable receiving these messages, by a setting in your profile.
-[14:02:41] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[14:02:41] <System> Please PM the person if you are interested in the Item.
-[14:02:41] <System> This is the Trade channel.
-[14:02:41] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:02:41] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:02:41] <System> You can disable receiving these messages, by a setting in your profile.
-[14:03:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[14:03:06] <System> Please PM the person if you are interested in the Item.
-[14:03:06] <System> This is the Trade channel.
-[14:03:06] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:03:06] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:03:06] <System> You can disable receiving these messages, by a setting in your profile.
-[20:34:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:34:53] <System> Please PM the person if you are interested in the Item.
-[20:34:53] <System> This is the Trade channel.
-[20:34:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:34:53] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:34:53] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-24
-[02:58:07] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[02:58:07] <System> Please PM the person if you are interested in the Item.
-[02:58:07] <System> This is the Trade channel.
-[02:58:07] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[02:58:07] <System> You can also use @<name> to send a reply in this channel to <name>.
-[02:58:07] <System> You can disable receiving these messages, by a setting in your profile.
-[11:13:55] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:13:55] <System> Please PM the person if you are interested in the Item.
-[11:13:55] <System> This is the Trade channel.
-[11:13:55] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:13:55] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:13:55] <System> You can disable receiving these messages, by a setting in your profile.
-[11:34:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:34:53] <System> Please PM the person if you are interested in the Item.
-[11:34:53] <System> This is the Trade channel.
-[11:34:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:34:53] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:34:53] <System> You can disable receiving these messages, by a setting in your profile.
-[11:45:29] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:45:29] <System> Please PM the person if you are interested in the Item.
-[11:45:29] <System> This is the Trade channel.
-[11:45:29] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:45:29] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:45:29] <System> You can disable receiving these messages, by a setting in your profile.
-[12:34:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[12:34:20] <System> Please PM the person if you are interested in the Item.
-[12:34:20] <System> This is the Trade channel.
-[12:34:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:34:20] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:34:20] <System> You can disable receiving these messages, by a setting in your profile.
-[13:09:43] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[13:09:43] <System> Please PM the person if you are interested in the Item.
-[13:09:43] <System> This is the Trade channel.
-[13:09:43] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:09:43] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:09:43] <System> You can disable receiving these messages, by a setting in your profile.
-[13:12:52] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[13:12:52] <System> Please PM the person if you are interested in the Item.
-[13:12:52] <System> This is the Trade channel.
-[13:12:52] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:12:52] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:12:52] <System> You can disable receiving these messages, by a setting in your profile.
-[19:29:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[19:29:51] <System> Please PM the person if you are interested in the Item.
-[19:29:51] <System> This is the Trade channel.
-[19:29:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[19:29:51] <System> You can also use @<name> to send a reply in this channel to <name>.
-[19:29:51] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-25
-[01:53:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[01:53:27] <System> Please PM the person if you are interested in the Item.
-[01:53:27] <System> This is the Trade channel.
-[01:53:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[01:53:27] <System> You can also use @<name> to send a reply in this channel to <name>.
-[01:53:27] <System> You can disable receiving these messages, by a setting in your profile.
-[10:09:56] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[10:09:56] <System> Please PM the person if you are interested in the Item.
-[10:09:56] <System> This is the Trade channel.
-[10:09:56] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[10:09:56] <System> You can also use @<name> to send a reply in this channel to <name>.
-[10:09:56] <System> You can disable receiving these messages, by a setting in your profile.
-[11:24:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:24:51] <System> Please PM the person if you are interested in the Item.
-[11:24:51] <System> This is the Trade channel.
-[11:24:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:24:51] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:24:51] <System> You can disable receiving these messages, by a setting in your profile.
-[13:20:30] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[13:20:30] <System> Please PM the person if you are interested in the Item.
-[13:20:30] <System> This is the Trade channel.
-[13:20:30] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[13:20:30] <System> You can also use @<name> to send a reply in this channel to <name>.
-[13:20:30] <System> You can disable receiving these messages, by a setting in your profile.
-[20:16:01] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:16:01] <System> Please PM the person if you are interested in the Item.
-[20:16:01] <System> This is the Trade channel.
-[20:16:01] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:16:01] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:16:01] <System> You can disable receiving these messages, by a setting in your profile.
-[20:16:02] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:16:02] <System> Please PM the person if you are interested in the Item.
-[20:16:02] <System> This is the Trade channel.
-[20:16:02] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:16:02] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:16:02] <System> You can disable receiving these messages, by a setting in your profile.
-[20:26:19] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:26:19] <System> Please PM the person if you are interested in the Item.
-[20:26:19] <System> This is the Trade channel.
-[20:26:19] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:26:19] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:26:19] <System> You can disable receiving these messages, by a setting in your profile.
-[20:38:03] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:38:03] <System> Please PM the person if you are interested in the Item.
-[20:38:03] <System> This is the Trade channel.
-[20:38:03] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:38:03] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:38:03] <System> You can disable receiving these messages, by a setting in your profile.
-[20:40:37] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:40:37] <System> Please PM the person if you are interested in the Item.
-[20:40:37] <System> This is the Trade channel.
-[20:40:37] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:40:37] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:40:37] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-26
-[03:04:02] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[03:04:02] <System> Please PM the person if you are interested in the Item.
-[03:04:02] <System> This is the Trade channel.
-[03:04:02] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[03:04:02] <System> You can also use @<name> to send a reply in this channel to <name>.
-[03:04:02] <System> You can disable receiving these messages, by a setting in your profile.
-[12:30:46] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[12:30:46] <System> Please PM the person if you are interested in the Item.
-[12:30:46] <System> This is the Trade channel.
-[12:30:46] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:30:46] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:30:46] <System> You can disable receiving these messages, by a setting in your profile.
-[21:33:05] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[21:33:05] <System> Please PM the person if you are interested in the Item.
-[21:33:05] <System> This is the Trade channel.
-[21:33:05] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:33:05] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:33:05] <System> You can disable receiving these messages, by a setting in your profile.
-[21:36:39] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[21:36:39] <System> Please PM the person if you are interested in the Item.
-[21:36:39] <System> This is the Trade channel.
-[21:36:39] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:36:39] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:36:39] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-27
-[02:03:17] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[02:03:17] <System> Please PM the person if you are interested in the Item.
-[02:03:17] <System> This is the Trade channel.
-[02:03:17] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[02:03:17] <System> You can also use @<name> to send a reply in this channel to <name>.
-[02:03:17] <System> You can disable receiving these messages, by a setting in your profile.
-[12:06:23] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[12:06:23] <System> Please PM the person if you are interested in the Item.
-[12:06:23] <System> This is the Trade channel.
-[12:06:23] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[12:06:23] <System> You can also use @<name> to send a reply in this channel to <name>.
-[12:06:23] <System> You can disable receiving these messages, by a setting in your profile.
-[20:44:07] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:44:07] <System> Please PM the person if you are interested in the Item.
-[20:44:07] <System> This is the Trade channel.
-[20:44:07] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:44:07] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:44:07] <System> You can disable receiving these messages, by a setting in your profile.
-[20:58:24] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:58:24] <System> Please PM the person if you are interested in the Item.
-[20:58:24] <System> This is the Trade channel.
-[20:58:24] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:58:24] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:58:24] <System> You can disable receiving these messages, by a setting in your profile.
-[22:05:48] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[22:05:48] <System> Please PM the person if you are interested in the Item.
-[22:05:48] <System> This is the Trade channel.
-[22:05:48] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[22:05:48] <System> You can also use @<name> to send a reply in this channel to <name>.
-[22:05:48] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-28
-[00:50:35] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[00:50:35] <System> Please PM the person if you are interested in the Item.
-[00:50:35] <System> This is the Trade channel.
-[00:50:35] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:50:35] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:50:35] <System> You can disable receiving these messages, by a setting in your profile.
-[11:02:09] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:02:09] <System> Please PM the person if you are interested in the Item.
-[11:02:09] <System> This is the Trade channel.
-[11:02:09] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:02:09] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:02:09] <System> You can disable receiving these messages, by a setting in your profile.
-[16:41:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[16:41:20] <System> Please PM the person if you are interested in the Item.
-[16:41:20] <System> This is the Trade channel.
-[16:41:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:41:20] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:41:20] <System> You can disable receiving these messages, by a setting in your profile.
-[16:51:54] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[16:51:54] <System> Please PM the person if you are interested in the Item.
-[16:51:54] <System> This is the Trade channel.
-[16:51:54] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:51:54] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:51:54] <System> You can disable receiving these messages, by a setting in your profile.
-[17:40:49] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[17:40:49] <System> Please PM the person if you are interested in the Item.
-[17:40:49] <System> This is the Trade channel.
-[17:40:49] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[17:40:49] <System> You can also use @<name> to send a reply in this channel to <name>.
-[17:40:49] <System> You can disable receiving these messages, by a setting in your profile.
-[18:34:07] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[18:34:07] <System> Please PM the person if you are interested in the Item.
-[18:34:07] <System> This is the Trade channel.
-[18:34:07] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[18:34:07] <System> You can also use @<name> to send a reply in this channel to <name>.
-[18:34:07] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-29
-[00:39:04] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[00:39:04] <System> Please PM the person if you are interested in the Item.
-[00:39:04] <System> This is the Trade channel.
-[00:39:04] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[00:39:04] <System> You can also use @<name> to send a reply in this channel to <name>.
-[00:39:04] <System> You can disable receiving these messages, by a setting in your profile.
-[11:17:27] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:17:27] <System> Please PM the person if you are interested in the Item.
-[11:17:27] <System> This is the Trade channel.
-[11:17:27] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:17:27] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:17:27] <System> You can disable receiving these messages, by a setting in your profile.
-[20:39:32] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:39:32] <System> Please PM the person if you are interested in the Item.
-[20:39:32] <System> This is the Trade channel.
-[20:39:32] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:39:32] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:39:32] <System> You can disable receiving these messages, by a setting in your profile.
-[20:40:53] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[20:40:53] <System> Please PM the person if you are interested in the Item.
-[20:40:53] <System> This is the Trade channel.
-[20:40:53] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[20:40:53] <System> You can also use @<name> to send a reply in this channel to <name>.
-[20:40:53] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-30
-[01:35:44] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[01:35:44] <System> Please PM the person if you are interested in the Item.
-[01:35:44] <System> This is the Trade channel.
-[01:35:44] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[01:35:44] <System> You can also use @<name> to send a reply in this channel to <name>.
-[01:35:44] <System> You can disable receiving these messages, by a setting in your profile.
-[11:29:09] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:29:09] <System> Please PM the person if you are interested in the Item.
-[11:29:09] <System> This is the Trade channel.
-[11:29:09] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:29:09] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:29:09] <System> You can disable receiving these messages, by a setting in your profile.
-[11:32:24] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:32:24] <System> Please PM the person if you are interested in the Item.
-[11:32:24] <System> This is the Trade channel.
-[11:32:24] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:32:24] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:32:24] <System> You can disable receiving these messages, by a setting in your profile.
-[11:51:00] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[11:51:00] <System> Please PM the person if you are interested in the Item.
-[11:51:00] <System> This is the Trade channel.
-[11:51:00] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[11:51:00] <System> You can also use @<name> to send a reply in this channel to <name>.
-[11:51:00] <System> You can disable receiving these messages, by a setting in your profile.
-[14:36:20] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[14:36:20] <System> Please PM the person if you are interested in the Item.
-[14:36:20] <System> This is the Trade channel.
-[14:36:20] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[14:36:20] <System> You can also use @<name> to send a reply in this channel to <name>.
-[14:36:20] <System> You can disable receiving these messages, by a setting in your profile.
-[15:21:45] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[15:21:45] <System> Please PM the person if you are interested in the Item.
-[15:21:45] <System> This is the Trade channel.
-[15:21:45] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:21:45] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:21:45] <System> You can disable receiving these messages, by a setting in your profile.
-[21:37:33] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[21:37:33] <System> Please PM the person if you are interested in the Item.
-[21:37:33] <System> This is the Trade channel.
-[21:37:33] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[21:37:33] <System> You can also use @<name> to send a reply in this channel to <name>.
-[21:37:33] <System> You can disable receiving these messages, by a setting in your profile.
-
-Logging started 2026-01-31
-[00:00:50] <Friiida> (Exo) WTB 3k Mortar - 2k Marble Brick
-[00:06:44] <Darrenkushknee> (Xan) WTS 1k dirt
-[00:08:52] <Hellifiknow> (Ind) wts [rare silver ore QL:75.0895 DMG:0.0 WT:20.0 ][rare silver ore QL:72.56445 DMG:0.0 WT:20.0 ]
-[00:10:14] <Monacum> (Ind) wtb magranon favor gems PLEASE
-[00:15:21] <Hellifiknow> (Ind) wts [rare silver lump QL:75.0895 DMG:0.0 WT:0.1 ][rare silver lump QL:72.56445 DMG:0.0 WT:0.1 ]
-[00:18:14] <Legios> (Xan) WTS [rare silver longsword QL:92.9615 DMG:0.0 WT:3.0 Nim 99 • RZM • AD • CoC 105 • ImWS 8 • BT 10000 • MS 81][rare iron medium maul QL:89.03823 DMG:0.0 WT:4.0 Nim 90 • MD • CoC 92 • RStV • EsD 86][rare iron medium maul QL:70.11952 DMG:0.0 WT:4.0 Nim 82 • LT 82 • CoC 95 • MS 90][rare iron longsword QL:82.2481 DMG:0.0 WT:3.0 Nim 91 • CoC 85 • EsD 41 • MS 83][rare leather saddle QL:66.2212 DMG:0.0 WT:5.501 RTV]
-[00:30:19] <Joaum> (Ind) WTB Summon to Any Independence Crystal
-[00:40:37] <Teeebomb> (Ind) WTS [rare birchwood small dirty casket QL:42.0 DMG:4.33264 WT:5.0 ] 2s
-[00:47:59] <Katonya> (Pri) wtb a few wagon fragments
-[15:43:06] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[15:43:06] <System> Please PM the person if you are interested in the Item.
-[15:43:06] <System> This is the Trade channel.
-[15:43:06] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[15:43:06] <System> You can also use @<name> to send a reply in this channel to <name>.
-[15:43:06] <System> You can disable receiving these messages, by a setting in your profile.
-[16:00:51] <System> Only messages starting with WTB, WTS, WTT, PC or @ are allowed.
-[16:00:51] <System> Please PM the person if you are interested in the Item.
-[16:00:51] <System> This is the Trade channel.
-[16:00:51] <System> View the full Trade Chat Etiquette section with the Game Rules at https://wurm.gg/rules
-[16:00:51] <System> You can also use @<name> to send a reply in this channel to <name>.
-[16:00:51] <System> You can disable receiving these messages, by a setting in your profile.
-[16:20:20] <Laplace> (Rel) PC scales
-[16:20:33] <Gomeo> (Pri) PC 70-80c per 0.01
-[16:21:31] <Mithrian> (Xan) PC hide is 50c/.01, scale is 70c/.01
-[16:22:58] <Laplace> (Rel) PC thanks
-[16:28:25] <Raphvw> (Xan) WTS Black tome of magic 1 charge [common null black tome of magic QL:82.4918 DMG:0.0 WT:1.0 ] 40s
-[16:31:01] <Theodemis> (Exo) WTS [common iron rake QL:91.2846 DMG:0.0 WT:1.2 WoA 88 • CoC 99]
-[16:32:41] <Ryaa> (Rel) pc [common null pearl QL:13.995835 DMG:0.0 WT:0.5 ]
-[16:35:08] <Voidedsage> (Rel) PC 5s ebony
-[16:35:25] <Kubinhetz> (Exo) pc about 50s from what i've heard
-[16:36:27] <Beale> (Xan) pc agreed, usually about 50s
-[16:39:21] <Parafinaum> (Rel) wts [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[16:45:47] <Dipahip> (Xan) wts sandstone brick 1k 2s
-[16:46:10] <Tristeza> (Ind) PC / WTS  [common null red tome of magic QL:80.5104 DMG:0.0 WT:1.0 ]
-[16:47:34] <Dipahip> (Xan) wts Corbita 60ql 2s
-[16:50:10] <Hellifiknow> (Ind) wtb Courier cast
-[16:50:34] <Meman> (Ind) wts [supreme clay clay QL:22.265793 DMG:0.0 WT:2.0 ][rare null stone brick QL:29.890697 DMG:0.0 WT:15.0 ][rare clay mortar QL:12.6977 DMG:0.0 WT:2.0 ]
-[16:51:41] <Timothymarker> (Xan) WTS Leather gear, armor, toolbelts, WoA saddles. Imping service (up to QL97). Stock and prices see http://forum.wurmonline.com/index.php?/topic/131555-tims-tannery-vrock-landing-xanadu
-[16:52:45] <Tristeza> (Ind) WTS [rare null bouquet of white flowers QL:7.50654 DMG:94.1134 WT:0.05 ][rare null stone brick QL:19.6464 DMG:0.0 WT:15.0 ][rare birchwood log QL:19.4567 DMG:0.0 WT:24.0 ][rare iron lump QL:1.13305 DMG:0.0 WT:1.0 ]x6  [rare null dirt QL:52.0029 DMG:0.0 WT:20.0 ]x16
-[16:55:55] <Muliro> (Rel) WTS Explore your maximum skillgain potential with Muliro’s Everlasting Spirits! – Custom Affinity Moonshines 50h & 100h timers. Check the store: https://forum.wurmonline.com/index.php?/topic/208788-muliro%E2%80%99s-everlasting-spirits-%E2%80%93-custom-affinity-moonshines-50h-100h-timers/
-[16:56:07] <Voltarelli> (Rel) WTS [common wheat sleep powder QL:99.0 DMG:0.0 WT:0.025 ]x36 = 35s in white dragon slay
-[17:03:36] <Parafinaum> (Rel) wts [common leather white dragon scales QL:80.0 DMG:0.0 WT:0.024 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:03:55] <Starker> (Rel) WTS [common leather white dragon scales QL:80.0 DMG:0.0 WT:0.024 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:04:01] <Kaahinyx> (Rel) pc [common leather white dragon scales QL:80.0 DMG:0.0 WT:0.024 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:04:06] <Tavivo> (Rel) WTS [common leather white dragon scales QL:80.0 DMG:0.0 WT:0.024 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:04:16] <Ograndevalmir> (Rel) WTS [common leather white dragon scales QL:80.0 DMG:0.0 WT:0.018 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:05:09] <Calvos> (Rel) WTS 2x [common null blood QL:100.0 DMG:0.0 WT:0.1 ] 0.05[common leather white dragon scales QL:83.83955 DMG:0.0 WT:0.048 ]
-[17:05:15] <Ryld> (Xan) WTB dragon scale .75 per .01
-[17:05:19] <Hellifiknow> (Ind) PC looks like a white dragon just died
-[17:05:40] <Kaahinyx> (Rel) wts [common leather white dragon scales QL:80.0 DMG:0.0 WT:0.024 ] 1,5s
-[17:06:03] <Bauduco> (Rel) WTS  [common leather white dragon scales QL:86.154144 DMG:0.0 WT:0.024 ]
-[17:06:28] <Laplace> (Rel) WTS [common leather white dragon scales QL:83.39819 DMG:0.0 WT:0.024 ] 1,5s [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:06:36] <Marciano> (Rel) wts [common null blood QL:100.0 DMG:0.0 WT:0.1 ][common leather white dragon scales QL:83.386955 DMG:0.0 WT:0.018 ]
-[17:07:04] <Velociraptor> (Rel) wts [common leather white dragon scales QL:83.13547 DMG:0.0 WT:0.018 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:08:02] <Balerion> (Rel) wts 20 sleep powder
-[17:08:13] <Starker> (Rel) WTS [common leather white dragon scales QL:80.0 DMG:0.0 WT:0.024 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:10:35] <Jaguatiripicaum> (Rel) wts [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:10:44] <Parafinaum> (Rel) wts [common null blood QL:100.0 DMG:0.0 WT:0.1 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:11:59] <Bonkthetonk> (Xan) Wtb white dragon blood 1.5s each
-[17:12:10] <Laplace> (Rel) WTS [common leather white dragon scales QL:83.39819 DMG:0.0 WT:0.024 ] 1,5s [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:12:48] <Gthunter> (Rel) wts [common leather white dragon scales QL:93.29711 DMG:0.0 WT:0.024 ]
-[17:15:27] <Juey> (Xan) WTB high ql chain jacket 75ql + Iron
-[17:15:56] <Kruzinov> (Rel) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:21:04] <Jonathon> (Del) PC champion black ebony young male horse, 4 speed + unbelievably fast
-[17:21:24] <Goliathan> (Ind) WTS [rare null stone brick QL:62.165085 DMG:0.0 WT:15.0 ] X3, [rare clay mortar QL:32.546616 DMG:0.0 WT:2.0 ] X2 1s each. [supreme clay mortar QL:47.71308 DMG:0.0 WT:2.0 ] 3s
-[17:21:31] <Hellifiknow> (Ind) wtb Courier cast
-[17:21:50] <Mattmustell> (Rel) wtb 1k iron ribbons 3s
-[17:29:09] <Bonkthetonk> (Xan) WTS mortar via xan wagoner 2s/k (crates included)
-[17:32:45] <Jothebard> (Del) WTS Why not visit Southport market U18 Deliverance - 50 merchants: rares, supremes, tools, weapons, armour, crafting materials, ready to complete statues, statuettes, masks, fragments, potions, rugs, carpets, runed and casted items, arch wood planks, shafts, pegs, tenons, branches, gifts, seasonal goods, halter ropes, WoA horseshoes, CoC skillers, AoSP chain, jewelry, skins, goodies +so much more!
-[17:33:13] <Raphvw> (Xan) WTS [common null black tome of magic QL:82.4918 DMG:0.0 WT:1.0 ] 40s
-[17:35:32] <Starker> (Rel) WTS [common null blood QL:100.0 DMG:0.0 WT:0.1 ]
-[17:37:41] <Mattmustell> (Rel) pc minion mask
-[17:40:17] <Gthunter> (Rel) wts [common null blood QL:100.0 DMG:0.0 WT:0.1 ][common null blood QL:100.0 DMG:0.0 WT:0.1 ][common leather white dragon scales QL:93.29711 DMG:0.0 WT:0.024 ]
-[17:41:02] <Lordzmielot> (Cel) WTS [common leather white dragon scales QL:89.69931 DMG:0.0 WT:0.042 ] 3s
-[21:15:56] <Luciusmalefortum> (Exo) pc [common null potion of butchery QL:57.448254 DMG:0.0 WT:0.2 ]
-[21:16:33] <Rabican> (Xan) WTS [rare null strange bone fragment [1/12] QL:61.1336 DMG:0.0 WT:0.125 ]
-[21:16:41] <Theodemis> (Exo) WTS [common iron rake QL:91.2846 DMG:0.0 WT:1.2 WoA 88 • CoC 99]
-[21:17:13] <Gibbs> (Ind) wts [rare silver staff QL:90.0425 DMG:0.0 WT:3.0 LT 90 • BoTD 101] 9s
-[21:33:50] <Tallowyn> (Exo) wts [supreme lindenwood plank QL:3.0 DMG:0.0 WT:2.0 ]
-[21:34:00] <Aeo> (Pri) wtb size/speed rune for wagon x3
-[21:39:31] <Moraes> (Ind) PC [rare birchwood shaft QL:5.708106 DMG:0.0 WT:1.0 ]
-[21:40:29] <Stagnatrious> (Rel) pc 1s
-[21:47:46] <Wulfgar> (Rel) WTS - Scorpion Hota
-[21:47:56] <Theodemis> (Exo) WTS [common iron rake QL:91.2846 DMG:0.0 WT:1.2 WoA 88 • CoC 99]
-[21:48:05] <Wulfgar> (Rel) WTS - https://forum.wurmonline.com/index.php?/topic/201490-keepers-of-truth-merchant-pmk-merch/
-[21:50:58] <Amexx> (Exo) WTB Hatchet CoC
-[21:52:40] <Rabican> (Xan) WTS [rare steel stone chisel QL:38.4377 DMG:0.0 WT:0.4 RAF][rare iron hammer QL:90.531 DMG:0.0124274 WT:1.4 ][rare iron small shield QL:52.4044 DMG:0.0 WT:1.5 ][rare iron carving knife QL:65.2213 DMG:0.0 WT:0.4 ][rare iron file QL:63.3578 DMG:0.0 WT:0.4 ]
-[21:55:25] <Roarkindrake> (Rel) wtb 5d hellies
-[22:02:18] <Sircoloraltemperum> (Ind) PC stamina sandwich?
-[22:02:29] <Theodemis> (Exo) WTS [common iron rake QL:91.2846 DMG:0.0 WT:1.2 WoA 88 • CoC 99]
-[22:05:13] <Fatynoob> (Xan) PC [rare bronze dioptra fragment [1/24] QL:70.8001 DMG:0.0 WT:0.02 ]
-[22:22:16] <Havi> (Ind) WTB CCFP food
-[22:22:33] <Jpopper> (Xan) Wtb one socketed ring for 15s.
-[22:22:40] <Muliro> (Exo) WTS Explore your maximum skillgain potential with Muliro’s Everlasting Spirits! – Custom Affinity Moonshines 50h & 100h timers. Check the store: https://forum.wurmonline.com/index.php?/topic/208788-muliro%E2%80%99s-everlasting-spirits-%E2%80%93-custom-affinity-moonshines-50h-100h-timers/
-[22:25:23] <Vanex> (Exo) WTB Rare longsword casted
-[22:30:05] <Benjames> (Ind) WTS LW,BS,PAS,SS,Fine Carp/Carp imps to 95 ql. https://forum.wurmonline.com/index.php?/topic/209554-bennys-smithing-and-co/
-[22:32:25] <Sircoloraltemperum> (Ind) wtb stamina sandwiches
-[22:34:14] <Jothebard> (Del) WTS Why not visit Southport market U18 Deliverance - 50 merchants: rares, supremes, tools, weapons, armour, crafting materials, ready to complete statues, statuettes, masks, fragments, potions, rugs, carpets, runed and casted items, arch wood planks, shafts, pegs, tenons, branches, gifts, seasonal goods, halter ropes, WoA horseshoes, CoC skillers, AoSP chain, jewelry, skins, goodies +so much more!
-[22:41:02] <Hayezd> (Del) PC [common raspberrywood plank QL:17.767954 DMG:0.0 WT:2.0 ][common camelliawood plank QL:34.540054 DMG:0.0 WT:2.0 ]
-[22:51:42] <Quasiwud> (Del) wts rare colossis bricks 50c
-[23:03:37] <Lithi> (Cel) wts wta a set of horse shoes https://forum.wurmonline.com/index.php?/topic/209940-set-of-horse-shoes/
-[23:28:01] <Nukwolf> (Xan) WTB cheap saddle and saddle bags via mail
-[23:43:33] <Benjames> (Ind) WTS LW,BS,PAS,SS,Fine Carp/Carp imps to 95 ql. https://forum.wurmonline.com/index.php?/topic/209554-bennys-smithing-and-co/
-[23:52:10] <Artz> (Xan) Wts [common glimmersteel lump QL:91.6487 DMG:0.0 WT:0.369 ]
-[23:55:22] <Joaum> (Ind) WTB Summon to Any Independence Crystal
