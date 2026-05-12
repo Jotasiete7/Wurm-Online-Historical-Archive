@@ -91,33 +91,31 @@ async function processLogSplitting(text) {
   const stats = { NFI: {}, SFI: {} };
   
   let currentDay = null;
-  const prefixRegex = /<[^>]+>\s*\((\w+)\)/;
+  // More robust regex to handle various spacing and characters
+  const prefixRegex = /<[^>]+>\s*\(([^)]+)\)/;
   const systemMsgRegex = /^\[\d{2}:\d{2}:\d{2}\] <System>/;
 
   lines.forEach(line => {
     const dayMatch = line.match(/Logging started (\d{4}-\d{2}-\d{2})/);
     if (dayMatch) { currentDay = dayMatch[1]; return; }
-    if (!currentDay) return;
+    if (!currentDay || !line.trim()) return;
 
     const match = line.match(prefixRegex);
     const isSystem = line.match(systemMsgRegex);
 
     if (match) {
-      const prefix = match[1];
+      const prefix = match[1].substring(0, 3); // Take first 3 chars just in case (e.g. "Har")
       const cluster = NFI_PREFIXES.has(prefix) ? 'NFI' : (SFI_PREFIXES.has(prefix) ? 'SFI' : null);
       if (cluster) {
-        if (!fragments[cluster].some(l => l === `Logging started ${currentDay}`)) {
-          fragments[cluster].push(`Logging started ${currentDay}`);
-        }
-        fragments[cluster].push(line);
+        const header = `Logging started ${currentDay}`;
+        if (!fragments[cluster].includes(header)) fragments[cluster].push(header);
+        fragments[cluster].push(line.trim());
         stats[cluster][prefix] = (stats[cluster][prefix] || 0) + 1;
       }
     } else if (isSystem) {
       ['NFI', 'SFI'].forEach(c => {
-        // Only add system message if we have active data for this day in this cluster
-        if (fragments[c].some(l => l === `Logging started ${currentDay}`)) {
-          fragments[c].push(line);
-        }
+        const header = `Logging started ${currentDay}`;
+        if (fragments[c].includes(header)) fragments[c].push(line.trim());
       });
     }
   });
