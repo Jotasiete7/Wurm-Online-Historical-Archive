@@ -211,23 +211,54 @@ function renderCoverage(corpus) {
   }
 
   [...data].sort((a, b) => b.year - a.year).forEach(yearData => {
+    let yearActiveDays = 0;
+    let yearTotalDays = 0;
+    for (let m = 1; m <= 12; m++) {
+      yearActiveDays += Object.keys(yearData.months[m] || {}).length;
+      yearTotalDays += new Date(yearData.year, m, 0).getDate();
+    }
+    const yearCoverage = Math.round((yearActiveDays / yearTotalDays) * 100);
+
     const yearRow = document.createElement('div');
     yearRow.className = 'year-row';
-    yearRow.innerHTML = `<div class="year-label">${translations[currentLang].year_label} ${yearData.year}</div><div class="months-container">
+    yearRow.innerHTML = `
+      <div class="year-label-flex">
+        <div class="year-label">${translations[currentLang].year_label} ${yearData.year}</div>
+        <div class="year-coverage-badge">${yearCoverage}% ${translations[currentLang].coverage_label}</div>
+      </div>
+      <div class="months-container">
       ${Array.from({ length: 12 }, (_, i) => {
         const mIdx = i + 1;
         const mData = yearData.months[mIdx] || {};
         const daysInMonth = new Date(yearData.year, mIdx, 0).getDate();
-        return `<div class="month-block"><div class="month-label-small">${new Date(2000, i).toLocaleString(currentLang, { month: 'narrow' })}</div><div class="day-grid">
-          ${Array.from({ length: 31 }, (_, d) => {
-            const dNum = d + 1;
-            const dKey = `${yearData.year}-${String(mIdx).padStart(2, '0')}-${String(dNum).padStart(2, '0')}`;
-            const hrs = mData[dKey] || [];
-            const dens = hrs.length > 0 ? Math.min(100, 20 + (hrs.length * 15)) : 0;
-            if (dNum > daysInMonth) return '<div class="day-slot disabled"></div>';
-            return `<div class="day-slot ${dens > 0 ? 'active' : 'empty'}" style="opacity: ${dens > 0 ? dens / 100 : 1}" data-info="${dens > 0 ? `${dKey}: ${hrs.length} ${translations[currentLang].hours_recovered}` : `${dKey}: ${translations[currentLang].missing_call}`}"></div>`;
-          }).join('')}
-        </div></div>`;
+        const activeDaysCount = Object.keys(mData).length;
+        const monthCoverage = Math.round((activeDaysCount / daysInMonth) * 100);
+        
+        return `<div class="month-block" title="${translations[currentLang].month_label || 'Month'} ${translations[currentLang].coverage_label || 'Coverage'}: ${monthCoverage}%">
+          <div class="month-header-flex">
+            <div class="month-label-small">${new Date(2000, i).toLocaleString(currentLang, { month: 'narrow' })}</div>
+            <div class="month-percentage-small">${monthCoverage}%</div>
+          </div>
+          <div class="day-grid">
+            ${Array.from({ length: 31 }, (_, d) => {
+              const dNum = d + 1;
+              const dKey = `${yearData.year}-${String(mIdx).padStart(2, '0')}-${String(dNum).padStart(2, '0')}`;
+              const hrs = mData[dKey] || [];
+              const dayCoverage = Math.round((hrs.length / 24) * 100);
+              const dens = hrs.length > 0 ? Math.min(100, 20 + (hrs.length * 15)) : 0;
+              
+              if (dNum > daysInMonth) return '<div class="day-slot disabled"></div>';
+              
+              const info = dens > 0 
+                ? `${dKey}: ${hrs.length} ${translations[currentLang].hours_recovered} (${dayCoverage}%)` 
+                : `${dKey}: ${translations[currentLang].missing_call}`;
+                
+              return `<div class="day-slot ${dens > 0 ? 'active' : 'empty'}" 
+                           style="opacity: ${dens > 0 ? dens / 100 : 1}" 
+                           title="${info}"></div>`;
+            }).join('')}
+          </div>
+        </div>`;
       }).join('')}</div>`;
     container.appendChild(yearRow);
   });

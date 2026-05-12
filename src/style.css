@@ -171,6 +171,22 @@ select, input {
 .year-block { margin-bottom: 6rem; }
 .year-label { font-family: var(--font-serif); font-size: 2rem; margin-bottom: 2rem; opacity: 0.8; }
 
+.year-label-flex {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.year-coverage-badge {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--gold-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
 .months-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -189,6 +205,19 @@ select, input {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   opacity: 0.4;
+}
+
+.month-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.month-percentage-small {
+  font-size: 0.6rem;
+  font-family: var(--font-sans);
+  opacity: 0.3;
+  color: var(--gold-primary);
 }
 
 .day-grid {

@@ -39,7 +39,9 @@ export const translations = {
     hours_recovered: "hours recovered",
     select_all: "Select All",
     archive_instruction: "Click on recovered months to build your restoration set, or use the year shortcuts.",
-    temporal_selection: "Temporal Selection"
+    temporal_selection: "Temporal Selection",
+    month_label: "Month",
+    coverage_label: "Coverage"
   },
   pt: {
     title: "Wurm Online Historical Archive",
@@ -81,6 +83,8 @@ export const translations = {
     hours_recovered: "horas recuperadas",
     select_all: "Selecionar Tudo",
     archive_instruction: "Clique nos meses recuperados para montar seu conjunto de restauração ou use os atalhos de ano.",
-    temporal_selection: "Seleção Temporal"
+    temporal_selection: "Seleção Temporal",
+    month_label: "Mês",
+    coverage_label: "Cobertura"
   }
 }
