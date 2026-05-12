@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wurm Archive — Historical Log Preservation</title>
     <meta name="description" content="A community-driven initiative to preserve the collective history of Wurm Online logs for future generations." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,400&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="app">
@@ -32,17 +35,15 @@
             <div class="drop-zone-content">
               <div class="drop-zone-icon">⟎</div>
               <h3 data-i18n="upload_title">Drag your Trade logs here</h3>
-              <p data-i18n="upload_sub">Historical logs are preserved immutably. No login required.</p>
+              <p data-i18n="upload_desc">Historical logs are preserved immutably. No login required.</p>
               
-              <div class="contributor-input" style="margin-top: 2rem; width: 100%; max-width: 300px; display: flex; flex-direction: column; gap: 1rem;">
-                <select id="server-select" style="width: 100%; background: transparent; border: none; border-bottom: 1px solid var(--border-color); color: var(--text-primary); font-family: var(--font-serif); font-size: 0.9rem; text-align: center; padding: 0.5rem 0; outline: none; cursor: pointer;">
+              <div class="contributor-input" style="margin-top: 2rem; width: 100%; max-width: 300px; margin-left: auto; margin-right: auto; display: flex; flex-direction: column; gap: 1rem;">
+                <select id="server-select">
                   <option value="nfi">Northern Freedom Isles (NFI)</option>
                   <option value="sfi">Southern Freedom Isles (SFI)</option>
-                  <option value="unknown">Other / Unknown</option>
                 </select>
 
-                <input type="text" id="credit-input" placeholder="How should we credit you? (Optional)" 
-                       style="width: 100%; background: transparent; border: none; border-bottom: 1px solid var(--border-color); color: var(--text-primary); font-family: var(--font-serif); font-size: 0.9rem; text-align: center; padding: 0.5rem 0; outline: none;" />
+                <input type="text" id="credit-input" placeholder="How should we credit you? (Optional)" />
               </div>
 
               <div id="upload-status" class="upload-status" style="margin-top: 1.5rem;"></div>
