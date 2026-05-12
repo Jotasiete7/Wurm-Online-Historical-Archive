@@ -16,7 +16,23 @@ export const translations = {
     downloading: "Accessing Vault...",
     merging: "Merging History...",
     deduplicating: "Deduplicating...",
-    restored: "Restored!"
+    restored: "Restored!",
+    recent_discoveries: "Recent Discoveries",
+    discovery_anonymous: "Anonymous",
+    discovery_recovered: "Recovered",
+    discovery_from: "from",
+    discovery_days: "days of history",
+    mission_title: "Preserving the <span class=\"accent\">collective history</span> of Wurm Online.",
+    mission_sub: "A digital archive project dedicated to the archaeology of a virtual world.",
+    faq_q1: "Why preserve logs?",
+    faq_a1: "Wurm Online's history is written in its player logs. Trade, events, and community interactions are fragmented across thousands of local files. This project ensures this history isn't lost when players move on or hard drives fail.",
+    faq_q2: "Is this safe?",
+    faq_a2: "We only collect trade and event logs. We do not track players, analyze market intelligence, or build profiles. The archive is a library, not a surveillance tool.",
+    faq_q3: "What is NOT collected?",
+    faq_a3: "Private messages, sensitive coordination, or behavioral telemetry. We focus on the public and semi-public history of the world.",
+    faq_q4: "Contribution Credit",
+    faq_a4: "All contributions are voluntary. You can choose to be credited in the archive or remain anonymous. The logs you upload are already generated locally by your game client.",
+    footer_copy: "&copy; 2024 Wurm Online Historical Archive Project. An independent community initiative."
   },
   pt: {
     title: "Arquivo Histórico de Wurm",
@@ -35,6 +51,22 @@ export const translations = {
     downloading: "Acessando Cofre...",
     merging: "Mesclando História...",
     deduplicating: "Deduplicando...",
-    restored: "Restaurado!"
+    restored: "Restaurado!",
+    recent_discoveries: "Descobertas Recentes",
+    discovery_anonymous: "Anônimo",
+    discovery_recovered: "Recuperou",
+    discovery_from: "de",
+    discovery_days: "dias de história",
+    mission_title: "Preservando a <span class=\"accent\">história coletiva</span> de Wurm Online.",
+    mission_sub: "Um projeto de arquivo digital dedicado à arqueologia de um mundo virtual.",
+    faq_q1: "Por que preservar logs?",
+    faq_a1: "A história do Wurm Online está escrita nos logs dos jogadores. Trocas, eventos e interações comunitárias estão fragmentadas em milhares de arquivos locais. Este projeto garante que essa história não se perca quando os jogadores saem ou os discos rígidos falham.",
+    faq_q2: "Isso é seguro?",
+    faq_a2: "Nós apenas coletamos logs de trade e eventos. Não rastreamos jogadores, não analisamos inteligência de mercado ou criamos perfis. O arquivo é uma biblioteca, não uma ferramenta de vigilância.",
+    faq_q3: "O que NÃO é coletado?",
+    faq_a3: "Mensagens privadas, coordenação sensível ou telemetria comportamental. Focamos na história pública e semi-pública do mundo.",
+    faq_q4: "Crédito de Contribuição",
+    faq_a4: "Todas as contribuições são voluntárias. Você pode escolher ser creditado no arquivo ou permanecer anônimo. Os logs que você envia já são gerados localmente pelo seu cliente de jogo.",
+    footer_copy: "&copy; 2024 Projeto de Arquivo Histórico Wurm Online. Uma iniciativa comunitária independente."
   }
 }

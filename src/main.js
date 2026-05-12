@@ -24,11 +24,57 @@ document.addEventListener('DOMContentLoaded', () => {
     const activeCorpus = document.querySelector('.control-btn.active')?.dataset.corpus || 'nfi';
     renderCoverage(activeCorpus);
     renderArchive();
+    renderRecentDiscoveries();
   });
 });
 
 async function refreshArchivalState() {
-  await Promise.all([fetchCoverage(), fetchArchiveBundles()]);
+  await Promise.all([fetchCoverage(), fetchArchiveBundles(), fetchRecentDiscoveries()]);
+}
+
+let RECENT_DISCOVERIES = [];
+
+async function fetchRecentDiscoveries() {
+  try {
+    const { data, error } = await supabase
+      .from('raw_logs')
+      .select('contributor_alias, cluster, period_year, period_month, temporal_map, created_at')
+      .order('created_at', { ascending: false })
+      .limit(5);
+    if (error) throw error;
+    RECENT_DISCOVERIES = data || [];
+  } catch (err) { console.error(err); }
+}
+
+function renderRecentDiscoveries() {
+  const container = document.getElementById('discoveries-list');
+  if (!container) return;
+  const t = translations[currentLang];
+
+  if (RECENT_DISCOVERIES.length === 0) {
+    container.innerHTML = `<p class="archival-meta">${t.no_data}</p>`;
+    return;
+  }
+
+  container.innerHTML = RECENT_DISCOVERIES.map(disc => {
+    const days = Object.keys(disc.temporal_map || {}).length;
+    const date = new Date(disc.created_at).toLocaleDateString(currentLang, { day: '2-digit', month: 'short', year: 'numeric' });
+    const user = disc.contributor_alias === 'Anonymous' ? t.discovery_anonymous : disc.contributor_alias;
+    
+    return `
+      <div class="discovery-card">
+        <div class="discovery-icon">📜</div>
+        <div class="discovery-info">
+          <div class="discovery-user">${user}</div>
+          <div class="discovery-meta">
+            ${t.discovery_recovered} <span class="accent">${days} ${t.discovery_days}</span> 
+            ${t.discovery_from} <span class="archival-meta">${disc.cluster}</span>
+          </div>
+        </div>
+        <div class="discovery-date">${date}</div>
+      </div>
+    `;
+  }).join('');
 }
 
 function setLanguage(lang) {
@@ -404,7 +450,13 @@ function setupUpload() {
 
     if (totalSuccess > 0) {
       status.innerHTML = `<p class="success">✓ ${totalSuccess} fragments archived successfully.</p>`;
-      setTimeout(async () => { status.innerHTML = ''; await refreshArchivalState(); renderCoverage(document.querySelector('.control-btn.active').dataset.corpus); renderArchive(); }, 3000);
+      setTimeout(async () => { 
+        status.innerHTML = ''; 
+        await refreshArchivalState(); 
+        renderCoverage(document.querySelector('.control-btn.active').dataset.corpus); 
+        renderArchive(); 
+        renderRecentDiscoveries();
+      }, 3000);
     } else {
       status.innerHTML = `<p class="archival-meta">No new fragments identified.</p>`;
     }
