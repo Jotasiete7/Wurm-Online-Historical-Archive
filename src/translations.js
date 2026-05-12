@@ -45,7 +45,19 @@ export const translations = {
     modal_title: "Identify the Archaeologist",
     modal_desc: "How should these fragments be credited in the Hall of Contributors?",
     modal_anon: "Stay Anonymous",
-    modal_confirm: "Confirm Credit"
+    modal_confirm: "Confirm Credit",
+    stats_lines_preserved: "lines preserved",
+    stats_fragments: "fragments",
+    stats_contributors: "archaeologists",
+    stats_servers: "servers",
+    mission_coverage: "Archive Coverage",
+    mission_gap: "Longest Gap",
+    mission_months: "months",
+    mission_of: "of",
+    mission_recovered: "recovered",
+    mission_months_gap: "months gap",
+    mission_month_gap: "month gap",
+    mission_consecutive: "consecutive"
   },
   pt: {
     title: "Wurm Online Historical Archive",
@@ -93,6 +105,18 @@ export const translations = {
     modal_title: "Identificar o Arqueólogo",
     modal_desc: "Como esses fragmentos devem ser creditados no Mural dos Contribuidores?",
     modal_anon: "Permanecer Anônimo",
-    modal_confirm: "Confirmar Crédito"
+    modal_confirm: "Confirmar Crédito",
+    stats_lines_preserved: "linhas preservadas",
+    stats_fragments: "fragmentos",
+    stats_contributors: "arqueólogos",
+    stats_servers: "servidores",
+    mission_coverage: "Cobertura do Arquivo",
+    mission_gap: "Maior Lacuna",
+    mission_months: "meses",
+    mission_of: "de",
+    mission_recovered: "recuperados",
+    mission_months_gap: "meses de lacuna",
+    mission_month_gap: "mês de lacuna",
+    mission_consecutive: "consecutivos"
   }
 }

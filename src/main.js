@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function refreshArchivalState() {
   await Promise.all([fetchCoverage(), fetchArchiveBundles(), fetchRecentDiscoveries(), fetchContributors()]);
+  const activeCorpus = document.querySelector('.control-btn.active')?.dataset.corpus || 'nfi';
+  renderImpactStats(activeCorpus);
 }
 
 let RECENT_DISCOVERIES = [];
@@ -121,6 +123,7 @@ function setupLanguageSwitcher() {
       renderCoverage(document.querySelector('.control-btn.active')?.dataset.corpus || 'nfi');
       renderArchive();
       renderContributors();
+      renderImpactStats(document.querySelector('.control-btn.active')?.dataset.corpus || 'nfi');
     });
   });
 }
@@ -400,15 +403,18 @@ async function handleBulkRestore(corpusKey, event) {
 
 async function fetchArchiveBundles() {
   try {
-    const { data, error } = await supabase.from('raw_logs').select('period_year, period_month, cluster, byte_size, line_count, temporal_map');
+    const { data, error } = await supabase.from('raw_logs').select('period_year, period_month, cluster, byte_size, line_count, temporal_map, detected_servers');
     if (error) throw error;
     const map = {};
     data.forEach(log => {
       if (!log.period_year || !log.period_month || !log.cluster) return;
       const key = `${log.cluster}-${log.period_year}-${log.period_month}`;
-      if (!map[key]) map[key] = { corpus: log.cluster, year: log.period_year, month: log.period_month, files: 0, lines: 0, bytes: 0, daysActive: new Set() };
-      map[key].files++; map[key].lines += (log.line_count || 0); map[key].bytes += (log.byte_size || 0);
+      if (!map[key]) map[key] = { corpus: log.cluster, year: log.period_year, month: log.period_month, files: 0, lines: 0, bytes: 0, daysActive: new Set(), servers: new Set() };
+      map[key].files++; 
+      map[key].lines += (log.line_count || 0); 
+      map[key].bytes += (log.byte_size || 0);
       if (log.temporal_map) Object.keys(log.temporal_map).forEach(day => map[key].daysActive.add(day));
+      if (log.detected_servers) Object.keys(log.detected_servers).forEach(s => map[key].servers.add(s));
     });
     ARCHIVE_BUNDLES = Object.values(map).map(b => {
       const days = new Date(b.year, b.month, 0).getDate();
@@ -433,8 +439,75 @@ function setupControls() {
       SELECTED_MONTHS.clear();
       renderCoverage(btn.dataset.corpus);
       renderArchive();
+      renderImpactStats(btn.dataset.corpus);
     });
   });
+}
+
+function renderImpactStats(corpus) {
+  const t = translations[currentLang];
+  const corpusKey = corpus.toUpperCase();
+  const bundles = ARCHIVE_BUNDLES.filter(b => b.corpus === corpusKey);
+  
+  // 1. Raw Stats
+  const totalLines = bundles.reduce((acc, b) => acc + (b.lines || 0), 0);
+  const totalFragments = bundles.reduce((acc, b) => acc + (b.files || 0), 0);
+  const allServers = new Set();
+  bundles.forEach(b => b.servers?.forEach(s => allServers.add(s)));
+
+  document.getElementById('stat-lines').textContent = totalLines.toLocaleString();
+  document.getElementById('stat-fragments').textContent = totalFragments.toLocaleString();
+  document.getElementById('stat-contributors').textContent = CONTRIBUTORS.length.toLocaleString();
+  document.getElementById('stat-servers').textContent = allServers.size.toLocaleString();
+
+  // 2. Mission Coverage
+  const startYear = corpusKey === 'NFI' ? 2020 : 2009;
+  const startMonth = corpusKey === 'NFI' ? 1 : 7;
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  const currentMonth = now.getMonth() + 1;
+
+  const totalPossibleMonths = (currentYear - startYear) * 12 + (currentMonth - startMonth) + 1;
+  const uniqueMonths = new Set(bundles.map(b => `${b.year}-${b.month}`));
+  const coveragePercent = Math.round((uniqueMonths.size / totalPossibleMonths) * 100);
+
+  document.getElementById('stat-coverage-value').textContent = `${coveragePercent}%`;
+  document.getElementById('stat-coverage-detail').textContent = `${uniqueMonths.size} ${t.mission_of} ${totalPossibleMonths} ${t.mission_months} ${t.mission_recovered}`;
+
+  // 3. Longest Gap
+  const monthIndices = bundles
+    .map(b => b.year * 12 + b.month)
+    .sort((a, b) => a - b);
+
+  let maxGap = 0;
+  let gapStart = null;
+  let gapEnd = null;
+
+  if (monthIndices.length > 1) {
+    for (let i = 0; i < monthIndices.length - 1; i++) {
+      const gap = monthIndices[i+1] - monthIndices[i] - 1;
+      if (gap > maxGap) {
+        maxGap = gap;
+        gapStart = monthIndices[i];
+        gapEnd = monthIndices[i+1];
+      }
+    }
+  }
+
+  const gapValueEl = document.getElementById('stat-gap-value');
+  const gapDetailEl = document.getElementById('stat-gap-detail');
+
+  if (maxGap > 0) {
+    const startY = Math.floor(gapStart / 12);
+    const endY = Math.floor(gapEnd / 12);
+    const yearLabel = startY === endY ? `${startY}` : `${startY}–${endY}`;
+    
+    gapValueEl.textContent = `${maxGap} ${maxGap === 1 ? t.mission_month_gap : t.mission_months_gap}`;
+    gapDetailEl.textContent = `${t.mission_consecutive} · ${yearLabel}`;
+  } else {
+    gapValueEl.textContent = bundles.length > 0 ? "0" : "--";
+    gapDetailEl.textContent = t.no_data;
+  }
 }
 
 function setupUpload() {
