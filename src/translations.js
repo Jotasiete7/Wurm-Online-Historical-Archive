@@ -57,7 +57,9 @@ export const translations = {
     mission_recovered: "recovered",
     mission_months_gap: "months gap",
     mission_month_gap: "month gap",
-    mission_consecutive: "consecutive"
+    mission_consecutive: "consecutive",
+    path_helper_title: "Where are my logs?",
+    path_helper_tip: "Look for _Trade logs"
   },
   pt: {
     title: "Wurm Online Historical Archive",
@@ -117,6 +119,8 @@ export const translations = {
     mission_recovered: "recuperados",
     mission_months_gap: "meses de lacuna",
     mission_month_gap: "mês de lacuna",
-    mission_consecutive: "consecutivos"
+    mission_consecutive: "consecutivos",
+    path_helper_title: "Onde encontro meus logs?",
+    path_helper_tip: "Procure pelos arquivos _Trade"
   }
 }

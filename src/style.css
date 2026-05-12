@@ -110,6 +110,41 @@ h1 {
   letter-spacing: 0.05em;
 }
 
+.path-helper {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  display: inline-block;
+  max-width: 400px;
+}
+
+.path-helper-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold-muted);
+  margin-bottom: 0.5rem;
+}
+
+.path-helper code {
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: var(--text-primary);
+  background: #000;
+  padding: 0.2rem 0.5rem;
+  display: block;
+  word-break: break-all;
+}
+
+.path-helper-tip {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  color: var(--gold-primary);
+  font-style: italic;
+  opacity: 0.8;
+}
+
 .contributor-input {
   margin-top: 3rem;
   display: flex;
