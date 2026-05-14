@@ -179,7 +179,7 @@ h1 {
   gap: 1.5rem;
 }
 
-select, input {
+input {
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--border-color);
